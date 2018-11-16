@@ -22,7 +22,7 @@ Languages
 
 ```
  Tools
-- vs 
+- vs code
 - Gitbash
 - Ruby
 

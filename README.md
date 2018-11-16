@@ -43,6 +43,6 @@ Languages
 
  #Contributors:
 
-##Jayson Manas
+Jayson Manas
 
  This is the live link to my website: https://jayson-manas.github.io/code4CT/index.html

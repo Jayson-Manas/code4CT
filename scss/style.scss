@@ -6,6 +6,7 @@
     text-align: center;
     position: sticky;
     top: 0;
+    background-color: white;
     
     a{
         text-decoration: none;
@@ -16,16 +17,22 @@
         text-align: right;
     }
 }
+body{
+    background-image: url('../images/untitled-0932.jpg');
+    background-repeat: no-repeat;
+    background-position-y: 40px;
 
+}
 ///////////////////////////// nav styling end//////////////////////////
 .container1{
     text-align: center;
     // font-size: 25px;
-    width: 500px;
+    width: 480px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    color: white;
     .red_btn{
         background-color: #ee534f;
         color: white;
@@ -35,7 +42,6 @@
         width: 85px;
         font-size: 10px;
     }
-    
 }
 
 .container2{

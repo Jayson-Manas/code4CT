@@ -3,7 +3,8 @@
   grid-template-columns: 1fr 1fr;
   text-align: center;
   position: sticky;
-  top: 0; }
+  top: 0;
+  background-color: white; }
   .container a {
     text-decoration: none;
     color: #666666;
@@ -11,13 +12,19 @@
   .container .nav_align {
     text-align: right; }
 
+body {
+  background-image: url("../images/untitled-0932.jpg");
+  background-repeat: no-repeat;
+  background-position-y: 40px; }
+
 .container1 {
   text-align: center;
-  width: 500px;
+  width: 480px;
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%); }
+  transform: translate(-50%, -50%);
+  color: white; }
   .container1 .red_btn {
     background-color: #ee534f;
     color: white;

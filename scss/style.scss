@@ -1,0 +1,45 @@
+
+///////////////////////////// nav styling start////////////////////////
+.container{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    
+    a{
+        text-decoration: none;
+        color:#666666;
+        padding: 5px;
+    }
+    .nav_align{
+        text-align: right;
+    }
+}
+
+///////////////////////////// nav styling end//////////////////////////
+.container1{
+    text-align: center;
+    // font-size: 25px;
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    .red_btn{
+        background-color: #ee534f;
+        color: white;
+        padding: 0;
+        border-radius: 2px;
+        height: 24px;
+        width: 85px;
+        font-size: 10px;
+    }
+    
+}
+
+.container2{
+    .heading_space{
+        margin-top: 600px;
+    }
+}

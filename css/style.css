@@ -29,7 +29,7 @@
     width: 85px;
     font-size: 10px; }
 
-.container2 .heading_space {
-  margin-top: 600px; }
+.team_img {
+  width: -webkit-fill-available; }
 
 /*# sourceMappingURL=style.css.map */

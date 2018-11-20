@@ -1,4 +1,53 @@
 
+@mixin button {
+    // write the css here
+    position: relative;
+    padding: .3em 1em;
+    border: 2px solid;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.7em!important;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    transition: all .2s;
+    
+}
+@mixin slide_right_span_after {
+    // write the css here
+    content: '\00bb';
+    right: -100px;
+    position: absolute;
+    margin-left: -1em;
+    opacity: 0;
+    text-shadow: none;
+    font-size: 32px;
+    font-weight: 400;
+    font-style: normal;
+    font-variant: none;
+    line-height: 1em;
+    text-transform: none;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    transition: all .2s;
+    left: 30px;
+    
+}
+@mixin slide_right_hover_span {
+    // write the css here
+    padding-right: 25px;
+   
+}
+@mixin slide_right_hover_span_after {
+    // write the css here
+    opacity: 1;
+    
+}
 ///////////////////////////// nav styling start////////////////////////
 .container{
     display:grid;
@@ -32,48 +81,21 @@
     color: #e8e8e8;
 ///////////////////////////////////red button////////////////////////////////
     .red_btn{
-        position: relative;
-        padding: .3em 1em;
-        border: 2px solid;
-        -webkit-border-radius: 3px;
-        -moz-border-radius: 3px;
-        border-radius: 3px;
         background-color:#ee534f;
         color: #e8e8e8;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        font-size: 20px;
-        font-weight: 500;
-        line-height: 1.7em!important;
-        -webkit-transition: all .2s;
-        -moz-transition: all .2s;
-        transition: all .2s;
+        @include button;
+        @include slide_right_span_after;
+        @include slide_right_hover_span;
+        @include slide_right_hover_span_after;
+        
     }
     .slide_right span:after{
-        content: '\00bb';
-        right: -100px;
-        position: absolute;
-        margin-left: -1em;
-        opacity: 0;
-        text-shadow: none;
-        font-size: 32px;
-        font-weight: 400;
-        font-style: normal;
-        font-variant: none;
-        line-height: 1em;
-        text-transform: none;
-        -webkit-transition: all .2s;
-        -moz-transition: all .2s;
-        transition: all .2s;
-        left: 30px;
+       
     }
     .slide_right:hover span {
-        padding-right: 25px;
         
       }
       .slide_right:hover span:after {
-        opacity: 1;
       }
     ///////////////////////////////////red button////////////////////////////////
 
@@ -148,3 +170,4 @@
     width: -webkit-fill-available;
     
 }
+

@@ -23,14 +23,14 @@
   transform: translate(-50%, -50%);
   color: #e8e8e8; }
   .container1 .red_btn {
+    background-color: #ee534f;
+    color: #e8e8e8;
     position: relative;
     padding: .3em 1em;
     border: 2px solid;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
-    background-color: #ee534f;
-    color: #e8e8e8;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -39,8 +39,7 @@
     line-height: 1.7em !important;
     -webkit-transition: all .2s;
     -moz-transition: all .2s;
-    transition: all .2s; }
-  .container1 .slide_right span:after {
+    transition: all .2s;
     content: '\00bb';
     right: -100px;
     position: absolute;
@@ -56,10 +55,8 @@
     -webkit-transition: all .2s;
     -moz-transition: all .2s;
     transition: all .2s;
-    left: 30px; }
-  .container1 .slide_right:hover span {
-    padding-right: 25px; }
-  .container1 .slide_right:hover span:after {
+    left: 30px;
+    padding-right: 25px;
     opacity: 1; }
   .container1 .button {
     position: relative;

@@ -30,6 +30,7 @@
     font-size: 10px; }
 
 .team_img {
-  width: -webkit-fill-available; }
+  width: -webkit-fill-available;
+  opacity: 0.4; }
 
 /*# sourceMappingURL=style.css.map */

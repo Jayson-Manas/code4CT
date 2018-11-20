@@ -16,18 +16,100 @@
   text-align: center;
   width: 480px;
   position: absolute;
+  background-color: rgba(0, 0, 0, 0.3);
   top: 50%;
   left: 50%;
+  height: 50%;
   transform: translate(-50%, -50%);
-  color: white; }
+  color: #e8e8e8; }
   .container1 .red_btn {
+    position: relative;
+    padding: .3em 1em;
+    border: 2px solid;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
     background-color: #ee534f;
-    color: white;
-    padding: 0;
-    border-radius: 2px;
-    height: 24px;
-    width: 85px;
-    font-size: 10px; }
+    color: #e8e8e8;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.7em !important;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    transition: all .2s; }
+  .container1 .slide_right span:after {
+    content: '\00bb';
+    right: -100px;
+    position: absolute;
+    margin-left: -1em;
+    opacity: 0;
+    text-shadow: none;
+    font-size: 32px;
+    font-weight: 400;
+    font-style: normal;
+    font-variant: none;
+    line-height: 1em;
+    text-transform: none;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    transition: all .2s;
+    left: 30px; }
+  .container1 .slide_right:hover span {
+    padding-right: 25px; }
+  .container1 .slide_right:hover span:after {
+    opacity: 1; }
+  .container1 .button {
+    position: relative;
+    padding: .3em 1em;
+    border: 2px solid;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background-color: transparent;
+    color: #e8e8e8;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.7em !important;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    transition: all .2s; }
+  .container1 .slide_right span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s; }
+  .container1 .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s; }
+  .container1 .button span:after {
+    content: '\00bb';
+    right: -100px;
+    position: absolute;
+    margin-left: -1em;
+    opacity: 0;
+    text-shadow: none;
+    font-size: 32px;
+    font-weight: 400;
+    font-style: normal;
+    font-variant: none;
+    line-height: 1em;
+    text-transform: none;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    transition: all .2s;
+    left: 30px; }
+  .container1 .button:hover span {
+    padding-right: 25px; }
+  .container1 .button:hover span:after {
+    opacity: 1; }
 
 .team_img {
   width: -webkit-fill-available; }

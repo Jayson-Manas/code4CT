@@ -1,6 +1,6 @@
 
 @mixin button {
-    // write the css here
+    
     position: relative;
     padding: .3em 1em;
     border: 2px solid;
@@ -25,7 +25,7 @@
     transition: 0.5s;
 }
 @mixin slide_right_span_after {
-    // write the css here
+
     content: '\00bb';
     right: -100px;
     position: absolute;
@@ -45,12 +45,12 @@
     
 }
 @mixin slide_right_hover_span {
-    // write the css here
+    
     padding-right: 25px;
    
 }
 @mixin slide_right_hover_span_after {
-    // write the css here
+    
     opacity: 1;
     
 }
@@ -78,9 +78,14 @@
 }
 
 ///////////////////////////// nav styling end//////////////////////////
+////////////////////////////main image////////////////////////////////
+.team_img{
+    width: -webkit-fill-available;
+    
+}
+/////////////////////////main image////////////////////////////////
 .container1{
     text-align: center;
-    // font-size: 25px;
     width: 480px;
     position: absolute;
     background-color: rgba(0, 0, 0, 0.3);
@@ -109,10 +114,7 @@
       }
       .slide_right span{
        @include button_right_slide_span;
-        // cursor: pointer;
-        // display: inline-block;
-        // position: relative;
-        // transition: 0.5s;
+       
       }
     ///////////////////////////////////red button////////////////////////////////
 
@@ -122,71 +124,32 @@
         background-color: transparent;
         color: #e8e8e8;
         @include button;
-        // position: relative;
-        // padding: .3em 1em;
-        // border: 2px solid;
-        // -webkit-border-radius: 3px;
-        // -moz-border-radius: 3px;
-        // border-radius: 3px;
-       
-        // background-repeat: no-repeat;
-        // background-position: center;
-        // background-size: cover;
-        // font-size: 20px;
-        // font-weight: 500;
-        // line-height: 1.7em!important;
-        // -webkit-transition: all .2s;
-        // -moz-transition: all .2s;
-        // transition: all .2s;
+        
       }
      
     
       
       .black_btn span {
-        // cursor: pointer;
-        // display: inline-block;
-        // position: relative;
-        // transition: 0.5s;
         @include button_right_slide_span;
 
       }
       
       .black_btn span:after {
         @include slide_right_span_after;
-        // content: '\00bb';
-        // right: -100px;
-        // position: absolute;
-        // margin-left: -1em;
-        // opacity: 0;
-        // text-shadow: none;
-        // font-size: 32px;
-        // font-weight: 400;
-        // font-style: normal;
-        // font-variant: none;
-        // line-height: 1em;
-        // text-transform: none;
-        // -webkit-transition: all .2s;
-        // -moz-transition: all .2s;
-        // transition: all .2s;
-        // left: 30px;
-    
+           
       }
       
       .black_btn:hover span {
         @include slide_right_hover_span;
-        // padding-right: 25px;
-        
+                
       }
       
       .black_btn:hover span:after {
         @include slide_right_hover_span_after;
-        // opacity: 1;
+        
       }
 }
 ///////////////////////////////// black button//////////////////////////////
 
-.team_img{
-    width: -webkit-fill-available;
-    
-}
+
 

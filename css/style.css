@@ -13,6 +13,9 @@
   .container .nav_align {
     text-align: right; }
 
+.team_img {
+  width: -webkit-fill-available; }
+
 .container1 {
   text-align: center;
   width: 480px;
@@ -111,8 +114,5 @@
     padding-right: 25px; }
   .container1 .black_btn:hover span:after {
     opacity: 1; }
-
-.team_img {
-  width: -webkit-fill-available; }
 
 /*# sourceMappingURL=style.css.map */

@@ -104,7 +104,7 @@
 
       }
       .slide_right span{
-       @include button_span;
+       @include button_right_slide_span;
         // cursor: pointer;
         // display: inline-block;
         // position: relative;
@@ -114,7 +114,7 @@
 
     ///////////////////////////////// black button//////////////////////////////
     
-    .button {
+    .black_btn {
         background-color: transparent;
         color: #e8e8e8;
         @include button;
@@ -138,16 +138,16 @@
      
     
       
-      .button span {
+      .black_btn span {
         // cursor: pointer;
         // display: inline-block;
         // position: relative;
         // transition: 0.5s;
-        @include button_span;
+        @include button_right_slide_span;
 
       }
       
-      .button span:after {
+      .black_btn span:after {
         @include slide_right_span_after;
         // content: '\00bb';
         // right: -100px;
@@ -168,13 +168,13 @@
     
       }
       
-      .button:hover span {
+      .black_btn:hover span {
         @include slide_right_hover_span;
         // padding-right: 25px;
         
       }
       
-      .button:hover span:after {
+      .black_btn:hover span:after {
         @include slide_right_hover_span_after;
         // opacity: 1;
       }

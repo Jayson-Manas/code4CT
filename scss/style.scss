@@ -18,6 +18,12 @@
     transition: all .2s;
     
 }
+@mixin button_span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
 @mixin slide_right_span_after {
     // write the css here
     content: '\00bb';
@@ -87,7 +93,7 @@
         @include slide_right_span_after;
         @include slide_right_hover_span;
         @include slide_right_hover_span_after;
-        
+        @include button_span;
     }
     .slide_right span:after{
        

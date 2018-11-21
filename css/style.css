@@ -128,7 +128,8 @@
 
 .container2 {
   display: grid;
-  grid-template-columns: 1fr 1fr; }
+  grid-template-columns: 1fr 1fr;
+  padding-top: 60px; }
   .container2 .red_line_fade {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -142,12 +143,15 @@
       width: 138.5px;
       background-color: grey;
       opacity: 0.3; }
-  .container2 .para_text .bold_text {
-    font-weight: bold; }
+  .container2 .para_text {
+    padding-left: 187.5px; }
+    .container2 .para_text .bold_text {
+      font-weight: bold; }
   .container2 .img_container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    width: fit-content; }
+    width: fit-content;
+    padding-right: 187.5px; }
     .container2 .img_container .block_display {
       width: 220px;
       height: 200px;
@@ -196,5 +200,9 @@
     padding-right: 25px; }
   .container2 .white_btn:hover span:after {
     opacity: 1; }
+
+.container3 {
+  background-color: black;
+  color: white; }
 
 /*# sourceMappingURL=style.css.map */

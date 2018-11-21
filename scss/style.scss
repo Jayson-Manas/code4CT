@@ -199,8 +199,10 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     @include red_line_fade;
+    padding-top: 60px;
 
     .para_text{
+        padding-left: 187.5px;
         .bold_text{
             font-weight:bold ;
         }
@@ -212,6 +214,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         width: fit-content;
+        padding-right: 187.5px;
 
 
         .block_display{
@@ -248,6 +251,10 @@
         @include slide_right_hover_span_after;
         
     }
+}
+.container3{
+    background-color: black;
+    color: white;
 }
 
 

@@ -6,7 +6,8 @@
   top: 0;
   background-color: #f9f9f9;
   height: 40.5px;
-  padding-top: 17px; }
+  padding-top: 17px;
+  z-index: inherit; }
   .container a {
     text-decoration: none;
     color: #666666;
@@ -16,9 +17,12 @@
   .container i {
     color: #ee534f; }
 
+.team_img {
+  width: 100%; }
+
 .background_image {
   background-image: url(../images/untitled-0932.jpg);
-  width: -webkit-fill-available;
+  background-size: cover;
   height: -webkit-fill-available;
   background-repeat: no-repeat; }
 

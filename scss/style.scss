@@ -16,6 +16,8 @@
     -webkit-transition: all .2s;
     -moz-transition: all .2s;
     transition: all .2s;
+
+
     
 }
 @mixin button_right_slide_span {
@@ -65,6 +67,7 @@
     height: 40.5px;
     // margin-top: 20px;
     padding-top: 17px;
+    z-index: inherit;
     
     
     
@@ -79,13 +82,14 @@
     i{
         color: #ee534f;
     }
+   
     
 }
 
 ///////////////////////////// nav styling end/////////////////////////
 ////////////////////////////main image////////////////////////////////
 .team_img{
-    
+    width: 100%;
     // background-color: rgb(41, 41, 41);
     // background-blend-mode: multiply;
 }
@@ -93,7 +97,7 @@
 .background_image{
     // width: -webkit-fill-available;
    background-image: url(../images/untitled-0932.jpg);
-   width: -webkit-fill-available;
+   background-size: cover;
    height: -webkit-fill-available;
    background-repeat: no-repeat;
 
@@ -115,6 +119,7 @@
         background-color:#ee534f;
         color: #e8e8e8;
         @include button;
+        
     }
     .slide_right span:after{
         @include slide_right_span_after;

@@ -56,6 +56,28 @@
     opacity: 1;
     
 }
+
+@mixin red_line_fade {
+    .red_line_fade{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: min-content;
+        .red_line{
+        height:1.5px;
+        width: 30px;
+        background-color: #ee534f;
+
+
+        }
+        .fade{
+            height:1.5px;
+            width: 138.5px;
+            background-color: grey;
+            opacity: 0.3;
+        }
+}
+    
+}
 ///////////////////////////// nav styling start////////////////////////
 .container{
     display:grid;
@@ -176,25 +198,9 @@
 .container2{
 display: grid;
 grid-template-columns: 1fr 1fr;
+@include red_line_fade;
 
-    .red_line_fade{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        width: min-content;
-        .red_line{
-        height:1.5px;
-        width: 25px;
-        background-color: #ee534f;
-
-
-        }
-        .fade{
-            height:1.5px;
-            width: 138.5px;
-            background-color: grey;
-            opacity: 0.5;
-        }
-}
+  
 
     .img_container{
         display: grid;

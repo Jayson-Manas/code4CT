@@ -135,13 +135,13 @@
     width: min-content; }
     .container2 .red_line_fade .red_line {
       height: 1.5px;
-      width: 25px;
+      width: 30px;
       background-color: #ee534f; }
     .container2 .red_line_fade .fade {
       height: 1.5px;
       width: 138.5px;
       background-color: grey;
-      opacity: 0.5; }
+      opacity: 0.3; }
   .container2 .img_container {
     display: grid;
     grid-template-columns: 1fr 1fr;

@@ -177,46 +177,65 @@
 display: grid;
 grid-template-columns: 1fr 1fr;
 
-.img_container{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-width: fit-content;
+    .red_line_fade{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: min-content;
+        .red_line{
+        height:1.5px;
+        width: 25px;
+        background-color: #ee534f;
 
 
-    .block_display{
-        width: 220px;
-        height: 200px;
-        padding: 10px;
-    }
+        }
+        .fade{
+            height:1.5px;
+            width: 138.5px;
+            background-color: grey;
+            opacity: 0.5;
+        }
 }
-.white_btn {
-    background-color: transparent;
-    color: black;
-    @include button;
-    
-  }
- 
 
-  
-  .white_btn span {
-    @include button_right_slide_span;
+    .img_container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: fit-content;
 
-  }
-  
-  .white_btn span:after {
-    @include slide_right_span_after;
-       
-  }
-  
-  .white_btn:hover span {
-    @include slide_right_hover_span;
-            
-  }
-  
-  .white_btn:hover span:after {
-    @include slide_right_hover_span_after;
+
+        .block_display{
+            width: 220px;
+            height: 200px;
+            padding: 10px;
+        }
+    }
+    .white_btn {
+        background-color: transparent;
+        color: black;
+        @include button;
+        
+    }
     
-  }
+
+    
+    .white_btn span {
+        @include button_right_slide_span;
+
+    }
+    
+    .white_btn span:after {
+        @include slide_right_span_after;
+        
+    }
+    
+    .white_btn:hover span {
+        @include slide_right_hover_span;
+                
+    }
+    
+    .white_btn:hover span:after {
+        @include slide_right_hover_span_after;
+        
+    }
 }
 
 

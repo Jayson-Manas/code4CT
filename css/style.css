@@ -142,6 +142,8 @@
       width: 138.5px;
       background-color: grey;
       opacity: 0.3; }
+  .container2 .para_text .bold_text {
+    font-weight: bold; }
   .container2 .img_container {
     display: grid;
     grid-template-columns: 1fr 1fr;

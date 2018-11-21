@@ -196,9 +196,15 @@
 }
 ///////////////////////////////// black button////////////////////////
 .container2{
-display: grid;
-grid-template-columns: 1fr 1fr;
-@include red_line_fade;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    @include red_line_fade;
+
+    .para_text{
+        .bold_text{
+            font-weight:bold ;
+        }
+    }
 
   
 

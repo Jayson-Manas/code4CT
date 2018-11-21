@@ -76,21 +76,35 @@
     .nav_align{
         text-align: right;
     }
+    i{
+        color: #ee534f;
+    }
     
 }
 
 ///////////////////////////// nav styling end/////////////////////////
 ////////////////////////////main image////////////////////////////////
 .team_img{
-    width: -webkit-fill-available;
     
+    // background-color: rgb(41, 41, 41);
+    // background-blend-mode: multiply;
+}
+
+.background_image{
+    // width: -webkit-fill-available;
+   background-image: url(../images/untitled-0932.jpg);
+   width: -webkit-fill-available;
+   height: -webkit-fill-available;
+   background-repeat: no-repeat;
+
 }
 /////////////////////////main image////////////////////////////////
 .container1{
     text-align: center;
     width: 480px;
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.3);
+    // background-color: rgba(0, 0, 0, 0.3);
+   
     top: 50%;
     left: 50%;
     height: 50%;

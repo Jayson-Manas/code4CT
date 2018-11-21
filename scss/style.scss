@@ -100,6 +100,8 @@
    background-size: cover;
    height: -webkit-fill-available;
    background-repeat: no-repeat;
+   background-color: grey;
+   background-blend-mode: multiply;
 
 }
 /////////////////////////main image////////////////////////////////
@@ -171,6 +173,50 @@
       }
 }
 ///////////////////////////////// black button////////////////////////
+.container2{
+display: grid;
+grid-template-columns: 1fr 1fr;
 
+.img_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+width: fit-content;
+
+
+    .block_display{
+        width: 220px;
+        height: 200px;
+        padding: 10px;
+    }
+}
+.white_btn {
+    background-color: transparent;
+    color: black;
+    @include button;
+    
+  }
+ 
+
+  
+  .white_btn span {
+    @include button_right_slide_span;
+
+  }
+  
+  .white_btn span:after {
+    @include slide_right_span_after;
+       
+  }
+  
+  .white_btn:hover span {
+    @include slide_right_hover_span;
+            
+  }
+  
+  .white_btn:hover span:after {
+    @include slide_right_hover_span_after;
+    
+  }
+}
 
 

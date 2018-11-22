@@ -89,7 +89,7 @@
     height: 40.5px;
     // margin-top: 20px;
     padding-top: 17px;
-    z-index: inherit;
+    z-index: 1;
     
     
     
@@ -258,6 +258,7 @@
     background-color: black;
     color: #ffffff;
     padding: 60px 147.5px 60px 147.5px;
+    margin-top: 100px;
 
     .info{
         text-align: center;

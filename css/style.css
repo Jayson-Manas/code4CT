@@ -266,37 +266,41 @@
     background-color: grey;
     opacity: 0.3; }
 
-.container5 .red_line_fade {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  width: min-content; }
-  .container5 .red_line_fade .red_line {
-    height: 1.5px;
-    width: 30px;
-    background-color: #ee534f; }
-  .container5 .red_line_fade .fade {
-    height: 1.5px;
-    width: 138.5px;
-    background-color: grey;
-    opacity: 0.3; }
-.container5 .team_info {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+.container5 {
   padding-left: 187.5px;
   padding-right: 187.5; }
-  .container5 .team_info hr {
-    width: 200px;
-    color: #666666;
-    margin-left: 0; }
-  .container5 .team_info .poppins {
-    font-family: Poppins;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.86;
-    letter-spacing: normal;
-    text-align: left;
-    color: #888888; }
+  .container5 .red_line_fade {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: min-content; }
+    .container5 .red_line_fade .red_line {
+      height: 1.5px;
+      width: 30px;
+      background-color: #ee534f; }
+    .container5 .red_line_fade .fade {
+      height: 1.5px;
+      width: 138.5px;
+      background-color: grey;
+      opacity: 0.3; }
+  .container5 .team_info {
+    display: grid;
+    grid-template-columns: 1fr 1fr; }
+    .container5 .team_info hr {
+      width: 200px;
+      color: #666666;
+      margin-left: 0; }
+    .container5 .team_info .poppins {
+      font-family: Poppins;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.86;
+      letter-spacing: normal;
+      text-align: left;
+      color: #888888; }
+  .container5 .team_member {
+    width: 300px;
+    height: 300px; }
 
 .container6 {
   background-color: #555555;

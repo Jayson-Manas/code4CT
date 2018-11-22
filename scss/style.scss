@@ -334,11 +334,12 @@
 
 .container5{
     @include red_line_fade;
+    padding-left: 187.5px;
+    padding-right: 187.5;
     .team_info{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        padding-left: 187.5px;
-        padding-right: 187.5;
+        
 
         hr{
             width: 200px;
@@ -359,6 +360,10 @@
             text-align: left;
             color: #888888;
         }
+    }
+    .team_member{
+        width: 300px;
+        height: 300px;
     }
 }
 

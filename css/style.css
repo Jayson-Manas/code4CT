@@ -39,17 +39,19 @@
   height: -webkit-fill-available;
   background-repeat: no-repeat;
   background-color: grey;
-  background-blend-mode: multiply; }
+  background-blend-mode: multiply;
+  font-size: 20px; }
 
 .container1 {
   text-align: center;
-  width: 480px;
   position: absolute;
   top: 50%;
   left: 50%;
   height: 50%;
   transform: translate(-50%, -50%);
   color: #e8e8e8; }
+  .container1 p {
+    opacity: 0.9; }
   .container1 .red_btn {
     background-color: #ee534f;
     color: #e8e8e8;

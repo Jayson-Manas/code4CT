@@ -315,4 +315,16 @@
   background-color: #666666;
   height: 300px; }
 
+.contact_info {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; }
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr; }
+  .footer .copyright {
+    text-align: center; }
+  .footer .follow_us {
+    text-align: center; }
+
 /*# sourceMappingURL=style.css.map */

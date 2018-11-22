@@ -34,13 +34,12 @@
   width: 100%; }
 
 .background_image {
-  background-image: url(../images/untitled-0932.jpg);
+  background-image: url(../images/main_img.jpg);
   background-size: cover;
   height: -webkit-fill-available;
   background-repeat: no-repeat;
   background-color: grey;
-  background-blend-mode: multiply;
-  margin-top: 30px; }
+  background-blend-mode: multiply; }
 
 .container1 {
   text-align: center;

@@ -321,10 +321,28 @@
 
 .footer {
   display: grid;
-  grid-template-columns: 1fr 1fr; }
+  grid-template-columns: 1fr 1fr;
+  background-color: #ee534f;
+  height: 40px;
+  padding-top: 22px; }
   .footer .copyright {
     text-align: center; }
   .footer .follow_us {
     text-align: center; }
+    .footer .follow_us i {
+      width: 22px;
+      height: 19px;
+      font-family: FontAwesome;
+      font-size: 25px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 0.65;
+      letter-spacing: normal;
+      text-align: center;
+      color: #e8e8e8; }
+    .footer .follow_us a {
+      text-decoration: none;
+      padding: 3px; }
 
 /*# sourceMappingURL=style.css.map */

@@ -387,6 +387,10 @@
 .contact_info{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    a{
+        text-decoration: none;
+    }
 }
 .footer{
     display: grid;

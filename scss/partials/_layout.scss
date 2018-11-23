@@ -73,3 +73,74 @@
     margin-top: 50px;
 }
 ///////////////our exciting courses/////////////
+//////////////meet our team////////////////////
+.container5{
+    padding-left: 187.5px;
+    padding-right: 187.5;
+    .team_info{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+
+        hr{
+            width: 200px;
+            color: #666666;
+            margin-left: 0;
+        }
+
+        .poppins{
+            font-family: Poppins;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: 1.86;
+            letter-spacing: normal;
+            text-align: left;
+            color: #888888;
+        }
+    }
+    .team_member{
+        width: 300px;
+        height: 300px;
+    }
+}
+///////////////////meet our team///////////////////
+
+//////////////////project stats///////////////////
+.container6{
+    background-color: #555555;
+    height: 300px;
+    padding-left: 187.5px;
+    padding-right: 187.5px;
+}
+//////////////////project stats///////////////////
+
+/////////////////subscribe to us//////////////////
+.container7{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+/////////////////subscribe to us//////////////////
+
+//////////////////carousel/////////////////////////
+.container8{
+    background-color: #666666;
+    height: 300px;
+
+}
+//////////////////carousel/////////////////////////
+
+.contact_info{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #ee534f;
+    height: 40px;
+    padding-top: 22px;
+}

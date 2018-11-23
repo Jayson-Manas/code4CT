@@ -12,98 +12,12 @@
 
 
 
-.container5{
-    @include red_line_fade;
-    padding-left: 187.5px;
-    padding-right: 187.5;
-    .team_info{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        
 
-        hr{
-            width: 200px;
-            color: #666666;
-            margin-left: 0;
-        }
 
-        .poppins{
-            // width: 61px;
-            // height: 7.5px;
-            font-family: Poppins;
-            // font-size: 7px;
-            font-weight: normal;
-            font-style: normal;
-            font-stretch: normal;
-            line-height: 1.86;
-            letter-spacing: normal;
-            text-align: left;
-            color: #888888;
-        }
-    }
-    .team_member{
-        width: 300px;
-        height: 300px;
-    }
-}
 
-.container6{
-    background-color: #555555;
-    height: 300px;
-    padding-left: 187.5px;
-    padding-right: 187.5px;
-}
 
-.container7{
-    text-align: center;
-    margin-bottom: 50px;
-    margin-top: 50px;
-}
 
-.container8{
-    background-color: #666666;
-    height: 300px;
 
-}
 
-.contact_info{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
 
-    a{
-        text-decoration: none;
-    }
-}
-.footer{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    background-color: #ee534f;
-    height: 40px;
-    padding-top: 22px;
 
-    .copyright{
-        text-align: center;
-    }
-
-    .follow_us{
-        text-align: center;
-
-        i{
-            width: 22px;
-            height: 19px;
-            font-family: FontAwesome;
-            font-size: 25px;
-            font-weight: normal;
-            font-style: normal;
-            font-stretch: normal;
-            line-height: 0.65;
-            letter-spacing: normal;
-            text-align: center;
-            color: #e8e8e8;
-        }
-        a{
-            text-decoration: none;
-            padding: 3px;
-        }
-    }
-}

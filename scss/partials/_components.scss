@@ -156,4 +156,20 @@
     }
 
     /////////////////who we are section////////////
-   
+   /////////////////meet our team//////////////////
+   .container5{
+    @include red_line_fade;
+
+   }
+
+   ////////////////meet our team//////////////////
+   .footer{
+    .copyright{
+        text-align: center;
+    }
+
+    .follow_us{
+        text-align: center;
+
+   }
+}

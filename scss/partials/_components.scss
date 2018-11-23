@@ -1,0 +1,79 @@
+@mixin button {
+    
+    position: relative;
+    padding: .3em 1em;
+    border: 2px solid;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.7em!important;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    transition: all .2s;
+
+
+    
+}
+@mixin button_right_slide_span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+@mixin slide_right_span_after {
+
+    content: '\00bb';
+    right: -100px;
+    position: absolute;
+    margin-left: -1em;
+    opacity: 0;
+    text-shadow: none;
+    font-size: 32px;
+    font-weight: 400;
+    font-style: normal;
+    font-variant: none;
+    line-height: 1em;
+    text-transform: none;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    transition: all .2s;
+    left: 30px;
+    
+}
+@mixin slide_right_hover_span {
+    
+    padding-right: 25px;
+   
+}
+@mixin slide_right_hover_span_after {
+    
+    opacity: 1;
+    
+}
+
+@mixin red_line_fade {
+    .red_line_fade{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: min-content;
+        .red_line{
+        height:1.5px;
+        width: 30px;
+        background-color: #ee534f;
+
+
+        }
+        .fade{
+            height:1.5px;
+            width: 138.5px;
+            background-color: grey;
+            opacity: 0.3;
+        }
+}
+    
+}

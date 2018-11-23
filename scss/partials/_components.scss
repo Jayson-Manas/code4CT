@@ -1,0 +1,159 @@
+//button, custom classes, any class self created
+//////////////////nav styling start //////////////////
+.container{
+    a{
+        :hover{
+            color: #ee534f;
+            background-color: #ee534f;
+        }
+    }
+
+    
+    .logo{
+        height: 45px;
+        width: 200px;
+
+    }
+    .logo_flex{
+        display: flex;
+        align-items: center;
+    }
+     
+    
+    
+   
+    .nav_align{
+        text-align: right;
+        display: flex;
+        align-items: center;
+    }
+    .vertical-align{
+        display: flex;
+        align-items: center;
+    }
+   
+   
+}
+//////////////////nav styling end //////////////////
+
+////////////////////////////main image////////////////////
+.team_img{
+    width: 100%;
+   
+}
+
+.background_image{
+   background-image: url(../images/main_img.jpg);
+   background-size: cover;
+   height: -webkit-fill-available;
+   background-repeat: no-repeat;
+   background-color: grey;
+   background-blend-mode: multiply;
+   font-size: 20px;
+
+
+
+}
+/////////////////////////main image////////////////////////////////
+.container1{
+    
+
+    ///////////////////////////////////red button////////////////////////
+        .red_btn{
+            background-color:#ee534f;
+            color: #e8e8e8;
+            @include button;
+            
+        }
+        .slide_right span:after{
+            @include slide_right_span_after;
+           
+        }
+        .slide_right:hover span {
+            @include slide_right_hover_span;
+            
+          }
+          .slide_right:hover span:after {
+            @include slide_right_hover_span_after;
+    
+          }
+          .slide_right span{
+           @include button_right_slide_span;
+           
+          }
+        ///////////////////////////////////red button//////////////////////
+    
+        ///////////////////////////////// black button////////////////////
+        
+        .black_btn {
+            background-color: transparent;
+            color: #e8e8e8;
+            @include button;
+            
+          }
+         
+        
+          
+          .black_btn span {
+            @include button_right_slide_span;
+    
+          }
+          
+          .black_btn span:after {
+            @include slide_right_span_after;
+               
+          }
+          
+          .black_btn:hover span {
+            @include slide_right_hover_span;
+                    
+          }
+          
+          .black_btn:hover span:after {
+            @include slide_right_hover_span_after;
+            
+          }
+    }
+    ///////////////////////////////// black button////////////////////////
+
+    /////////////////who we are section///////////////
+    .container2{
+        .para_text{
+            padding-left: 187.5px;
+            .bold_text{
+                font-weight:bold ;
+            }
+        }
+
+        .white_btn {
+            background-color: transparent;
+            color: black;
+            @include button;
+            
+        }
+        
+    
+        
+        .white_btn span {
+            @include button_right_slide_span;
+    
+        }
+        
+        .white_btn span:after {
+            @include slide_right_span_after;
+            
+        }
+        
+        .white_btn:hover span {
+            @include slide_right_hover_span;
+                    
+        }
+        
+        .white_btn:hover span:after {
+            @include slide_right_hover_span_after;
+            
+        }
+    }
+
+    /////////////////who we are section////////////
+   

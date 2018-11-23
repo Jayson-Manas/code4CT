@@ -330,6 +330,10 @@
 }
 .container4{
     @include red_line_fade;
+    padding-left: 187.5px;
+    padding-right: 187.5px;
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 .container5{
@@ -370,6 +374,8 @@
 .container6{
     background-color: #555555;
     height: 300px;
+    padding-left: 187.5px;
+    padding-right: 187.5px;
 }
 
 .container7{

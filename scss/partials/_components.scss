@@ -10,8 +10,10 @@
 
     
     .logo{
-        height: 45px;
+        height: 60px;
         width: 200px;
+        margin-bottom: 21px;
+
 
     }
     .logo_flex{
@@ -28,7 +30,7 @@
     }
     .vertical_align{
         text-align: -webkit-center;
-        margin-top: 12px;
+        margin-top: 14px;
    
 }
 }
@@ -184,6 +186,20 @@
 
     /////////////////who we are section////////////
    /////////////////meet our team//////////////////
+   
+   .container4{
+    .image_quad{
+        width: 140px;
+        height: 100px;
+        padding: 2.5px;
+       }
+    .image_enlarge{
+        width: 295px;
+        height: 205px;
+        padding-left: 5px;
+        padding-top: 3px;
+    }
+   }
    .container5{
     @include red_line_fade;
 

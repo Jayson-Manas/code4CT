@@ -9,6 +9,21 @@
     padding-top: 17px;
     z-index: 1;
 }
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    text-align: center;
+    min-width: 80px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
 //////////////////nav styling end //////////////////
 
 /////////////////text on main image////////////////

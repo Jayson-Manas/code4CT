@@ -59,7 +59,11 @@
 
 .dropdown:hover .dropdown-content {display: block;}
 
-.dropdown:hover .dropbtn {background-color: #eaf1ea;}
+.dropdown:hover .dropbtn {
+    .fa-caret-down{
+        color: #666666;
+    }
+    background-color: #eaf1ea;}
 
 // ================dropdown button and hover========================
 

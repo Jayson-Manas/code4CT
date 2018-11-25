@@ -24,15 +24,13 @@
    
     .nav_align{
         text-align: right;
-        display: flex;
-        align-items: center;
+       
     }
-    .vertical-align{
-        display: flex;
-        align-items: center;
-    }
+    .vertical_align{
+        text-align: -webkit-center;
+        margin-top: 12px;
    
-   
+}
 }
 
 // ================dropdown button and hover========================

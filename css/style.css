@@ -54,7 +54,7 @@
 
 .container {
   display: grid;
-  grid-template-columns: 0.5fr 1fr 1fr;
+  grid-template-columns: 0.5fr 1fr 0.7fr;
   position: sticky;
   top: 0;
   background-color: #f9f9f9;
@@ -201,12 +201,10 @@
   display: flex;
   align-items: center; }
 .container .nav_align {
-  text-align: right;
-  display: flex;
-  align-items: center; }
-.container .vertical-align {
-  display: flex;
-  align-items: center; }
+  text-align: right; }
+.container .vertical_align {
+  text-align: -webkit-center;
+  margin-top: 12px; }
 
 .dropbtn {
   background-color: #f9f9f9;

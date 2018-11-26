@@ -9,7 +9,9 @@
   line-height: 0.65;
   letter-spacing: normal;
   text-align: center;
-  color: #181515; }
+  color: #0f0505; }
+.container button:hover i {
+  color: #ee534f; }
 .container .fa-search {
   color: #ee534f; }
 .container a {
@@ -293,7 +295,7 @@
   display: block; }
 
 .dropdown:hover .dropbtn {
-  background-color: #eaf1ea; }
+  background-color: #f9f9f9; }
 
 .team_img {
   width: 100%; }

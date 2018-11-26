@@ -34,7 +34,7 @@
   color: #ffffff;
   text-align: center;
   display: block; }
-.container3 i {
+.container3 .info i {
   width: 22px;
   height: 19px;
   font-family: FontAwesome;
@@ -163,7 +163,7 @@
 
 .container3 {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   background-color: black;
   color: #ffffff;
   padding: 60px 147.5px 60px 147.5px;

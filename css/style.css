@@ -301,13 +301,7 @@
   display: block; }
 
 .dropdown:hover .dropbtn {
-<<<<<<< HEAD
-  background-color: #eaf1ea; }
-  .dropdown:hover .dropbtn .fa-caret-down {
-    color: #666666; }
-=======
   background-color: #f9f9f9; }
->>>>>>> 81d30949e879b9db005a81cf5aecfc30035adfef
 
 .team_img {
   width: 100%; }

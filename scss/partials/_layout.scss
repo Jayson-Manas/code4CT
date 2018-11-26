@@ -65,7 +65,7 @@
 ////////////////code4ct info/////////////////////
 .container3{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     background-color: black;
     color: #ffffff;
     padding: 60px 147.5px 60px 147.5px;
@@ -104,7 +104,7 @@
 //////////////meet our team////////////////////
 .container5{
     padding-left: 187.5px;
-    padding-right: 187.5;
+    padding-right: 187.5px;
     .team_info{
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -125,11 +125,23 @@
             letter-spacing: normal;
             text-align: left;
             color: #888888;
+            height: auto;
         }
     }
     .team_member{
-        width: 300px;
-        height: 300px;
+        width: 190px;
+        height: 258px;
+    }
+    .team_layout{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height:min-content;
+        width: min-content;
+        .member_space{
+            margin-left: 20px;
+            margin-bottom: 20px;
+        }
+        
     }
 }
 ///////////////////meet our team///////////////////
@@ -163,6 +175,8 @@
 .contact_info{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-left: 188px;
+    padding-right: 164px;
 }
 
 .footer{
@@ -171,4 +185,11 @@
     background-color: #ee534f;
     height: 40px;
     padding-top: 22px;
+    
+    .follow_us{
+        padding-right: 62px;
+    }
+    .copyright{
+        padding-left: 55px;
+    }
 }

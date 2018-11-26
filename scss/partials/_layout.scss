@@ -125,17 +125,22 @@
             letter-spacing: normal;
             text-align: left;
             color: #888888;
+            height: auto;
         }
     }
     .team_member{
         width: 190px;
-        height: 170px;
+        height: 258px;
     }
     .team_layout{
         display: grid;
         grid-template-columns: 1fr 1fr;
         height:min-content;
         width: min-content;
+        .member_space{
+            margin-left: 20px;
+            margin-bottom: 20px;
+        }
         
     }
 }

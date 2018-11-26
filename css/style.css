@@ -250,7 +250,9 @@
 
 .contact_info {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr; }
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding-left: 188px;
+  padding-right: 164px; }
 
 .footer {
   display: grid;
@@ -258,6 +260,10 @@
   background-color: #ee534f;
   height: 40px;
   padding-top: 22px; }
+  .footer .follow_us {
+    padding-right: 62px; }
+  .footer .copyright {
+    padding-left: 55px; }
 
 .container a :hover {
   color: #ee534f;

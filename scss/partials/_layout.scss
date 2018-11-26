@@ -175,6 +175,8 @@
 .contact_info{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-left: 188px;
+    padding-right: 164px;
 }
 
 .footer{
@@ -183,4 +185,11 @@
     background-color: #ee534f;
     height: 40px;
     padding-top: 22px;
+    
+    .follow_us{
+        padding-right: 62px;
+    }
+    .copyright{
+        padding-left: 55px;
+    }
 }

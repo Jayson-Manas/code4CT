@@ -104,7 +104,7 @@
 //////////////meet our team////////////////////
 .container5{
     padding-left: 187.5px;
-    padding-right: 187.5;
+    padding-right: 187.5px;
     .team_info{
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -128,8 +128,15 @@
         }
     }
     .team_member{
-        width: 300px;
-        height: 300px;
+        width: 190px;
+        height: 170px;
+    }
+    .team_layout{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height:min-content;
+        width: min-content;
+        
     }
 }
 ///////////////////meet our team///////////////////

@@ -48,7 +48,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         width: fit-content;
-        padding-right: 187.5px;
+        align-content: center;
 
 
         .block_display{
@@ -67,7 +67,7 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     background-color: black;
     color: #ffffff;
-    padding: 60px 147.5px 60px 147.5px;
+    padding: 35px 48.5px 20px 48.5px;
     margin-top: 100px;
 
     .info{
@@ -81,8 +81,8 @@
 ///////////////our exciting courses/////////////
 .container4{
     @include red_line_fade;
-    padding-left: 187.5px;
-    padding-right: 187.5px;
+    padding-left: 92.5px;
+    padding-right: 92.5px;
     margin-bottom: 50px;
     margin-top: 50px;
 
@@ -102,8 +102,8 @@
 ///////////////our exciting courses/////////////
 //////////////meet our team////////////////////
 .container5{
-    padding-left: 187.5px;
-    padding-right: 187.5px;
+    padding-left: 92.5px;
+    padding-right: 92.5px;
     .team_info{
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -149,7 +149,7 @@
 .container6{
     background-color: #555555;
     height: 300px;
-    padding-left: 187.5px;
+    padding-left: 93px;
     padding-right: 187.5px;
 }
 //////////////////project stats///////////////////
@@ -209,8 +209,8 @@
 .contact_info{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    padding-left: 188px;
-    padding-right: 164px;
+    padding-left: 92px;
+    padding-right: 92px;
 }
 
 .footer{

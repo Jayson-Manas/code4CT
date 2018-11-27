@@ -154,7 +154,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     width: fit-content;
-    padding-right: 187.5px; }
+    align-content: center; }
     .container2 .img_container .block_display {
       width: 220px;
       height: 200px;
@@ -165,7 +165,7 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   background-color: black;
   color: #ffffff;
-  padding: 60px 147.5px 60px 147.5px;
+  padding: 35px 48.5px 20px 48.5px;
   margin-top: 100px; }
   .container3 .info {
     text-align: center;
@@ -173,8 +173,8 @@
     padding-right: 40px; }
 
 .container4 {
-  padding-left: 187.5px;
-  padding-right: 187.5px;
+  padding-left: 92.5px;
+  padding-right: 92.5px;
   margin-bottom: 50px;
   margin-top: 50px; }
   .container4 .red_line_fade {
@@ -200,8 +200,8 @@
       width: min-content; }
 
 .container5 {
-  padding-left: 187.5px;
-  padding-right: 187.5px; }
+  padding-left: 92.5px;
+  padding-right: 92.5px; }
   .container5 .team_info {
     display: grid;
     grid-template-columns: 1fr 1fr; }
@@ -234,7 +234,7 @@
 .container6 {
   background-color: #555555;
   height: 300px;
-  padding-left: 187.5px;
+  padding-left: 93px;
   padding-right: 187.5px; }
 
 .container7 {
@@ -280,8 +280,8 @@
 .contact_info {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  padding-left: 188px;
-  padding-right: 164px; }
+  padding-left: 92px;
+  padding-right: 92px; }
 
 .footer {
   display: grid;
@@ -433,7 +433,7 @@
   opacity: 1; }
 
 .container2 .para_text {
-  padding-left: 187.5px; }
+  padding-left: 93.5px; }
   .container2 .para_text .bold_text {
     font-weight: bold; }
 .container2 .white_btn {

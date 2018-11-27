@@ -5,8 +5,7 @@
     position: sticky;
     top: 0;
     background-color: #f9f9f9;
-    height: 60.5px;
-    padding-top: 17px;
+    height: 70.5px;
     z-index: 1;
 }
 
@@ -91,7 +90,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         width: min-content;
-        margin-left: 130px;
+        
         .course_img{
             display: grid;
             grid-template-columns: 1fr 1fr;
@@ -194,8 +193,8 @@
 }
 .sub img{
     display: inline;
-    // width: auto;
-    // height: 180px;
+    width: auto;
+    height: 180px;
     margin-right:50px;
 }
 

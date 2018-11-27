@@ -108,8 +108,7 @@
   position: sticky;
   top: 0;
   background-color: #f9f9f9;
-  height: 60.5px;
-  padding-top: 17px;
+  height: 70.5px;
   z-index: 1; }
 
 .dropdown {
@@ -145,7 +144,7 @@
     .container2 .red_line_fade .red_line {
       height: 1.5px;
       width: 30px;
-      background-color: #ee534f; }
+      background-color: #EE524E; }
     .container2 .red_line_fade .fade {
       height: 1.5px;
       width: 138.5px;
@@ -185,7 +184,7 @@
     .container4 .red_line_fade .red_line {
       height: 1.5px;
       width: 30px;
-      background-color: #ee534f; }
+      background-color: #EE524E; }
     .container4 .red_line_fade .fade {
       height: 1.5px;
       width: 138.5px;
@@ -194,8 +193,7 @@
   .container4 .img_wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    width: min-content;
-    margin-left: 130px; }
+    width: min-content; }
     .container4 .img_wrapper .course_img {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -271,6 +269,8 @@
 
 .sub img {
   display: inline;
+  width: auto;
+  height: 180px;
   margin-right: 50px; }
 
 @keyframes carousel {
@@ -299,8 +299,7 @@
   background-color: #ee534f; }
 .container .logo {
   height: 60px;
-  width: 200px;
-  margin-bottom: 21px; }
+  width: 200px; }
 .container .logo_flex {
   display: flex;
   align-items: center; }
@@ -308,7 +307,7 @@
   text-align: right; }
 .container .vertical_align {
   text-align: -webkit-center;
-  margin-top: 14px; }
+  margin-top: 18px; }
 
 .dropbtn {
   background-color: #f9f9f9;
@@ -483,12 +482,12 @@
   opacity: 1; }
 
 .container4 .image_quad {
-  width: 140px;
-  height: 100px;
+  width: 200px;
+  height: 192px;
   padding: 2.5px; }
 .container4 .image_enlarge {
-  width: 295px;
-  height: 205px;
+  width: 394px;
+  height: 388px;
   padding-left: 5px;
   padding-top: 3px; }
 
@@ -499,7 +498,7 @@
   .container5 .red_line_fade .red_line {
     height: 1.5px;
     width: 30px;
-    background-color: #ee534f; }
+    background-color: #EE524E; }
   .container5 .red_line_fade .fade {
     height: 1.5px;
     width: 138.5px;

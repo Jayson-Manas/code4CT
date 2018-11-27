@@ -249,6 +249,59 @@
         </div>
         </div>
         <div class="container6">
+                <section class="stats">
+                        <section>
+                           <div class="line"></div>
+                           <h1 id="cupsOfCoffee">0</h1>
+                           <p> Cups of coffee:</p>
+                        </section>
+                        <section>
+                           <div class="line"></div>
+                           <h1 id="girls">0</h1>
+                            <p>Number of girls </p>
+                        </section>
+                        <section>
+                           <div class="line"></div>
+                           <h1 id="projects">0</h1>
+                           <p>Projects completed</p>
+                        </section>
+                        <section>
+                           <div class="line"></div>
+                           <h1 id="hoursCoding">0</h1>
+                           <p>Hours of coding</p>
+                        </section>
+                     </section>
+                     <script>
+                     var timeLeftForCoffee=0;
+var timeLeftForGirls=280;
+var timeLeftForProjects=2680;
+var timeLeftForHours=8265;
+
+var cupsOfCoffee=document.getElementById("cupsOfCoffee");
+var girls=document.getElementById("girls");
+var projects=document.getElementById("projects");
+var hoursCoding=document.getElementById("hoursCoding");
+
+    var timer=setInterval(function(){
+      cupsOfCoffee.innerHTML=timeLeftForCoffee;
+      girls.innerHTML=timeLeftForGirls;
+      projects.innerHTML=timeLeftForProjects;
+      hoursCoding.innerHTML=timeLeftForHours;
+
+      if (timeLeftForCoffee===3000) {
+      clearInterval(timer);
+      cupsOfCoffee.innerHTML="3000+";
+      girls.innerHTML="780+";
+      projects.innerHTML="3120+";
+      hoursCoding.innerHTML="8765+";
+      }
+      timeLeftForGirls++;
+      timeLeftForCoffee+=10;
+      timeLeftForProjects++;
+      timeLeftForHours++;
+    },
+    1);
+                     </script>
             <div class="project_stats">
                 <div class="red_line_fade">
                     <div class="red_line"></div>

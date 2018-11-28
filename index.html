@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="main.js"></script>
     <style>
         .carousel-inner > .item > img,
         .carousel-inner > .item > a > img {
@@ -249,90 +248,55 @@
         </div>
         </div>
         <div class="container6">
-                <section class="stats">
-                        <section>
-                           <div class="line"></div>
-                           <h1 id="cupsOfCoffee">0</h1>
-                           <p> Cups of coffee:</p>
-                        </section>
-                        <section>
-                           <div class="line"></div>
-                           <h1 id="girls">0</h1>
-                            <p>Number of girls </p>
-                        </section>
-                        <section>
-                           <div class="line"></div>
-                           <h1 id="projects">0</h1>
-                           <p>Projects completed</p>
-                        </section>
-                        <section>
-                           <div class="line"></div>
-                           <h1 id="hoursCoding">0</h1>
-                           <p>Hours of coding</p>
-                        </section>
-                     </section>
-                     <script>
-                     var timeLeftForCoffee=0;
-var timeLeftForGirls=280;
-var timeLeftForProjects=2680;
-var timeLeftForHours=8265;
-
-var cupsOfCoffee=document.getElementById("cupsOfCoffee");
-var girls=document.getElementById("girls");
-var projects=document.getElementById("projects");
-var hoursCoding=document.getElementById("hoursCoding");
-
-    var timer=setInterval(function(){
-      cupsOfCoffee.innerHTML=timeLeftForCoffee;
-      girls.innerHTML=timeLeftForGirls;
-      projects.innerHTML=timeLeftForProjects;
-      hoursCoding.innerHTML=timeLeftForHours;
-
-      if (timeLeftForCoffee===3000) {
-      clearInterval(timer);
-      cupsOfCoffee.innerHTML="3000+";
-      girls.innerHTML="780+";
-      projects.innerHTML="3120+";
-      hoursCoding.innerHTML="8765+";
-      }
-      timeLeftForGirls++;
-      timeLeftForCoffee+=10;
-      timeLeftForProjects++;
-      timeLeftForHours++;
-    },
-    1);
-                     </script>
+               
+                    
             <div class="project_stats">
                 <div class="red_line_fade">
                     <div class="red_line"></div>
                     <div class="fade"></div>
                 </div>
-                <div class="stat1"></div>
-                <p></p>
+                <div class="stat1">
+                    <div class="line"></div>
+                           <h1 id="cupsOfCoffee">0</h1>
+                           <p> Cups of coffee</p>
+                </div>
+                
             </div>
             <div class="project_stats">
                 <div class="red_line_fade">
                     <div class="red_line"></div>
                     <div class="fade"></div>
                 </div>
-                    <div class="stat1"></div>
-                    <p></p>
+                    <div class="stat1">
+                        <div class="line"></div>
+                           <h1 id="girls">0</h1>
+                            <p>Number of girls </p>
+                    </div>
+                    
                 </div>
             <div class="project_stats">
                 <div class="red_line_fade">
                     <div class="red_line"></div>
                     <div class="fade"></div>
                 </div>
-                        <div class="stat1"></div>
-                        <p></p>
+                        <div class="stat1">
+                            <div class="line"></div>
+                            <h1 id="projects">0</h1>
+                            <p>Projects completed</p>
+                        </div>
+                        
                 </div>
             <div class="project_stats">
                 <div class="red_line_fade">
                     <div class="red_line"></div>
                     <div class="fade"></div>
                 </div>
-                            <div class="stat1"></div>
-                            <p></p>
+                            <div class="stat1">
+                                <div class="line"></div>
+                           <h1 id="hoursCoding">0</h1>
+                           <p>Hours of coding</p>
+                            </div>
+                            
                 </div>
 
         </div>
@@ -370,9 +334,10 @@ var hoursCoding=document.getElementById("hoursCoding");
         <!-- </div> -->
         <div class="contact_info">
             <div class="contact_number">
-                <p>text.....</p>
-                number
-                email
+                Physical address: Innovate South Africa, 403 Old Castle Brewery, 6 Beach Rd,
+                Woodstock, Cape Town, 7915
+                Email: info@code4ct.com
+                Tel: 021 685 0991
                 <address></address>
             </div>
             <div class="Company">
@@ -423,6 +388,7 @@ var hoursCoding=document.getElementById("hoursCoding");
 
         </div>
     </div>
+    <script src="js/main.js"></script>
 
 </body>
 </html>

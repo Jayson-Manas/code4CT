@@ -147,10 +147,28 @@
 
 //////////////////project stats///////////////////
 .container6{
-    background-color: #555555;
+    @include red_line_fade;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: black;
+    color: #e8e8e8;
     height: 300px;
     padding-left: 93px;
     padding-right: 187.5px;
+.red_line_fade{
+    margin-top: 50px;
+    height: 20px;
+
+    .red_line{
+        height: 5px;
+
+    }
+    .fade{
+        height: 5px;
+    }
+}
+    
 }
 //////////////////project stats///////////////////
 
@@ -211,6 +229,10 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     padding-left: 92px;
     padding-right: 92px;
+    .contact_number{
+        padding-top: 62px;
+
+    }
 }
 
 .footer{

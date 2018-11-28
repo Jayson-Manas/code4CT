@@ -1,27 +1,31 @@
+'use strict'
+// ====================counter=======================
+var timeLeftForCoffee=0;
+var timeLeftForGirls=280;
+var timeLeftForProjects=2680;
+var timeLeftForHours=8265;
 
-$(document).ready(function(){
-    // Activate Carousel
-    $("#myCarousel").carousel({interval: 500});
-    
-    // // Enable Carousel Indicators
-    // $(".item1").click(function(){
-    //     $("#myCarousel").carousel(0);
-    // });
-    // $(".item2").click(function(){
-    //     $("#myCarousel").carousel(1);
-    // });
-    // $(".item3").click(function(){
-    //     $("#myCarousel").carousel(2);
-    // });
-    // $(".item4").click(function(){
-    //     $("#myCarousel").carousel(3);
-    // });
-    
-    // // Enable Carousel Controls
-    // $(".left").click(function(){
-    //     $("#myCarousel").carousel("prev");
-    // });
-    // $(".right").click(function(){
-    //     $("#myCarousel").carousel("next");
-    // });
-});
+var cupsOfCoffee=document.getElementById("cupsOfCoffee");
+var girls=document.getElementById("girls");
+var projects=document.getElementById("projects");
+var hoursCoding=document.getElementById("hoursCoding");
+
+var timer=setInterval(function(){
+cupsOfCoffee.innerHTML=timeLeftForCoffee;
+girls.innerHTML=timeLeftForGirls;
+projects.innerHTML=timeLeftForProjects;
+hoursCoding.innerHTML=timeLeftForHours;
+
+if (timeLeftForCoffee===3000) {
+clearInterval(timer);
+cupsOfCoffee.innerHTML="3000+";
+girls.innerHTML="780+";
+projects.innerHTML="3120+";
+hoursCoding.innerHTML="8765+";
+}
+timeLeftForGirls++;
+timeLeftForCoffee+=10;
+timeLeftForProjects++;
+timeLeftForHours++;
+},
+1);

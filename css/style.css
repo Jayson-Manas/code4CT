@@ -232,10 +232,33 @@
       margin-bottom: 20px; }
 
 .container6 {
-  background-color: #555555;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  background-color: black;
+  color: #e8e8e8;
   height: 300px;
   padding-left: 93px;
   padding-right: 187.5px; }
+  .container6 .red_line_fade {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: min-content; }
+    .container6 .red_line_fade .red_line {
+      height: 1.5px;
+      width: 30px;
+      background-color: #EE524E; }
+    .container6 .red_line_fade .fade {
+      height: 1.5px;
+      width: 138.5px;
+      background-color: grey;
+      opacity: 0.3; }
+  .container6 .red_line_fade {
+    margin-top: 50px;
+    height: 20px; }
+    .container6 .red_line_fade .red_line {
+      height: 5px; }
+    .container6 .red_line_fade .fade {
+      height: 5px; }
 
 .container7 {
   text-align: center;
@@ -282,6 +305,8 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   padding-left: 92px;
   padding-right: 92px; }
+  .contact_info .contact_number {
+    padding-top: 62px; }
 
 .footer {
   display: grid;

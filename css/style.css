@@ -317,7 +317,7 @@
   .footer .follow_us {
     padding-right: 62px; }
   .footer .copyright {
-    padding-left: 55px; }
+    padding-left: 92px; }
 
 .container a :hover {
   color: #ee534f;
@@ -531,7 +531,7 @@
     opacity: 0.3; }
 
 .footer .copyright {
-  text-align: center; }
+  text-align: left; }
 .footer .follow_us {
   text-align: center; }
 

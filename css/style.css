@@ -154,10 +154,9 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     width: fit-content;
-    align-content: center;
-    padding-left: 65px; }
+    align-content: center; }
     .container2 .img_container .block_display {
-      width: 220px;
+      width: 207px;
       height: 200px;
       padding: 10px; }
 
@@ -238,8 +237,7 @@
   background-color: black;
   color: #e8e8e8;
   height: 300px;
-  padding-left: 93px;
-  padding-right: 187.5px; }
+  padding-left: 93px; }
   .container6 .red_line_fade {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -272,7 +270,6 @@
   height: 200px; }
 
 .container_carousel {
-  width: 70%;
   display: block;
   margin: 0 auto;
   height: 178px;
@@ -304,8 +301,7 @@
 .contact_info {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  padding-left: 92px;
-  padding-right: 92px; }
+  padding-left: 92px; }
   .contact_info .contact_number {
     padding-top: 62px; }
 
@@ -458,11 +454,9 @@
 .container1 .black_btn:hover span:after {
   opacity: 1; }
 
-.container2 .para_text {
-  padding-left: 93.5px; }
-  .container2 .para_text .bold_text {
-    font-weight: bold;
-    width: 700px; }
+.container2 .para_text .bold_text {
+  font-weight: bold;
+  width: 700px; }
 .container2 .white_btn {
   background-color: transparent;
   color: black;
@@ -513,7 +507,7 @@
   height: 192px;
   padding: 2.5px; }
 .container4 .image_enlarge {
-  width: 555px;
+  width: 548px;
   height: 388px;
   padding-left: 5px;
   padding-top: 3px; }

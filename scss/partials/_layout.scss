@@ -49,11 +49,11 @@
         grid-template-columns: 1fr 1fr;
         width: fit-content;
         align-content: center;
-        padding-left: 65px;
+
 
 
         .block_display{
-            width: 220px;
+            width: 207px;
             height: 200px;
             padding: 10px;
         }
@@ -156,8 +156,7 @@
     color: #e8e8e8;
     height: 300px;
     padding-left: 93px;
-    padding-right: 187.5px;
-.red_line_fade{
+    .red_line_fade{
     margin-top: 50px;
     height: 20px;
 
@@ -190,7 +189,6 @@
 }
 
 .container_carousel{
-    width: 70%;
     display: block;
     margin: 0 auto;
     height: 178px;
@@ -229,7 +227,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     padding-left: 92px;
-    padding-right: 92px;
     .contact_number{
         padding-top: 62px;
 

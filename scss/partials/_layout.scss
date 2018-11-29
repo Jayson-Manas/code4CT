@@ -52,7 +52,7 @@
 
 
         .block_display{
-            width: 250px;
+            width: 220px;
             height: 200px;
             padding: 10px;
         }
@@ -82,7 +82,7 @@
 .container4{
     @include red_line_fade;
     padding-left: 92.5px;
-    padding-right: 63.5px;
+    padding-right: 92.5px;
     margin-bottom: 50px;
     margin-top: 50px;
 
@@ -103,7 +103,7 @@
 //////////////meet our team////////////////////
 .container5{
     padding-left: 92.5px;
-    padding-right: 0px;
+    padding-right: 92.5px;
     .team_info{
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -154,8 +154,8 @@
     background-color: black;
     color: #e8e8e8;
     height: 300px;
-    padding-left: 115px;
-    padding-right: 0px;
+    padding-left: 93px;
+    padding-right: 187.5px;
 .red_line_fade{
     margin-top: 50px;
     height: 20px;
@@ -189,7 +189,7 @@
 }
 
 .container_carousel{
-    // width: 70%;
+    width: 70%;
     display: block;
     margin: 0 auto;
     height: 178px;
@@ -228,7 +228,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     padding-left: 92px;
-    padding-right: 0px;
+    padding-right: 92px;
     .contact_number{
         padding-top: 62px;
 
@@ -243,9 +243,9 @@
     padding-top: 22px;
     
     .follow_us{
-        padding-right: 125px;
+        padding-right: 62px;
     }
     .copyright{
-        padding-left: 92px;
+        padding-left: 55px;
     }
 }

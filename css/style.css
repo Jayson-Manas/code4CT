@@ -154,7 +154,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     width: fit-content;
-    align-content: center; }
+    align-content: center;
+    padding-left: 65px; }
     .container2 .img_container .block_display {
       width: 220px;
       height: 200px;
@@ -460,7 +461,8 @@
 .container2 .para_text {
   padding-left: 93.5px; }
   .container2 .para_text .bold_text {
-    font-weight: bold; }
+    font-weight: bold;
+    width: 700px; }
 .container2 .white_btn {
   background-color: transparent;
   color: black;

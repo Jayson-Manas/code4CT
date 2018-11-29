@@ -1,0 +1,111 @@
+@media screen and (max-width: 600px){
+
+    html, body{
+        width: 480px;
+        text-align: center;
+
+    }
+
+    .main_container{
+        .background_image{
+            width: auto;
+            height: -webkit-fill-available;
+        }
+        text-align: center;
+
+
+    }
+    // ==============who we are==================
+    .container2{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+        .para_text{
+        padding: 0;
+            
+        }
+    
+
+        .img_container{
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+    }
+
+    // ==============who we are==================
+
+    .container3{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-left: 0px;
+
+    }
+
+    .container4{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-left: 0px;
+
+
+        .img_wrapper{
+            display: grid;
+            grid-template-columns: 1fr;
+            .image_enlarge {
+                width: 450px;
+                
+            }
+            .course_img{
+                display: grid;
+                grid-template-columns: 1fr;
+            }
+        }
+    }
+
+    .container5{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-left: 0px;
+
+        .team_layout{
+            p{
+                width: auto;
+                height: auto;
+            }
+        }
+
+
+        .team_info{
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+    }
+
+    .container6{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-left: 0px;
+        height: auto;
+    }
+
+    .contact_info{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-left: 0px;
+    }
+    .footer{
+        display: grid;
+        grid-template-columns: 1fr;
+        .copyright{
+        padding-left: 0px;
+
+        }
+        .follow_us{
+            padding-right: 0px;
+            text-align: left;
+
+            i{
+                font-size: 12px;
+            }
+        }
+    }
+}

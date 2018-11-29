@@ -51,7 +51,7 @@
   margin-top: 0; }
 .container5 .team_layout p {
   margin-top: 0;
-  width: 275px;
+  width: 280px;
   height: 153px; }
 .container5 .member_icons i {
   width: 22px;
@@ -271,7 +271,6 @@
   height: 200px; }
 
 .container_carousel {
-  width: 70%;
   display: block;
   margin: 0 auto;
   height: 178px;
@@ -315,7 +314,7 @@
   height: 40px;
   padding-top: 22px; }
   .footer .follow_us {
-    padding-right: 62px; }
+    padding-right: 125px; }
   .footer .copyright {
     padding-left: 92px; }
 
@@ -533,6 +532,78 @@
 .footer .copyright {
   text-align: left; }
 .footer .follow_us {
-  text-align: center; }
+  text-align: right; }
+
+@media screen and (max-width: 600px) {
+  html, body {
+    width: 480px;
+    text-align: center; }
+
+  .main_container {
+    text-align: center; }
+    .main_container .background_image {
+      width: auto;
+      height: -webkit-fill-available; }
+
+  .container2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%; }
+    .container2 .para_text {
+      padding: 0; }
+    .container2 .img_container {
+      display: grid;
+      grid-template-columns: 1fr; }
+
+  .container3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-left: 0px; }
+
+  .container4 {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-left: 0px; }
+    .container4 .img_wrapper {
+      display: grid;
+      grid-template-columns: 1fr; }
+      .container4 .img_wrapper .image_enlarge {
+        width: 450px; }
+      .container4 .img_wrapper .course_img {
+        display: grid;
+        grid-template-columns: 1fr; }
+
+  .container5 {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-left: 0px; }
+    .container5 .team_layout p {
+      width: auto;
+      height: auto; }
+    .container5 .team_info {
+      display: grid;
+      grid-template-columns: 1fr; }
+
+  .container6 {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-left: 0px;
+    height: auto; }
+
+  .contact_info {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-left: 0px; }
+
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr; }
+    .footer .copyright {
+      padding-left: 0px; }
+    .footer .follow_us {
+      padding-right: 0px;
+      text-align: left; }
+      .footer .follow_us i {
+        font-size: 12px; } }
 
 /*# sourceMappingURL=style.css.map */

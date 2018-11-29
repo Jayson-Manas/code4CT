@@ -456,7 +456,7 @@
 
 .container2 .para_text .bold_text {
   font-weight: bold;
-  width: 700px; }
+  width: 400px; }
 .container2 .white_btn {
   background-color: transparent;
   color: black;
@@ -532,11 +532,6 @@
   text-align: right; }
 
 @media screen and (max-width: 600px) {
-  html, body {
-    width: 420px;
-    text-align: center;
-    margin: 5px; }
-
   .background_image {
     width: 400px;
     height: 970px; }

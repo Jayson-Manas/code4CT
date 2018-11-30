@@ -531,7 +531,7 @@
 .footer .follow_us {
   text-align: right; }
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 320px) {
   .background_image {
     width: 400px;
     height: 970px; }

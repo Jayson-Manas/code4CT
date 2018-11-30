@@ -8,7 +8,7 @@
 
     }
     .background_image{
-        width: 18em;
+        width: 16.75em;
         height: 45.625em;
     }
 
@@ -41,6 +41,13 @@
         grid-template-columns: 1fr;
         .para_text{
         padding: 0;
+        .bold_text{
+            width: 90%;
+            p{
+                width: 90%;
+            }
+        }
+        
             
         }
     
@@ -48,6 +55,9 @@
         .img_container{
             display: grid;
             grid-template-columns: 1fr;
+            .block_display{
+                width: 90%;
+            }
         }
     }
 
@@ -56,7 +66,11 @@
     .container3{
         display: grid;
         grid-template-columns: 1fr;
-        padding-left: 0px;
+        
+
+        .info{
+            padding: 0;
+        }
 
     }
 
@@ -65,12 +79,24 @@
         grid-template-columns: 1fr;
         padding-left: 0px;
 
+        p{
+            width: 90%;
+        }
+        .course_img{
+            .image_quad{
+                width: 18em;
+            }
+        }
+
+        
+
 
         .img_wrapper{
             display: grid;
             grid-template-columns: 1fr;
             .image_enlarge {
-                width: 22em;
+                width: 17.85em;
+                height: auto;
                 
             }
             .course_img{
@@ -85,14 +111,18 @@
         grid-template-columns: 1fr;
         padding-left: 0px;
         p{
-            width: 22em;
+            width: 20em;
+        }
+        .team_member{
+            width: 18em;
+            height: 18em;
         }
 
         .team_layout{
             display: grid;
             grid-template-columns: 1fr;
             p{
-                width: 11em;
+                width: 17em;
                 height: auto;
             }
             .member_space {
@@ -119,6 +149,15 @@
         grid-template-columns: 1fr;
         padding-left: 0px;
         height: auto;
+
+        .red_line_fade{
+            padding-left: 4em;
+        }
+
+        .project_stats{
+            text-align: center;
+
+        }
     }
 
     .contact_info{

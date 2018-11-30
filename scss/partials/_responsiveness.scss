@@ -1,4 +1,4 @@
-@media screen and (min-width: 320px){
+@media screen and (max-width: 600px){
 
     html, body{
         // width: 420px;
@@ -8,23 +8,28 @@
 
     }
     .background_image{
-        width: 400px;
-        height: 970px;
+        width: 18em;
+        height: 45.625em;
     }
 
     .main_container{
+        .container{
+            display: none;
+        }
         
-        text-align: center;
         .container1 {
             text-align: center; 
             position: absolute; 
-            top: 220px; 
-            height: 500px; 
+            top: 13.75em; 
+            height: 31.25em; 
             transform: inherit;
             color: #e8e8e8;
         }
 
         .vertical_align{
+            display: none;
+        }
+        .logo{
             display: none;
         }
 
@@ -34,7 +39,6 @@
     .container2{
         display: grid;
         grid-template-columns: 1fr;
-        width: 100%;
         .para_text{
         padding: 0;
             
@@ -66,7 +70,7 @@
             display: grid;
             grid-template-columns: 1fr;
             .image_enlarge {
-                width: 380px;
+                width: 22em;
                 
             }
             .course_img{
@@ -80,11 +84,20 @@
         display: grid;
         grid-template-columns: 1fr;
         padding-left: 0px;
+        p{
+            width: 22em;
+        }
 
         .team_layout{
+            display: grid;
+            grid-template-columns: 1fr;
             p{
-                width: auto;
+                width: 11em;
                 height: auto;
+            }
+            .member_space {
+                margin-left: 1em;
+                margin-bottom: 1em;
             }
         }
 
@@ -92,6 +105,12 @@
         .team_info{
             display: grid;
             grid-template-columns: 1fr;
+
+            hr {
+                width: 9em;
+                color: #666666;
+                margin-left: 0;
+            }
         }
     }
 
@@ -119,7 +138,7 @@
             text-align: left;
 
             i{
-                font-size: 12px;
+                font-size: 0.75em;
             }
         }
     }

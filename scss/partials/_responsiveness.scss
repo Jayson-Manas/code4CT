@@ -8,7 +8,7 @@
 
     }
     .background_image{
-        width: 16.75em;
+        width: 15.75em;
         height: 45.625em;
     }
 
@@ -76,7 +76,7 @@
 
     .container4{
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: auto;
         padding-left: 0px;
 
         p{

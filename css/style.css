@@ -647,7 +647,8 @@ html, body {
 
   .footer {
     display: grid;
-    grid-template-columns: 1fr; }
+    grid-template-columns: 1fr;
+    height: auto; }
     .footer .copyright {
       padding-left: 1.5em; }
     .footer .follow_us {

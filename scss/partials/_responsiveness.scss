@@ -172,6 +172,7 @@
     .footer{
         display: grid;
         grid-template-columns: 1fr;
+        height: auto;
 
         .copyright{
             padding-left: 1.5em;

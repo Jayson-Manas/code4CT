@@ -1,3 +1,4 @@
+//////////////////////////mobile start//////////////////////////
 @media screen and (max-width: 600px){
 
     html, body{
@@ -168,13 +169,16 @@
     .footer{
         display: grid;
         grid-template-columns: 1fr;
+
         .copyright{
-        padding-left: 0px;
+            padding-left: 1.5em;
 
         }
         .follow_us{
             padding-right: 0px;
             text-align: left;
+            padding-left: 1.5em;
+
 
             i{
                 font-size: 0.75em;
@@ -182,3 +186,9 @@
         }
     }
 }
+//////////////////////////mobile end//////////////////////////
+/////////////////////////tablet start///////////////////////////
+@media screen and (min-width: 601px){
+
+}
+/////////////////////////tablet end///////////////////////////

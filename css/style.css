@@ -632,5 +632,118 @@
       padding-left: 1.5em; }
       .footer .follow_us i {
         font-size: 0.75em; } }
+@media screen and (min-width: 601px) and (max-width: 993px) {
+  .background_image {
+    width: 15.75em;
+    height: 45.625em; }
+
+  .main_container .container {
+    display: none; }
+  .main_container .container1 {
+    text-align: center;
+    position: absolute;
+    top: 13.75em;
+    height: 31.25em;
+    transform: inherit;
+    color: #e8e8e8; }
+  .main_container .vertical_align {
+    display: none; }
+  .main_container .logo {
+    display: none; }
+
+  .container2 {
+    display: grid;
+    grid-template-columns: 1fr; }
+    .container2 .para_text {
+      padding: 0; }
+      .container2 .para_text .bold_text {
+        width: 80%; }
+        .container2 .para_text .bold_text p {
+          width: 80%; }
+    .container2 .img_container {
+      display: grid;
+      grid-template-columns: 1fr; }
+      .container2 .img_container .block_display {
+        width: 80%;
+        height: auto; }
+
+  .container3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 1em;
+    width: 80%; }
+    .container3 .info {
+      padding: 0; }
+
+  .container4 {
+    display: grid;
+    grid-template-columns: auto;
+    padding-left: 0px; }
+    .container4 p {
+      width: 90%; }
+    .container4 .course_img .image_quad {
+      width: 80%; }
+    .container4 .img_wrapper {
+      display: grid;
+      grid-template-columns: 1fr; }
+      .container4 .img_wrapper .image_enlarge {
+        width: 17.85em;
+        height: auto; }
+      .container4 .img_wrapper .course_img {
+        display: grid;
+        grid-template-columns: 1fr; }
+
+  .container5 {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-left: 0px; }
+    .container5 p {
+      width: 20em; }
+    .container5 .team_member {
+      width: 18em;
+      height: 18em; }
+    .container5 .team_layout {
+      display: grid;
+      grid-template-columns: 1fr; }
+      .container5 .team_layout p {
+        width: 17em;
+        height: auto; }
+      .container5 .team_layout .member_space {
+        margin-left: 1em;
+        margin-bottom: 1em; }
+    .container5 .team_info {
+      display: grid;
+      grid-template-columns: 1fr; }
+      .container5 .team_info hr {
+        width: 9em;
+        color: #666666;
+        margin-left: 0; }
+
+  .container6 {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-left: 0px;
+    height: auto; }
+    .container6 .red_line_fade {
+      padding-left: 4em; }
+    .container6 .project_stats {
+      text-align: center; }
+
+  .contact_info {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-left: 0px; }
+
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr; }
+    .footer .copyright {
+      padding-left: 1.5em; }
+    .footer .follow_us {
+      padding-right: 0px;
+      text-align: left;
+      padding-left: 1.5em; }
+      .footer .follow_us i {
+        font-size: 0.75em; } }
 
 /*# sourceMappingURL=style.css.map */

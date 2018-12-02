@@ -89,7 +89,7 @@
 
     ///////////////////////////////////red button////////////////////////
         .red_btn{
-            background-color:#ee534f;
+            background-color:$pink;
             color: #e8e8e8;
             @include button;
             
@@ -156,7 +156,7 @@
 
         .white_btn {
             background-color: transparent;
-            color: black;
+            color: $black;
             @include button;
             
         }
@@ -225,10 +225,10 @@
     right: 15px;
     z-index: 1;
     font-size: 15px;
-    border: 1mm solid #E38F84;
+    border: 1mm solid $pink;
     outline: none;
     background-color:transparent;
-    color:#E38F84;
+    color:$pink;
     cursor: pointer;
     padding: 15px;
     border-radius: 4px;
@@ -237,7 +237,7 @@
   }
 
 #myBtn:hover {
-    background-color: #E38F84;
+    background-color: $pink;
     color: white;
     font-size: 18px;
   }

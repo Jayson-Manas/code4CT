@@ -19,13 +19,13 @@ html, body{
             line-height: 0.65;
             letter-spacing: normal;
             text-align: center;
-            color: #0f0505;
+            color: $black;
         
     }
     button:hover{
         
              i{
-                color: #ee534f;
+                color:$pink;
 
              }
 
@@ -35,12 +35,12 @@ html, body{
         
     
     .fa-search{
-        color: #ee534f;
+        color: $pink;
     }
     
     a{
         text-decoration: none;
-        color:#666666;
+        color:$grey;
         padding: 5px;
         
        
@@ -88,7 +88,7 @@ html, body{
             line-height: 0.65;
             letter-spacing: normal;
             text-align: center;
-            color: #ee534f;
+            color: $pink;
         }
     }
 
@@ -148,7 +148,7 @@ html, body{
         line-height: 0.65;
         letter-spacing: normal;
         text-align: center;
-        color: #ee534f;
+        color: $pink;
         padding-right: 15px;
     }
 }
@@ -175,7 +175,7 @@ html, body{
         line-height: 0.65;
         letter-spacing: normal;
         text-align: center;
-        color: #e8e8e8;
+        color: $white;
     }
     a{
         text-decoration: none;

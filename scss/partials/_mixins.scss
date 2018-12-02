@@ -64,14 +64,14 @@
         .red_line{
         height:1.5px;
         width: 30px;
-        background-color: #EE524E;
+        background-color: $pink;
 
 
         }
         .fade{
             height:1.5px;
             width: 138.5px;
-            background-color: grey;
+            background-color: $grey;
             opacity: 0.3;
         }
 }

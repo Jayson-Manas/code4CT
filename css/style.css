@@ -129,15 +129,6 @@ html, body {
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1; }
 
-.container1 {
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  height: 50%;
-  transform: translate(-50%, -50%);
-  color: #e8e8e8; }
-
 .container2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -180,8 +171,8 @@ html, body {
 .container4 {
   padding-left: 92.5px;
   padding-right: 92.5px;
-  margin-bottom: 50px;
-  margin-top: 50px; }
+  margin-bottom: 1em;
+  margin-top: 1em; }
   .container4 .red_line_fade {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -318,8 +309,8 @@ html, body {
     padding-left: 55px; }
 
 .container a :hover {
-  color: #ee534f;
-  background-color: #ee534f; }
+  color: #E38F84;
+  background-color: #E38F84; }
 .container .logo {
   height: 60px;
   width: 200px; }
@@ -333,26 +324,26 @@ html, body {
   margin-top: 18px; }
 
 .dropbtn {
-  background-color: #f9f9f9;
-  color: #666666;
+  background-color: #FFFFFF;
+  color: #545454;
   padding: 16px;
   font-size: 16px;
   font-family: -webkit-body;
   border: none; }
 
 .dropdown-content a {
-  color: black;
+  color: #151515;
   padding: 12px 16px;
   display: block; }
 
 .dropdown-content a:hover {
-  background-color: #ddd; }
+  background-color: #FFFFFF; }
 
 .dropdown:hover .dropdown-content {
   display: block; }
 
 .dropdown:hover .dropbtn {
-  background-color: #f9f9f9; }
+  background-color: #FFFFFF; }
 
 .team_img {
   width: 100%; }
@@ -362,14 +353,15 @@ html, body {
   background-size: cover;
   height: -webkit-fill-available;
   background-repeat: no-repeat;
-  background-color: grey;
+  background-color: #545454;
   background-blend-mode: multiply;
   font-size: 20px; }
 
 .container1 .red_btn {
   background-color: #E38F84;
-  color: #e8e8e8;
+  color: #FFFFFF;
   position: relative;
+  margin: 2px;
   padding: .3em 1em;
   border: 2px solid;
   -webkit-border-radius: 3px;
@@ -414,6 +406,7 @@ html, body {
   background-color: transparent;
   color: #e8e8e8;
   position: relative;
+  margin: 2px;
   padding: .3em 1em;
   border: 2px solid;
   -webkit-border-radius: 3px;
@@ -462,6 +455,7 @@ html, body {
   background-color: transparent;
   color: #151515;
   position: relative;
+  margin: 2px;
   padding: .3em 1em;
   border: 2px solid;
   -webkit-border-radius: 3px;
@@ -558,16 +552,13 @@ html, body {
     margin: 1em; }
 
   .background_image {
-    width: 15.75em;
-    height: 45.625em; }
+    height: auto;
+    padding: 1em; }
 
   .main_container .container {
     display: none; }
   .main_container .container1 {
     text-align: center;
-    position: absolute;
-    top: 13.75em;
-    height: 31.25em;
     transform: inherit;
     color: #e8e8e8; }
   .main_container .vertical_align {
@@ -588,7 +579,8 @@ html, body {
       display: grid;
       grid-template-columns: 1fr; }
       .container2 .img_container .block_display {
-        width: 90%; }
+        width: 90%;
+        height: auto; }
 
   .container3 {
     display: grid;
@@ -599,16 +591,17 @@ html, body {
   .container4 {
     display: grid;
     grid-template-columns: auto;
-    padding-left: 0px; }
+    padding: 0; }
     .container4 p {
       width: 90%; }
-    .container4 .course_img .image_quad {
-      width: 18em; }
+    .container4 .image_quad {
+      width: 90%;
+      height: auto; }
     .container4 .img_wrapper {
       display: grid;
       grid-template-columns: 1fr; }
       .container4 .img_wrapper .image_enlarge {
-        width: 17.85em;
+        width: 90%;
         height: auto; }
       .container4 .img_wrapper .course_img {
         display: grid;
@@ -617,18 +610,13 @@ html, body {
   .container5 {
     display: grid;
     grid-template-columns: 1fr;
-    padding-left: 0px; }
-    .container5 p {
-      width: 20em; }
+    padding: 0; }
     .container5 .team_member {
-      width: 18em;
-      height: 18em; }
+      width: 90%;
+      height: auto; }
     .container5 .team_layout {
       display: grid;
       grid-template-columns: 1fr; }
-      .container5 .team_layout p {
-        width: 17em;
-        height: auto; }
       .container5 .team_layout .member_space {
         margin-left: 1em;
         margin-bottom: 1em; }
@@ -636,19 +624,23 @@ html, body {
       display: grid;
       grid-template-columns: 1fr; }
       .container5 .team_info hr {
-        width: 9em;
+        width: 90%;
         color: #666666;
         margin-left: 0; }
 
   .container6 {
     display: grid;
     grid-template-columns: 1fr;
-    padding-left: 0px;
+    padding-left: 25%;
     height: auto; }
     .container6 .red_line_fade {
       padding-left: 4em; }
     .container6 .project_stats {
-      text-align: center; }
+      /* text-align: center; */
+      /* padding: 10em; */
+      padding-top: 0;
+      padding-bottom: 0;
+      width: 90%; }
 
   .contact_info {
     display: grid;

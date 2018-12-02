@@ -27,13 +27,13 @@
 
 /////////////////text on main image////////////////
 .container1{
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    height: 50%;
-    transform: translate(-50%, -50%);
-    color: #e8e8e8;
+    // text-align: center;
+    // position: absolute;
+    // top: 50%;
+    // left: 50%;
+    // height: 50%;
+    // transform: translate(-50%, -50%);
+    // color: #e8e8e8;
 }
 /////////////////text on main image////////////////
 
@@ -84,8 +84,8 @@
     @include red_line_fade;
     padding-left: 92.5px;
     padding-right: 92.5px;
-    margin-bottom: 50px;
-    margin-top: 50px;
+    margin-bottom: 1em;
+    margin-top: 1em;
 
     .img_wrapper{
         display: grid;

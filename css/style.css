@@ -633,8 +633,6 @@ html, body {
     grid-template-columns: 1fr;
     padding-left: 25%;
     height: auto; }
-    .container6 .red_line_fade {
-      padding-left: 4em; }
     .container6 .project_stats {
       /* text-align: center; */
       /* padding: 10em; */

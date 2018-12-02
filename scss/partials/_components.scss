@@ -217,3 +217,30 @@
    }
 }
 
+/////////////////////scroll btn///////////////////
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 60px;
+    right: 15px;
+    z-index: 1;
+    font-size: 15px;
+    border: 1mm solid #E38F84;
+    outline: none;
+    background-color:transparent;
+    color:#E38F84;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+    font-weight: bold;
+    
+  }
+
+#myBtn:hover {
+    background-color: #E38F84;
+    color: white;
+    font-size: 18px;
+  }
+/////////////////////scroll btn///////////////////
+
+

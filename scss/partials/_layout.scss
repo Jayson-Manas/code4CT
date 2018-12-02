@@ -90,12 +90,12 @@
     .img_wrapper{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        width: min-content;
+        // width: min-content;
         
         .course_img{
             display: grid;
             grid-template-columns: 1fr 1fr;
-            width: min-content;
+            // width: min-content;
         }
 
     }
@@ -135,8 +135,8 @@
     .team_layout{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        height:min-content;
-        width: min-content;
+        // height:min-content;
+        // width: min-content;
         .member_space{
             margin-left: 20px;
             margin-bottom: 20px;

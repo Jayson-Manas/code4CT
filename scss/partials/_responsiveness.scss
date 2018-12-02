@@ -2,9 +2,8 @@
 @media screen and (max-width: 600px){
 
     html, body{
-        // width: 420px;
-        // text-align: center;
-        // margin: 5px;
+      margin: 1em;
+
 
 
     }
@@ -189,6 +188,13 @@
 //////////////////////////mobile end//////////////////////////
 /////////////////////////tablet start///////////////////////////
 @media screen and (min-width:601px) and (max-width:993px){
+    html, body{
+        margin: 1em
+        ;
+        
+  
+  
+      }
     .background_image{
         width: 15.75em;
         height: 45.625em;
@@ -251,7 +257,7 @@
         display: grid;
         grid-template-columns: 1fr;
         padding: 1em;
-        width: 80%; 
+        
         
 
         .info{
@@ -262,7 +268,7 @@
 
     .container4{
         display: grid;
-        grid-template-columns: auto;
+        grid-template-columns: 60em;
         padding-left: 0px;
 
         p{
@@ -270,7 +276,9 @@
         }
         .course_img{
             .image_quad{
-                width: 80%;
+                width: 90%;
+                height: auto;
+                padding: 1em;
             }
         }
 
@@ -279,12 +287,16 @@
 
         .img_wrapper{
             display: grid;
-            grid-template-columns: 1fr;
-            .image_enlarge {
-                width: 17.85em;
-                height: auto;
-                
+            grid-template-columns: 60em;
+            .image_5{
+                .image_enlarge {
+                    width: 90%;
+                    height: auto;
+                    padding: 1em;
+                    
+                }
             }
+          
             .course_img{
                 display: grid;
                 grid-template-columns: 1fr;
@@ -295,13 +307,13 @@
     .container5{
         display: grid;
         grid-template-columns: 1fr;
-        padding-left: 0px;
+        padding-left: 10%;
         p{
             width: 20em;
         }
         .team_member{
-            width: 18em;
-            height: 18em;
+            width: 80%;
+            height: auto;
         }
 
         .team_layout{

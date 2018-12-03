@@ -84,18 +84,18 @@
     @include red_line_fade;
     padding-left: 92.5px;
     padding-right: 92.5px;
-    margin-bottom: 50px;
-    margin-top: 50px;
+    margin-bottom: 1em;
+    margin-top: 1em;
 
     .img_wrapper{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        width: min-content;
+        // width: min-content;
         
         .course_img{
             display: grid;
             grid-template-columns: 1fr 1fr;
-            width: min-content;
+            // width: min-content;
         }
 
     }
@@ -135,8 +135,8 @@
     .team_layout{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        height:min-content;
-        width: min-content;
+        // height:min-content;
+        // width: min-content;
         .member_space{
             margin-left: 20px;
             margin-bottom: 20px;
@@ -236,7 +236,7 @@
 .footer{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background-color: #ee534f;
+    background-color: $pink;
     height: 40px;
     padding-top: 22px;
     

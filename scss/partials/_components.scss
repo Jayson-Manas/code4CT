@@ -3,8 +3,8 @@
 .container{
     a{
         :hover{
-            color: #ee534f;
-            background-color: #ee534f;
+            color:$pink;
+            background-color: $pink;
         }
     }
 
@@ -37,8 +37,8 @@
 
 // ================dropdown button and hover========================
 .dropbtn {
-    background-color: #f9f9f9;
-    color: #666666;
+    background-color: $white;
+    color: $grey;
     padding: 16px;
     font-size: 16px;
     font-family: -webkit-body;
@@ -47,7 +47,7 @@
 
 .dropdown-content{
     a {
-        color: black;
+        color: $black;
         padding: 12px 16px;
         // text-decoration: none;
         display: block;
@@ -55,11 +55,11 @@
 } 
 
 
-.dropdown-content a:hover {background-color: #ddd;}
+.dropdown-content a:hover {background-color: $white;}
 
 .dropdown:hover .dropdown-content {display: block;}
 
-.dropdown:hover .dropbtn {background-color: #f9f9f9;}
+.dropdown:hover .dropbtn {background-color: $white;}
 
 // ================dropdown button and hover========================
 
@@ -76,7 +76,7 @@
    background-size: cover;
    height: -webkit-fill-available;
    background-repeat: no-repeat;
-   background-color: grey;
+   background-color: $grey;
    background-blend-mode: multiply;
    font-size: 20px;
 
@@ -89,8 +89,8 @@
 
     ///////////////////////////////////red button////////////////////////
         .red_btn{
-            background-color:#ee534f;
-            color: #e8e8e8;
+            background-color:$pink;
+            color: $white;
             @include button;
             
         }
@@ -156,7 +156,7 @@
 
         .white_btn {
             background-color: transparent;
-            color: black;
+            color: $black;
             @include button;
             
         }
@@ -216,4 +216,31 @@
 
    }
 }
+
+/////////////////////scroll btn///////////////////
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 60px;
+    right: 15px;
+    z-index: 1;
+    font-size: 15px;
+    border: 1mm solid $pink;
+    outline: none;
+    background-color:transparent;
+    color:$pink;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+    font-weight: bold;
+    
+  }
+
+#myBtn:hover {
+    background-color: $pink;
+    color: white;
+    font-size: 18px;
+  }
+/////////////////////scroll btn///////////////////
+
 

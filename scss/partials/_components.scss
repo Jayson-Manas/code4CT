@@ -204,6 +204,27 @@
     @include red_line_fade;
 
    }
+   .container7{
+       .submit{
+        position: relative;
+        margin: 2px;
+        padding: 0em 0.3em 0em;
+        border: 2px solid $pink;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 1.7em !important;
+        -webkit-transition: all .2s;
+        transition: all .2s;
+        background-color: $pink;
+       }
+   }
+   
 
    ////////////////meet our team//////////////////
    .footer{

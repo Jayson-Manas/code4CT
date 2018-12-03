@@ -142,6 +142,11 @@ html, body {
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1; }
 
+.container1 {
+  text-align: center;
+  top: 10%;
+  color: #e8e8e8; }
+
 .container2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -307,8 +312,19 @@ html, body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   padding-left: 92px; }
-  .contact_info .contact_number {
-    padding-top: 62px; }
+  .contact_info .contact_number i {
+    width: 22px;
+    height: 19px;
+    padding-right: 0.1em;
+    font-family: FontAwesome;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.65;
+    letter-spacing: normal;
+    text-align: center;
+    color: #E38F84; }
 
 .footer {
   display: grid;
@@ -387,7 +403,6 @@ html, body {
   font-weight: 500;
   line-height: 1.7em !important;
   -webkit-transition: all .2s;
-  -moz-transition: all .2s;
   transition: all .2s; }
 .container1 .slide_right span:after {
   content: '\00bb';
@@ -403,7 +418,6 @@ html, body {
   line-height: 1em;
   text-transform: none;
   -webkit-transition: all .2s;
-  -moz-transition: all .2s;
   transition: all .2s;
   left: 30px; }
 .container1 .slide_right:hover span {
@@ -432,7 +446,6 @@ html, body {
   font-weight: 500;
   line-height: 1.7em !important;
   -webkit-transition: all .2s;
-  -moz-transition: all .2s;
   transition: all .2s; }
 .container1 .black_btn span {
   cursor: pointer;
@@ -453,7 +466,6 @@ html, body {
   line-height: 1em;
   text-transform: none;
   -webkit-transition: all .2s;
-  -moz-transition: all .2s;
   transition: all .2s;
   left: 30px; }
 .container1 .black_btn:hover span {
@@ -481,7 +493,6 @@ html, body {
   font-weight: 500;
   line-height: 1.7em !important;
   -webkit-transition: all .2s;
-  -moz-transition: all .2s;
   transition: all .2s; }
 .container2 .white_btn span {
   cursor: pointer;
@@ -502,7 +513,6 @@ html, body {
   line-height: 1em;
   text-transform: none;
   -webkit-transition: all .2s;
-  -moz-transition: all .2s;
   transition: all .2s;
   left: 30px; }
 .container2 .white_btn:hover span {
@@ -533,6 +543,24 @@ html, body {
     width: 138.5px;
     background-color: #545454;
     opacity: 0.3; }
+
+.container7 .submit {
+  position: relative;
+  margin: 2px;
+  padding: 0em 0.3em 0em;
+  border: 2px solid #E38F84;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.7em !important;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+  background-color: #E38F84; }
 
 .footer .copyright {
   text-align: left; }

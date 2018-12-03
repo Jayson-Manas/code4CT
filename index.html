@@ -18,10 +18,15 @@
         </style>
 </head>
 <body>
+    
     <div class="main_container">
+            
         <nav class="container">
             <div class="logo_flex"><img class="logo" src="images/code4ct-logo-1.jpg" alt=""> </div>
-            <div class="nav_align">
+            
+            <div class="nav_align sidenav"id="mySidenav">
+                    <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> -->
+
                     <a href="">HOME</a>
                     <div class="dropdown">
                         <button class="dropbtn">COURSES<i class="fas fa-caret-down"></i></button>
@@ -42,6 +47,8 @@
                       </div>
                     <a href="">CONTACT</a>
                     <a href="">PORTFOLIO</a>
+                  <span style="font-size:30px;cursor:pointer;display: none;" onclick="openNav()">&#9776; menu</span>
+
             </div>
             
             <div class="vertical_align"><input type="text" placeholder="search...."><button class="search_btn"><i class="fa fa-search"></i></button></div>

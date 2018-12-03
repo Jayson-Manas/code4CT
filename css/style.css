@@ -568,13 +568,13 @@
     padding-left: 0px; }
     .container4 p {
       width: 90%; }
-    .container4 .course_img .image_quad {
-      width: 18em; }
+    .container4 .image_quad {
+      width: 90%;
+      height: auto; }
     .container4 .img_wrapper {
       display: grid;
       grid-template-columns: 1fr; }
       .container4 .img_wrapper .image_enlarge {
-        width: 17.85em;
         height: auto; }
       .container4 .img_wrapper .course_img {
         display: grid;

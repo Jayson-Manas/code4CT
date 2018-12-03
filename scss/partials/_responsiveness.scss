@@ -82,10 +82,11 @@
         p{
             width: 90%;
         }
-        .course_img{
+        // .course_img{
             .image_quad{
-                width: 18em;
-            }
+                width: 90%;
+                height: auto;
+            // }
         }
 
         
@@ -95,7 +96,7 @@
             display: grid;
             grid-template-columns: 1fr;
             .image_enlarge {
-                width: 17.85em;
+                // width: 90%;
                 height: auto;
                 
             }

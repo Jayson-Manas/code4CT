@@ -238,8 +238,12 @@
 
 #myBtn:hover {
     background-color: $pink;
-    color: white;
     font-size: 18px;
+    i{
+        color: $white;
+
+    }
+   
   }
 /////////////////////scroll btn///////////////////
 

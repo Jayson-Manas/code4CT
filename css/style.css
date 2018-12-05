@@ -589,6 +589,9 @@ html, body {
   #myBtn:hover i {
     color: #FFFFFF; }
 
+.contact_container {
+  background-image: url(../images/contact_image1.png); }
+
 @media screen and (max-width: 600px) {
   html, body {
     margin: 1em; }

@@ -10,7 +10,7 @@ var girls=document.getElementById("girls");
 var projects=document.getElementById("projects");
 var hoursCoding=document.getElementById("hoursCoding");
 
-var timer=setInterval(function(){
+var timer=setInterval(function() {
 cupsOfCoffee.innerHTML=timeLeftForCoffee;
 girls.innerHTML=timeLeftForGirls;
 projects.innerHTML=timeLeftForProjects;

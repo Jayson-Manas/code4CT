@@ -12,26 +12,41 @@ let cart = [
 ];
 
 //adding total cost in cart
+var cartTotal =0;
 
-function getTotal(num, total){
-    let totalAmount = document.getElementById('cartTotalAmount')
-    let num =0
+
+function getTotal(cost){
+    var totalAmount = document.getElementById('cartTotalAmount')
+    totalAmount.innerHTML = "";
+
+    cartTotal= cartTotal += cost;
+    totalAmount.append(cartTotal);
+
     
 
     // totalAmount.append()
+}
+
+function reduceTotal(cost){
+    var totalAmount = document.getElementById('cartTotalAmount')
+    totalAmount.innerHTML = "";
+
+    cartTotal= cartTotal -= cost;
+    totalAmount.append(cartTotal);
 }
 
 var counter=0;
 function myFun(){
 let courseId1= document.getElementById('course1')
 addCart(course1.name,' '+'R'+ course1.price, courseId1, 0);
-getTotal();
+getTotal(course1.price);
 counter++;
 };
 
 function myFun1(){
     let courseId2= document.getElementById('course2')
     addCart(course2.name,' '+'R'+ course2.price, courseId2, 1);
+    getTotal(course2.price)
 counter++;    
     
 };
@@ -39,6 +54,7 @@ counter++;
 function myFun2(){
     let courseId3= document.getElementById('course3')
     addCart(course3.name,' '+'R'+ course3.price, courseId3, 2);
+getTotal(course3.price);
     
 counter++;
 };
@@ -152,16 +168,22 @@ function addCart(name, price, courseId, value) {
 function myFunction(){
     let list = document.getElementById("course1");
     list.removeChild(list.childNodes[0]);
+reduceTotal(course1.price);
+
 }
 
 function myFunction1(){
     let list = document.getElementById("course2");
     list.removeChild(list.childNodes[0]);
+reduceTotal(course2.price);
+
 }
 
 function myFunction2(){
     let list = document.getElementById("course3");
     list.removeChild(list.childNodes[0]);
+reduceTotal(course3.price);
+
 }
 //STILL TO DO
 //remove an item from cart

@@ -13,23 +13,31 @@ let cart = [
 
 //adding total cost in cart
 var cartTotal =0;
-
+var  cartCount =0;
 
 function getTotal(cost){
     var totalAmount = document.getElementById('cartTotalAmount')
+    var totalCount = document.getElementById('cartCount');
     totalAmount.innerHTML = "";
+    totalCount.innerHTML = "";
+    
+    cartCount = cartCount+=1;
+    totalCount.append(cartCount);
 
     cartTotal= cartTotal += cost;
     totalAmount.append(cartTotal);
-
     
-
-    // totalAmount.append()
 }
 
 function reduceTotal(cost){
     var totalAmount = document.getElementById('cartTotalAmount')
+    var totalCount = document.getElementById('cartCount');
+
     totalAmount.innerHTML = "";
+    totalCount.innerHTML = "";
+
+    cartCount = cartCount-=1;
+    totalCount.append(cartCount);
 
     cartTotal= cartTotal -= cost;
     totalAmount.append(cartTotal);
@@ -40,14 +48,14 @@ function myFun(){
 let courseId1= document.getElementById('course1')
 addCart(course1.name,' '+'R'+ course1.price, courseId1, 0);
 getTotal(course1.price);
-counter++;
+
 };
 
 function myFun1(){
     let courseId2= document.getElementById('course2')
     addCart(course2.name,' '+'R'+ course2.price, courseId2, 1);
     getTotal(course2.price)
-counter++;    
+    
     
 };
 
@@ -56,7 +64,7 @@ function myFun2(){
     addCart(course3.name,' '+'R'+ course3.price, courseId3, 2);
 getTotal(course3.price);
     
-counter++;
+
 };
 
 ///////////////////////////course list///////////////////////////////////////

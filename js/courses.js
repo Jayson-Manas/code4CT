@@ -78,7 +78,7 @@ getTotal(course4.price);
 function myFun4(){
     let courseId5= document.getElementById('course5')
     addCart(course5.name,' '+'R'+ course5.price, courseId5, 4);
-getTotal(course3.price);
+getTotal(course5.price);
     
 
 };
@@ -214,7 +214,7 @@ function myFun23(){
     addCart(course24.name,' '+'R'+ course24.price, courseId24, 23);
 getTotal(course24.price);
     
-
+};
 
 ///////////////////////////course list///////////////////////////////////////
 let course1 = { name : "Create with Code Series", price: 1800, };
@@ -342,6 +342,155 @@ function myFunction2(){
 reduceTotal(course3.price);
 
 }
+
+function myFunction3(){
+    let list = document.getElementById("course4");
+    list.removeChild(list.childNodes[0]);
+reduceTotal(course4.price);
+
+}
+
+function myFunction4(){
+    let list = document.getElementById("course5");
+    list.removeChild(list.childNodes[0]);
+reduceTotal(course5.price);
+
+}
+
+function myFunction5(){
+    let list = document.getElementById("course6");
+    list.removeChild(list.childNodes[0]);
+reduceTotal(course6.price);
+
+}
+
+function myFunction6(){
+    let list = document.getElementById("course7");
+    list.removeChild(list.childNodes[0]);
+reduceTotal(course7.price);
+
+}
+
+function myFunction7(){
+    let list = document.getElementById("course8");
+    list.removeChild(list.childNodes[0]);
+reduceTotal(course8.price);
+
+}
+
+function myFunction8(){
+    let list = document.getElementById("course9");
+    list.removeChild(list.childNodes[0]);
+reduceTotal(course9.price);
+
+}
+
+function myFunction9(){
+    let list = document.getElementById("course10");
+    list.removeChild(list.childNodes[0]);
+reduceTotal(course10.price);
+
+}
+
+function myFunction10(){
+    let list = document.getElementById("course11");
+    list.removeChild(list.childNodes[0]);
+reduceTotal(course11.price);
+
+}
+
+function myFunction11(){
+    let list = document.getElementById("course12");
+    list.removeChild(list.childNodes[0]);
+reduceTotal(course12.price);
+
+}
+
+function myFunction12(){
+    let list = document.getElementById("course13");
+    list.removeChild(list.childNodes[0]);
+reduceTotal(course13.price);
+
+}
+
+function myFunction13(){
+    let list = document.getElementById("course14");
+    list.removeChild(list.childNodes[0]);
+reduceTotal(course14.price);
+
+}
+
+function myFunction14(){
+    let list = document.getElementById("course15");
+    list.removeChild(list.childNodes[0]);
+reduceTotal(course15.price);
+
+}
+
+function myFunction15(){
+    let list = document.getElementById("course16");
+    list.removeChild(list.childNodes[0]);
+reduceTotal(course16.price);
+
+}
+
+function myFunction16(){
+    let list = document.getElementById("course17");
+    list.removeChild(list.childNodes[0]);
+reduceTotal(course17.price);
+
+}
+
+function myFunction17(){
+    let list = document.getElementById("course18");
+    list.removeChild(list.childNodes[0]);
+reduceTotal(course18.price);
+
+}
+
+function myFunction18(){
+    let list = document.getElementById("course19");
+    list.removeChild(list.childNodes[0]);
+reduceTotal(course19.price);
+
+}
+
+function myFunction19(){
+    let list = document.getElementById("course20");
+    list.removeChild(list.childNodes[0]);
+reduceTotal(course20.price);
+
+}
+
+function myFunction20(){
+    let list = document.getElementById("course21");
+    list.removeChild(list.childNodes[0]);
+reduceTotal(course21.price);
+
+}
+
+function myFunction21(){
+    let list = document.getElementById("course22");
+    list.removeChild(list.childNodes[0]);
+reduceTotal(course22.price);
+
+}
+
+function myFunction22(){
+    let list = document.getElementById("course23");
+    list.removeChild(list.childNodes[0]);
+reduceTotal(course23.price);
+
+}
+
+function myFunction23(){
+    let list = document.getElementById("course24");
+    list.removeChild(list.childNodes[0]);
+reduceTotal(course24.price);
+
+}
+
+
 //STILL TO DO
 //remove an item from cart
 //write a function that calculates the total of the cart

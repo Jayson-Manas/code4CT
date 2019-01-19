@@ -7,6 +7,63 @@
     <title>Courses|CODE4CT</title>
     <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+            body {
+              font-family: "Lato", sans-serif;
+            }
+
+            .courseItem{
+                margin: 10px;
+            }
+            .courseItem1{
+                margin: 20px;
+            }
+            
+            .wrapper {
+              height: 100%;
+              width: 0;
+              position: fixed;
+              z-index: 1;
+              top: 5em;
+              right: 0;
+              background-color: #111;
+              overflow-x: hidden;
+              transition: 0.5s;
+              padding-top: 60px;
+              color: #f1f1f1
+            }
+            
+            .wrapper a {
+              padding: 8px 8px 8px 32px;
+              text-decoration: none;
+              font-size: 25px;
+              color: #f1f1f1;
+              display: block;
+              transition: 0.3s;
+            }
+            
+            .wrapper a:hover {
+              color: #f1f1f1;
+            }
+            
+            .wrapper .closebtn {
+              position: absolute;
+              top: 0;
+              right: 25px;
+              font-size: 36px;
+              margin-left: 50px;
+            }
+            
+            #courseContent {
+              transition: margin-left .5s;
+              padding: 16px;
+            }
+            
+            @media screen and (max-height: 450px) {
+              .wrapper {padding-top: 15px;}
+              .wrapper a {font-size: 18px;}
+            }
+            </style>
 </head>
 <body>
     <nav class="container">
@@ -47,6 +104,8 @@ l
 
     </div>
 
+
+<div id="courseContent">
     <section>
         <h2>Recommended streams</h2>
     <div>
@@ -481,7 +540,7 @@ l
 
     </section>
 
-    
+</div>
     
     
 
@@ -510,41 +569,43 @@ l
     <button onclick="myFunction22()">remove23</button>
     <button onclick="myFunction23()">remove24</button>
 
-    <div>
-
+    <div id="cartWrapper" class="wrapper">
+            <h3 class="courseItem1">CART</h3>
+            <a href="javascript:void(0)" class="closebtn" onclick="closeCart()">&times;</a>
+            <div id="cart">
+                    <div id="course1" class="courseItem"></div>
+                    <div id="course2" class="courseItem"></div>
+                    <div id="course3" class="courseItem"></div>
+                    <div id="course4" class="courseItem"></div>
+                    <div id="course5" class="courseItem"></div>
+                    <div id="course6" class="courseItem"></div>
+                    <div id="course7" class="courseItem"></div>
+                    <div id="course8" class="courseItem"></div>
+                    <div id="course9" class="courseItem"></div>
+                    <div id="course10" class="courseItem"></div>
+                    <div id="course11" class="courseItem"></div>
+                    <div id="course12" class="courseItem"></div>
+                    <div id="course13" class="courseItem"></div>
+                    <div id="course14" class="courseItem"></div>
+                    <div id="course15" class="courseItem"></div>
+                    <div id="course16" class="courseItem"></div>
+                    <div id="course17" class="courseItem"></div>
+                    <div id="course18" class="courseItem"></div>
+                    <div id="course19"class="courseItem"></div>
+                    <div id="course20" class="courseItem"></div>
+                    <div id="course21" class="courseItem"></div>
+                    <div id="course22" class="courseItem"></div>
+                    <div id="course23" class="courseItem"></div>
+                    <div id="course24" class="courseItem"></div>
+                    <h3 class="courseItem1">total cost:</h3>
+                    <div id="cartTotalAmount" class="courseItem"></div>
+                    <h3 class="courseItem1">total items:</h3>
+            
+                    <div id="cartCount" class="courseItem">
+                    </div>
+                </div>
     </div>
-    <h3>CART</h3><div id="cart">
-        <div id="course1"></div>
-        <div id="course2"></div>
-        <div id="course3"></div>
-        <div id="course4"></div>
-        <div id="course5"></div>
-        <div id="course6"></div>
-        <div id="course7"></div>
-        <div id="course8"></div>
-        <div id="course9"></div>
-        <div id="course10"></div>
-        <div id="course11"></div>
-        <div id="course12"></div>
-        <div id="course13"></div>
-        <div id="course14"></div>
-        <div id="course15"></div>
-        <div id="course16"></div>
-        <div id="course17"></div>
-        <div id="course18"></div>
-        <div id="course19"></div>
-        <div id="course20"></div>
-        <div id="course21"></div>
-        <div id="course22"></div>
-        <div id="course23"></div>
-        <div id="course24"></div>
-        <h3>total cost:</h3>
-        <div id="cartTotalAmount"></div>
-        <h3>total items:</h3>
-
-        <div id="cartCount">
-        </div>
-    </div>
+    
 
 
     <div class="Company">

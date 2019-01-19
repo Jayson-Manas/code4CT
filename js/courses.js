@@ -48,6 +48,7 @@ function myFun(){
 let courseId1= document.getElementById('course1')
 addCart(course1.name,' '+'R'+ course1.price, courseId1);
 getTotal(course1.price);
+openCart();
 
 };
 
@@ -55,6 +56,7 @@ function myFun1(){
     let courseId2= document.getElementById('course2')
     addCart(course2.name,' '+'R'+ course2.price, courseId2);
     getTotal(course2.price)
+openCart();
     
     
 };
@@ -63,6 +65,7 @@ function myFun2(){
     let courseId3= document.getElementById('course3')
     addCart(course3.name,' '+'R'+ course3.price, courseId3);
 getTotal(course3.price);
+openCart();
     
 
 };
@@ -71,6 +74,7 @@ function myFun3(){
     let courseId4= document.getElementById('course4')
     addCart(course4.name,' '+'R'+ course4.price, courseId4);
 getTotal(course4.price);
+openCart();
     
 
 };
@@ -79,6 +83,7 @@ function myFun4(){
     let courseId5= document.getElementById('course5')
     addCart(course5.name,' '+'R'+ course5.price, courseId5);
 getTotal(course5.price);
+openCart();
     
 
 };
@@ -87,6 +92,7 @@ function myFun5(){
     let courseId6= document.getElementById('course6')
     addCart(course6.name,' '+'R'+ course6.price, courseId6);
 getTotal(course6.price);
+openCart();
     
 
 };
@@ -94,6 +100,7 @@ function myFun6(){
     let courseId7= document.getElementById('course7')
     addCart(course7.name,' '+'R'+ course7.price, courseId7);
 getTotal(course7.price);
+openCart();
     
 
 };
@@ -101,6 +108,7 @@ function myFun7(){
     let courseId8= document.getElementById('course8')
     addCart(course8.name,' '+'R'+ course8.price, courseId8);
 getTotal(course8.price);
+openCart();
     
 
 };
@@ -108,6 +116,7 @@ function myFun8(){
     let courseId9= document.getElementById('course9')
     addCart(course9.name,' '+'R'+ course9.price, courseId9);
 getTotal(course9.price);
+openCart();
     
 
 };
@@ -115,6 +124,7 @@ function myFun9(){
     let courseId10= document.getElementById('course10')
     addCart(course10.name,' '+'R'+ course10.price, courseId10);
 getTotal(course10.price);
+openCart();
     
 
 };
@@ -122,6 +132,7 @@ function myFun10(){
     let courseId11= document.getElementById('course11')
     addCart(course11.name,' '+'R'+ course11.price, courseId1);
 getTotal(course11.price);
+openCart();
     
 
 };
@@ -129,6 +140,7 @@ function myFun11(){
     let courseId12= document.getElementById('course12')
     addCart(course12.name,' '+'R'+ course12.price, courseId12);
 getTotal(course12.price);
+openCart();
     
 
 };
@@ -136,6 +148,7 @@ function myFun12(){
     let courseId13= document.getElementById('course13')
     addCart(course13.name,' '+'R'+ course13.price, courseId13);
 getTotal(course13.price);
+openCart();
     
 
 };
@@ -143,6 +156,7 @@ function myFun13(){
     let courseId14= document.getElementById('course14')
     addCart(course14.name,' '+'R'+ course14.price, courseId14);
 getTotal(course14.price);
+openCart();
     
 
 };
@@ -150,6 +164,7 @@ function myFun14(){
     let courseId15= document.getElementById('course15')
     addCart(course15.name,' '+'R'+ course15.price, courseId15);
 getTotal(course15.price);
+openCart();
     
 
 };
@@ -157,6 +172,7 @@ function myFun15(){
     let courseId16= document.getElementById('course16')
     addCart(course16.name,' '+'R'+ course16.price, courseId16);
 getTotal(course16.price);
+openCart();
     
 
 };
@@ -164,6 +180,7 @@ function myFun16(){
     let courseId17= document.getElementById('course17')
     addCart(course17.name,' '+'R'+ course17.price, courseId17);
 getTotal(course17.price);
+openCart();
     
 
 };
@@ -171,6 +188,7 @@ function myFun17(){
     let courseId18= document.getElementById('course18')
     addCart(course18.name,' '+'R'+ course18.price, courseId18);
 getTotal(course18.price);
+openCart();
     
 
 };
@@ -178,6 +196,7 @@ function myFun18(){
     let courseId19= document.getElementById('course19')
     addCart(course19.name,' '+'R'+ course19.price, courseId19);
 getTotal(course19.price);
+openCart();
     
 
 };
@@ -185,6 +204,7 @@ function myFun19(){
     let courseId20= document.getElementById('course20')
     addCart(course20.name,' '+'R'+ course20.price, courseId20);
 getTotal(course20.price);
+openCart();
     
 
 };
@@ -192,6 +212,7 @@ function myFun20(){
     let courseId21= document.getElementById('course21')
     addCart(course21.name,' '+'R'+ course21.price, courseId21);
 getTotal(course21.price);
+openCart();
     
 
 };
@@ -199,6 +220,7 @@ function myFun21(){
     let courseId22= document.getElementById('course22')
     addCart(course22.name,' '+'R'+ course22.price, courseId22);
 getTotal(course22.price);
+openCart();
     
 
 };
@@ -206,6 +228,7 @@ function myFun22(){
     let courseId23= document.getElementById('course23')
     addCart(course23.name,' '+'R'+ course23.price, courseId23);
 getTotal(course23.price);
+openCart();
     
 
 };
@@ -213,6 +236,7 @@ function myFun23(){
     let courseId24= document.getElementById('course24')
     addCart(course24.name,' '+'R'+ course24.price, courseId24);
 getTotal(course24.price);
+openCart();
     
 };
 
@@ -489,6 +513,18 @@ function myFunction23(){
     let list = document.getElementById("course24");
     list.removeChild(list.childNodes[0]);
 reduceTotal(course24.price);
+
+}
+
+////////////////////////push canvas for cart from right to left///////////////
+function openCart(){
+    document.getElementById('cartWrapper').style.width = '250px';
+    document.getElementById('courseContent').style.marginRight = '250px';
+
+}
+function closeCart(){
+    document.getElementById('cartWrapper').style.width = '0';
+    document.getElementById('courseContent').style.marginRight = '0';
 
 }
 

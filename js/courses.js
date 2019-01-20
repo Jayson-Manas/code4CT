@@ -50,6 +50,9 @@ addCart(course1.name,' '+'R'+ course1.price, courseId1);
 getTotal(course1.price);
 openCart();
 
+let rm = document.getElementById("removeItem1");
+rm.style.display= "inline"
+
 };
 
 function myFun1(){
@@ -57,7 +60,8 @@ function myFun1(){
     addCart(course2.name,' '+'R'+ course2.price, courseId2);
     getTotal(course2.price)
 openCart();
-    
+let rm = document.getElementById("removeItem2");
+rm.style.display= "inline"
     
 };
 
@@ -66,7 +70,8 @@ function myFun2(){
     addCart(course3.name,' '+'R'+ course3.price, courseId3);
 getTotal(course3.price);
 openCart();
-    
+let rm = document.getElementById("removeItem3");
+rm.style.display= "inline"
 
 };
 
@@ -75,7 +80,8 @@ function myFun3(){
     addCart(course4.name,' '+'R'+ course4.price, courseId4);
 getTotal(course4.price);
 openCart();
-    
+let rm = document.getElementById("removeItem4");
+rm.style.display= "inline"
 
 };
 
@@ -84,7 +90,8 @@ function myFun4(){
     addCart(course5.name,' '+'R'+ course5.price, courseId5);
 getTotal(course5.price);
 openCart();
-    
+let rm = document.getElementById("removeItem5");
+rm.style.display= "inline"
 
 };
 
@@ -93,7 +100,8 @@ function myFun5(){
     addCart(course6.name,' '+'R'+ course6.price, courseId6);
 getTotal(course6.price);
 openCart();
-    
+let rm = document.getElementById("removeItem6");
+rm.style.display= "inline"
 
 };
 function myFun6(){
@@ -101,7 +109,8 @@ function myFun6(){
     addCart(course7.name,' '+'R'+ course7.price, courseId7);
 getTotal(course7.price);
 openCart();
-    
+let rm = document.getElementById("removeItem7");
+rm.style.display= "inline"
 
 };
 function myFun7(){
@@ -109,7 +118,8 @@ function myFun7(){
     addCart(course8.name,' '+'R'+ course8.price, courseId8);
 getTotal(course8.price);
 openCart();
-    
+let rm = document.getElementById("removeItem8");
+rm.style.display= "inline"
 
 };
 function myFun8(){
@@ -117,7 +127,8 @@ function myFun8(){
     addCart(course9.name,' '+'R'+ course9.price, courseId9);
 getTotal(course9.price);
 openCart();
-    
+let rm = document.getElementById("removeItem9");
+rm.style.display= "inline"
 
 };
 function myFun9(){
@@ -125,14 +136,17 @@ function myFun9(){
     addCart(course10.name,' '+'R'+ course10.price, courseId10);
 getTotal(course10.price);
 openCart();
-    
+let rm = document.getElementById("removeItem10");
+rm.style.display= "inline"
 
 };
 function myFun10(){
     let courseId11= document.getElementById('course11')
-    addCart(course11.name,' '+'R'+ course11.price, courseId1);
+    addCart(course11.name,' '+'R'+ course11.price, courseId11);
 getTotal(course11.price);
 openCart();
+let rm = document.getElementById("removeItem11");
+rm.style.display= "inline"
     
 
 };
@@ -141,7 +155,8 @@ function myFun11(){
     addCart(course12.name,' '+'R'+ course12.price, courseId12);
 getTotal(course12.price);
 openCart();
-    
+let rm = document.getElementById("removeItem12");
+rm.style.display= "inline"
 
 };
 function myFun12(){
@@ -149,7 +164,8 @@ function myFun12(){
     addCart(course13.name,' '+'R'+ course13.price, courseId13);
 getTotal(course13.price);
 openCart();
-    
+let rm = document.getElementById("removeItem13");
+rm.style.display= "inline"
 
 };
 function myFun13(){
@@ -157,7 +173,8 @@ function myFun13(){
     addCart(course14.name,' '+'R'+ course14.price, courseId14);
 getTotal(course14.price);
 openCart();
-    
+let rm = document.getElementById("removeItem14");
+rm.style.display= "inline"
 
 };
 function myFun14(){
@@ -166,14 +183,16 @@ function myFun14(){
 getTotal(course15.price);
 openCart();
     
-
+let rm = document.getElementById("removeItem15");
+rm.style.display= "inline"
 };
 function myFun15(){
     let courseId16= document.getElementById('course16')
     addCart(course16.name,' '+'R'+ course16.price, courseId16);
 getTotal(course16.price);
 openCart();
-    
+let rm = document.getElementById("removeItem16");
+rm.style.display= "inline"
 
 };
 function myFun16(){
@@ -181,7 +200,8 @@ function myFun16(){
     addCart(course17.name,' '+'R'+ course17.price, courseId17);
 getTotal(course17.price);
 openCart();
-    
+let rm = document.getElementById("removeItem17");
+rm.style.display= "inline"
 
 };
 function myFun17(){
@@ -189,7 +209,8 @@ function myFun17(){
     addCart(course18.name,' '+'R'+ course18.price, courseId18);
 getTotal(course18.price);
 openCart();
-    
+let rm = document.getElementById("removeItem18");
+rm.style.display= "inline"
 
 };
 function myFun18(){
@@ -197,7 +218,8 @@ function myFun18(){
     addCart(course19.name,' '+'R'+ course19.price, courseId19);
 getTotal(course19.price);
 openCart();
-    
+let rm = document.getElementById("removeItem19");
+rm.style.display= "inline"
 
 };
 function myFun19(){
@@ -205,7 +227,8 @@ function myFun19(){
     addCart(course20.name,' '+'R'+ course20.price, courseId20);
 getTotal(course20.price);
 openCart();
-    
+let rm = document.getElementById("removeItem20");
+rm.style.display= "inline"
 
 };
 function myFun20(){
@@ -213,7 +236,8 @@ function myFun20(){
     addCart(course21.name,' '+'R'+ course21.price, courseId21);
 getTotal(course21.price);
 openCart();
-    
+let rm = document.getElementById("removeItem21");
+rm.style.display= "inline"
 
 };
 function myFun21(){
@@ -221,7 +245,8 @@ function myFun21(){
     addCart(course22.name,' '+'R'+ course22.price, courseId22);
 getTotal(course22.price);
 openCart();
-    
+let rm = document.getElementById("removeItem22");
+rm.style.display= "inline"
 
 };
 function myFun22(){
@@ -229,7 +254,8 @@ function myFun22(){
     addCart(course23.name,' '+'R'+ course23.price, courseId23);
 getTotal(course23.price);
 openCart();
-    
+let rm = document.getElementById("removeItem23");
+rm.style.display= "inline"
 
 };
 function myFun23(){
@@ -237,7 +263,8 @@ function myFun23(){
     addCart(course24.name,' '+'R'+ course24.price, courseId24);
 getTotal(course24.price);
 openCart();
-    
+let rm = document.getElementById("removeItem24");
+rm.style.display= "inline"
 };
 
 ///////////////////////////course list///////////////////////////////////////
@@ -329,14 +356,15 @@ function addCart(name, price, courseId) {
    
     // Create a <li> node
         let node = document.createElement("li");
+// var rm = document.getElementById('removeItem1');
+
         // document.getElementsByTagName('li').id = 'newId'
 for(var value in cart){
     // Create a text node               
     var textnode = document.createTextNode(cart[value].name);
     var textnode1 = document.createTextNode(cart[value].price);
+    
 }
-        
-
 
         // Append the text to <li>
         node.append(textnode);
@@ -353,12 +381,17 @@ function myFunction(){
     list.removeChild(list.childNodes[0]);
 reduceTotal(course1.price);
 
+let rm = document.getElementById("removeItem1");
+rm.style.display= "none"
+
 };
 
 function myFunction1(){
     let list = document.getElementById("course2");
     list.removeChild(list.childNodes[0]);
 reduceTotal(course2.price);
+let rm = document.getElementById("removeItem2");
+rm.style.display= "none"
 
 };
 
@@ -366,154 +399,176 @@ function myFunction2(){
     let list = document.getElementById("course3");
     list.removeChild(list.childNodes[0]);
 reduceTotal(course3.price);
-
+let rm = document.getElementById("removeItem3");
+rm.style.display= "none"
 };
 
 function myFunction3(){
     let list = document.getElementById("course4");
     list.removeChild(list.childNodes[0]);
 reduceTotal(course4.price);
-
+let rm = document.getElementById("removeItem4");
+rm.style.display= "none"
 };
 
 function myFunction4(){
     let list = document.getElementById("course5");
     list.removeChild(list.childNodes[0]);
 reduceTotal(course5.price);
-
+let rm = document.getElementById("removeItem5");
+rm.style.display= "none"
 };
 
 function myFunction5(){
     let list = document.getElementById("course6");
     list.removeChild(list.childNodes[0]);
 reduceTotal(course6.price);
-
+let rm = document.getElementById("removeItem6");
+rm.style.display= "none"
 };
 
 function myFunction6(){
     let list = document.getElementById("course7");
     list.removeChild(list.childNodes[0]);
 reduceTotal(course7.price);
-
+let rm = document.getElementById("removeItem7");
+rm.style.display= "none"
 };
 
 function myFunction7(){
     let list = document.getElementById("course8");
     list.removeChild(list.childNodes[0]);
 reduceTotal(course8.price);
-
+let rm = document.getElementById("removeItem8");
+rm.style.display= "none"
 };
 
 function myFunction8(){
     let list = document.getElementById("course9");
     list.removeChild(list.childNodes[0]);
 reduceTotal(course9.price);
-
+let rm = document.getElementById("removeItem9");
+rm.style.display= "none"
 }
 
 function myFunction9(){
     let list = document.getElementById("course10");
     list.removeChild(list.childNodes[0]);
 reduceTotal(course10.price);
-
+let rm = document.getElementById("removeItem10");
+rm.style.display= "none"
 }
 
 function myFunction10(){
     let list = document.getElementById("course11");
     list.removeChild(list.childNodes[0]);
 reduceTotal(course11.price);
-
+let rm = document.getElementById("removeItem11");
+rm.style.display= "none"
 }
 
 function myFunction11(){
     let list = document.getElementById("course12");
     list.removeChild(list.childNodes[0]);
 reduceTotal(course12.price);
-
+let rm = document.getElementById("removeItem12");
+rm.style.display= "none"
 }
 
 function myFunction12(){
     let list = document.getElementById("course13");
     list.removeChild(list.childNodes[0]);
 reduceTotal(course13.price);
-
+let rm = document.getElementById("removeItem13");
+rm.style.display= "none"
 }
 
 function myFunction13(){
     let list = document.getElementById("course14");
     list.removeChild(list.childNodes[0]);
 reduceTotal(course14.price);
-
+let rm = document.getElementById("removeItem14");
+rm.style.display= "none"
 }
 
 function myFunction14(){
     let list = document.getElementById("course15");
     list.removeChild(list.childNodes[0]);
 reduceTotal(course15.price);
-
+let rm = document.getElementById("removeItem15");
+rm.style.display= "none"
 }
 
 function myFunction15(){
     let list = document.getElementById("course16");
     list.removeChild(list.childNodes[0]);
 reduceTotal(course16.price);
-
+let rm = document.getElementById("removeItem16");
+rm.style.display= "none"
 }
 
 function myFunction16(){
     let list = document.getElementById("course17");
     list.removeChild(list.childNodes[0]);
 reduceTotal(course17.price);
-
+let rm = document.getElementById("removeItem17");
+rm.style.display= "none"
 }
 
 function myFunction17(){
     let list = document.getElementById("course18");
     list.removeChild(list.childNodes[0]);
 reduceTotal(course18.price);
-
+let rm = document.getElementById("removeItem18");
+rm.style.display= "none"
 }
 
 function myFunction18(){
     let list = document.getElementById("course19");
     list.removeChild(list.childNodes[0]);
 reduceTotal(course19.price);
-
+let rm = document.getElementById("removeItem19");
+rm.style.display= "none"
 }
 
 function myFunction19(){
     let list = document.getElementById("course20");
     list.removeChild(list.childNodes[0]);
 reduceTotal(course20.price);
-
+let rm = document.getElementById("removeItem20");
+rm.style.display= "none"
 }
 
 function myFunction20(){
     let list = document.getElementById("course21");
     list.removeChild(list.childNodes[0]);
 reduceTotal(course21.price);
-
+let rm = document.getElementById("removeItem21");
+rm.style.display= "none"
 }
 
 function myFunction21(){
     let list = document.getElementById("course22");
     list.removeChild(list.childNodes[0]);
 reduceTotal(course22.price);
-
+let rm = document.getElementById("removeItem22");
+rm.style.display= "none"
 }
 
 function myFunction22(){
     let list = document.getElementById("course23");
     list.removeChild(list.childNodes[0]);
 reduceTotal(course23.price);
-
+let rm = document.getElementById("removeItem23");
+rm.style.display= "none"
 }
 
 function myFunction23(){
     let list = document.getElementById("course24");
     list.removeChild(list.childNodes[0]);
 reduceTotal(course24.price);
-
+let rm = document.getElementById("removeItem24");
+rm.style.display= "none"
 }
 
 ////////////////////////push canvas for cart from right to left///////////////

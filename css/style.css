@@ -625,15 +625,12 @@ html, body {
     padding: 1em; }
 
   .main_container .container {
-    display: none; }
+    display: grid;
+    grid-template-columns: 1fr; }
   .main_container .container1 {
     text-align: center;
     transform: inherit;
     color: #e8e8e8; }
-  .main_container .vertical_align {
-    display: none; }
-  .main_container .logo {
-    display: none; }
 
   .container2 {
     display: grid;
@@ -772,7 +769,8 @@ html, body {
     height: 45.625em; }
 
   .main_container .container {
-    display: none; }
+    display: grid;
+    grid-template-columns: 1fr; }
   .main_container .container1 {
     text-align: center;
     position: absolute;

@@ -418,7 +418,7 @@ html, body {
   -webkit-transition: all .2s;
   transition: all .2s; }
 .container1 .slide_right span:after {
-  content: '\00bb';
+  content: ' \203A';
   right: -100px;
   position: absolute;
   margin-left: -1em;
@@ -434,7 +434,7 @@ html, body {
   transition: all .2s;
   left: 30px; }
 .container1 .slide_right:hover span {
-  padding-right: 25px; }
+  padding-right: 15px; }
 .container1 .slide_right:hover span:after {
   opacity: 1; }
 .container1 .slide_right span {
@@ -466,7 +466,7 @@ html, body {
   position: relative;
   transition: 0.5s; }
 .container1 .black_btn span:after {
-  content: '\00bb';
+  content: ' \203A';
   right: -100px;
   position: absolute;
   margin-left: -1em;
@@ -482,7 +482,7 @@ html, body {
   transition: all .2s;
   left: 30px; }
 .container1 .black_btn:hover span {
-  padding-right: 25px; }
+  padding-right: 15px; }
 .container1 .black_btn:hover span:after {
   opacity: 1; }
 
@@ -513,7 +513,7 @@ html, body {
   position: relative;
   transition: 0.5s; }
 .container2 .white_btn span:after {
-  content: '\00bb';
+  content: ' \203A';
   right: -100px;
   position: absolute;
   margin-left: -1em;
@@ -529,7 +529,7 @@ html, body {
   transition: all .2s;
   left: 30px; }
 .container2 .white_btn:hover span {
-  padding-right: 25px; }
+  padding-right: 15px; }
 .container2 .white_btn:hover span:after {
   opacity: 1; }
 

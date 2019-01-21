@@ -27,7 +27,7 @@
 }
 @mixin slide_right_span_after {
 
-    content: '\00bb';
+    content: ' \203A';
     right: -100px;
     position: absolute;
     margin-left: -1em;
@@ -46,7 +46,7 @@
 }
 @mixin slide_right_hover_span {
     
-    padding-right: 25px;
+    padding-right: 15px;
    
 }
 @mixin slide_right_hover_span_after {

@@ -14,27 +14,33 @@
         .row {
           margin-left: auto;
           margin-right: auto;
-          max-width: 80em;
+          max-width: -webkit-fill-available;
           padding: 1em;
         }
         
         section {
              text-align: center; 
              background-color: black;
+             display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
         }
         
         h1, h2, h3, h4, h5, h6 {
           font-family: 'Oswald', sans-serif;
           font-weight: 400;
-          /* text-align: center; */
+          text-align: center;
+          color: #ffffff;
+          margin-top: 0;
+
         }
         
-        /* p {
-          margin-left: auto;
-          margin-right: auto;
+       section p {
+          margin-left: 0.5em;
+          margin-right: 0.5em;
           max-width: 36em;
           text-align: center;
-        } */
+          color: #ffffff;
+        }
         
         /* .arrow {
           border: 2em solid transparent;
@@ -59,7 +65,7 @@
         svg.radial-progress {
           height: auto;
           max-width: 200px;
-          padding: 1em;
+          padding: 0;
           transform: rotate(-90deg);
           width: 100%;
         }
@@ -68,36 +74,36 @@
           fill: rgba(0,0,0,0);
           stroke: #fff;
           stroke-dashoffset: 219.91148575129; /* Circumference */
-          stroke-width: 10;
+          stroke-width: 3;
         }
         
         svg.radial-progress circle.incomplete { opacity: 0.25; }
         
-        svg.radial-progress circle.complete { stroke-dasharray: 219.91148575129; /* Circumference */ }
+        svg.radial-progress circle.complete { stroke-dasharray: 78.91148575129; /* Circumference */ }
         
         svg.radial-progress text {
           fill: #fff;
           /* color: #ffffff; */
-          font: 400 1em/1 'Oswald', sans-serif;
+          font: 400 0.5em/1 'Oswald', sans-serif;
           text-anchor: middle;
         }
         
         /*** COLORS ***/
         /* Primary */
         
-        svg.radial-progress:nth-of-type(6n+1) circle { stroke: #ee534f; }
+        svg.radial-progress:nth-of-type(6n+1) circle { stroke: #E38F84; }
         
         /* Secondary */
         
-        svg.radial-progress:nth-of-type(6n+2) circle { stroke: #ee534f; }
+        svg.radial-progress:nth-of-type(6n+2) circle { stroke: #E38F84; }
         
         /* Tertiary */
         
-        svg.radial-progress:nth-of-type(6n+3) circle { stroke: #ee534f; }
+        svg.radial-progress:nth-of-type(6n+3) circle { stroke: #E38F84; }
         
         /* Quaternary */
         
-        svg.radial-progress:nth-of-type(6n+4) circle { stroke: #ee534f; }
+        svg.radial-progress:nth-of-type(6n+4) circle { stroke: #E38F84; }
         
         
         </style>
@@ -126,7 +132,7 @@ l
                     </div>
                   </div>
                 <a href="contact.html">CONTACT</a>
-                <a href="">PORTFOLIO</a>
+                <a href="portfolio.html">PORTFOLIO</a>
          
         </div>
         
@@ -162,25 +168,56 @@ l
  <div>
     <main class="length">
  
-        <div class="arrow down"></div>
-        <section class="row"> <svg class="radial-progress" data-percentage="85" viewBox="0 0 80 80">
-          <circle class="incomplete" cx="40" cy="40" r="35"></circle>
-          <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
-          <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">85%</text>
-          </svg> <svg class="radial-progress" data-percentage="90" viewBox="0 0 80 80">
-          <circle class="incomplete" cx="40" cy="40" r="35"></circle>
-          <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 147.3406954533613;"></circle>
-          <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">90%</text>
-          </svg> <svg class="radial-progress" data-percentage="80" viewBox="0 0 80 80">
-          <circle class="incomplete" cx="40" cy="40" r="35"></circle>
-          <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 63.774330867872806;"></circle>
-          <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">80%</text>
-          </svg> <svg class="radial-progress" data-percentage="97" viewBox="0 0 80 80">
-          <circle class="incomplete" cx="40" cy="40" r="35"></circle>
-          <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 167.13272917097697;"></circle>
-          <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">97%</text>
-          </svg>  </section>
-          <div class="arrow up"></div>
+        
+        <section class="row"> 
+            <div>
+                    <svg class="radial-progress" data-percentage="85" viewBox="0 0 80 80">
+                            <circle class="incomplete" cx="40" cy="40" r="13"></circle>
+                            <circle class="complete" cx="40" cy="40" r="13" style="stroke-dashoffset: 39.58406743523136;"></circle>
+                            <text class="percentage" x="50%" y="53%" transform="matrix(0, 1, -1, 0, 80, 0)">85%</text>
+                            </svg>
+                            
+                            <h4>Further Studies</h4>
+                  
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis est fugiat voluptatibus nisi, quaerat saepe corrupti nostrum. Tenetur, quo enim minima quod, ratione laborum veritatis, modi tempora dolorem sequi eos.</p>
+            </div>
+           
+          <div>
+                <svg class="radial-progress" data-percentage="90" viewBox="0 0 80 80">
+                        <circle class="incomplete" cx="40" cy="40" r="13"></circle>
+                        <circle class="complete" cx="40" cy="40" r="13" style="stroke-dashoffset: 147.3406954533613;"></circle>
+                        <text class="percentage" x="50%" y="53%" transform="matrix(0, 1, -1, 0, 80, 0)">90%</text>
+                        </svg>
+                        <h4>Stem Related</h4>
+              
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis est fugiat voluptatibus nisi, quaerat saepe corrupti nostrum. Tenetur, quo enim minima quod, ratione laborum veritatis, modi tempora dolorem sequi eos.</p>
+          </div>
+          
+          <div>
+                <svg class="radial-progress" data-percentage="80" viewBox="0 0 80 80">
+                        <circle class="incomplete" cx="40" cy="40" r="13"></circle>
+                        <circle class="complete" cx="40" cy="40" r="13" style="stroke-dashoffset: 63.774330867872806;"></circle>
+                        <text class="percentage" x="50%" y="53%" transform="matrix(0, 1, -1, 0, 80, 0)">80%</text>
+                        </svg>
+                        <h4>At University</h4>
+              
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis est fugiat voluptatibus nisi, quaerat saepe corrupti nostrum. Tenetur, quo enim minima quod, ratione laborum veritatis, modi tempora dolorem sequi eos.</p>
+          </div>
+          
+          <div>
+                <svg class="radial-progress" data-percentage="97" viewBox="0 0 80 80">
+                        <circle class="incomplete" cx="40" cy="40" r="13"></circle>
+                        <circle class="complete" cx="40" cy="40" r="13" style="stroke-dashoffset: 167.13272917097697;"></circle>
+                        <text class="percentage" x="50%" y="53%" transform="matrix(0, 1, -1, 0, 80, 0)">97%</text>
+                        </svg>
+                        <h4>IT Dev Skills</h4>
+              
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis est fugiat voluptatibus nisi, quaerat saepe corrupti nostrum. Tenetur, quo enim minima quod, ratione laborum veritatis, modi tempora dolorem sequi eos.</p>
+          </div>
+          
+         
+          </section>
+          
       </main>
  </div>
 

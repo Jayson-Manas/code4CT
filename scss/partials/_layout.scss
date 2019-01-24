@@ -135,16 +135,27 @@
     .member{
         text-align: right;
 
+        :hover{
+            opacity: 0.8;
+        }
+
     }
     .team_member{
         width: 16em;
         height: 14em;
+
+
     }
     .team_layout{
         display: grid;
         grid-template-columns: 1fr 1fr;
         // height:min-content;
         // width: min-content;
+        a{
+            :hover{
+                color: $pink;
+            }
+        }
         .member_space{
             margin-left: 20px;
             margin-bottom: 20px;

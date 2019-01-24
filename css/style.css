@@ -252,12 +252,16 @@ html, body {
       height: auto; }
   .container5 .member {
     text-align: right; }
+    .container5 .member :hover {
+      opacity: 0.8; }
   .container5 .team_member {
     width: 16em;
     height: 14em; }
   .container5 .team_layout {
     display: grid;
     grid-template-columns: 1fr 1fr; }
+    .container5 .team_layout a :hover {
+      color: #E38F84; }
     .container5 .team_layout .member_space {
       margin-left: 20px;
       margin-bottom: 20px; }

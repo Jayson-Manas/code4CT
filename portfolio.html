@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,98 +10,107 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js" type="text/javascript"></script>
     <!--script src="js/jquery.lint.js" type="text/javascript" charset="utf-8"></script-->
-    <link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="screen" title="prettyPhoto main stylesheet" charset="utf-8" />
+    <link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="screen" title="prettyPhoto main stylesheet"
+        charset="utf-8" />
     <script src="js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
     <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>  -->
 
-    
+
     <style type="text/css" media="screen">
-    .wrapper {
-    /* padding: 50px 50px; */
-    /* max-width: 1200px; */
-    text-align: center;
-    /* margin-left: auto;
+        .wrapper {
+            /* padding: 50px 50px; */
+            /* max-width: 1200px; */
+            text-align: center;
+            /* margin-left: auto;
     margin-right: auto;
         margin-top: 80px; */
-}
-.right {float: right !important;}
-/* Image zoom on hover + Overlay colour */
-.parent {
-     width: 20%;
-    /* margin: 20px; */
-    height: 150px;
-    /* border: 1px solid blue; */
-    overflow: hidden;
-    position: relative;
-    float: left;
-    display: inline-block;
-    cursor: pointer;
-}
+        }
 
-.child {
-    height: 100%;
-    width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    -webkit-transition: all .5s;
-    -moz-transition: all .5s;
-    -o-transition: all .5s;
-    transition: all .5s;
-}
+        .right {
+            float: right !important;
+        }
 
-/* .bg-one {background-image: url(images/portfolio-page_img1.JPG);} */
+        /* Image zoom on hover + Overlay colour */
+        .parent {
+            width: 20%;
+            /* margin: 20px; */
+            height: 150px;
+            /* border: 1px solid blue; */
+            overflow: hidden;
+            position: relative;
+            float: left;
+            display: inline-block;
+            cursor: pointer;
+        }
+
+        .child {
+            height: 100%;
+            width: 100%;
+            background-size: cover;
+            background-repeat: no-repeat;
+            -webkit-transition: all .5s;
+            -moz-transition: all .5s;
+            -o-transition: all .5s;
+            transition: all .5s;
+        }
+
+        /* .bg-one {background-image: url(images/portfolio-page_img1.JPG);} */
 
 
-.wrapper a {
-    /* display: none; */
-    font-size: 35px;
-    color: #ffffff !important;
-    font-family: sans-serif;
-    text-align: center;
-    margin: auto;
-    position: absolute;
-    top: 0; 
-    left: 0;
-    bottom: 0;
-    right: 0;
-    /* height: 50px; */
-    cursor: pointer;
-    /* text-decoration: none; */
-}
+        .wrapper a {
+            /* display: none; */
+            font-size: 35px;
+            color: #ffffff !important;
+            font-family: sans-serif;
+            text-align: center;
+            margin: auto;
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            /* height: 50px; */
+            cursor: pointer;
+            /* text-decoration: none; */
+        }
 
-.parent:hover .child, .parent:focus .child {
-    -ms-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    -o-transform: scale(1.2);
-    transform: scale(1.2);
-}
+        .parent:hover .child,
+        .parent:focus .child {
+            -ms-transform: scale(1.2);
+            -moz-transform: scale(1.2);
+            -webkit-transform: scale(1.2);
+            -o-transform: scale(1.2);
+            transform: scale(1.2);
+        }
 
-.parent:hover .child:before, .parent:focus .child:before {
-    display: block;
-}
+        .parent:hover .child:before,
+        .parent:focus .child:before {
+            display: block;
+        }
 
-.parent:hover a, .parent:focus a {
-    display: block;
-}
-.carousel{
-    margin-top: 40em;
-}
+        .parent:hover a,
+        .parent:focus a {
+            display: block;
+        }
 
-.child:before {
-    content: "";
-    display: none;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: rgba(52,73,94,0.75);
-}
+        .carousel {
+            margin-top: 40em;
+        }
 
-.third{
-    width: 30%;
-}
+        .child:before {
+            content: "";
+            display: none;
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: rgba(52, 73, 94, 0.75);
+        }
+
+        .third {
+            width: 30%;
+        }
 
         /* * { margin: 0; padding: 0; }
         
@@ -109,7 +119,7 @@
             font: 62.5%/1.2 Arial, Verdana, Sans-Serif;
             padding: 0 20px;
         } */
-        
+
         /* h1 { font-family: Georgia; font-style: italic; margin-bottom: 10px; }
         
         h2 {
@@ -130,7 +140,7 @@
         .fleft { float: left; margin: 0 20px 0 0; }
         
         .cboth { clear: both; } */
-        
+
         /* #main {
             background: #fff;
             margin: 0 auto;
@@ -140,37 +150,38 @@
     </style>
 
 </head>
+
 <body>
     <nav class="container">
         <div class="logo_flex"><img class="logo" src="images/code4ct-logo-1.jpg" alt=""> </div>
-        
-        <div class="nav_align sidenav"id="mySidenav">
-               <a href="index.html">HOME</a>
-                <div class="dropdown">
-                    <button class="dropbtn">COURSES<i class="fas fa-caret-down"></i></button>
-                    <div class="dropdown-content">
-                      <a href="courses.html">Our Courses</a>
-                      <a href="#">Curriculum</a>
-                    </div>
-                  </div>
-                  <div class="dropdown">
-                    <button class="dropbtn">ABOUT<i class="fas fa-caret-down"></i></i></button>
-                    <div class="dropdown-content">
-                      <a href="about.html">About Us</a>
-                      <a href="#">Imapact</a>
-                      <a href="#">WhyICode</a>
-                      <a href="#">Team</a>
 
-                    </div>
-                  </div>
-                <a href="contact.html">CONTACT</a>
-                <a href="#portfolio.html">PORTFOLIO</a>
-         
+        <div class="nav_align sidenav" id="mySidenav">
+            <a href="index.html">HOME</a>
+            <div class="dropdown">
+                <button class="dropbtn">COURSES<i class="fas fa-caret-down"></i></button>
+                <div class="dropdown-content">
+                    <a href="courses.html">Our Courses</a>
+                    <a href="#">Curriculum</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">ABOUT<i class="fas fa-caret-down"></i></i></button>
+                <div class="dropdown-content">
+                    <a href="about.html">About Us</a>
+                    <a href="#">Imapact</a>
+                    <a href="#">WhyICode</a>
+                    <a href="#">Team</a>
+
+                </div>
+            </div>
+            <a href="contact.html">CONTACT</a>
+            <a href="#portfolio.html">PORTFOLIO</a>
+
         </div>
-        
+
         <div class="vertical_align"><input type="text" placeholder="search...."><button class="search_btn"><i class="fa fa-search"></i></button></div>
-        
-    
+
+
     </nav>
     <div class="contact_container">
         <h2>OUR PORTFOLIO</h2>
@@ -185,7 +196,9 @@
         <div class="red_line"></div>
         <div class="fade"></div>
 
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis magni id quos dolore ipsum tenetur dignissimos dolor ea quia, tempora in reprehenderit harum debitis ipsam cum voluptatem architecto perferendis sapiente.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis magni id quos dolore ipsum tenetur
+            dignissimos dolor ea quia, tempora in reprehenderit harum debitis ipsam cum voluptatem architecto
+            perferendis sapiente.</p>
         <!-- <p class="wrapper">
             <div class="parent" onclick="">
                 <div class="child bg-one">
@@ -196,175 +209,189 @@
 
         <div id="main">
 
-               
-	
-                <h2>Gallery</h2>
-                <div class="wrapper parent">
-                    <div class="gallery clearfix child">
-                        <a href="images/portfolio_img1.jpg" rel="prettyPhoto[gallery1]" title=""><img src="images/portfolio_img1.jpg" width="100%" height="auto" alt="" /></a>
-                    </div>
-                </div>
-                </div>
-                      
-                    <div class="wrapper parent">
-                        <div class="gallery clearfix child">
-                            <a href="images/portfolio_img2.jpg" rel="prettyPhoto[gallery1]" title=""><img src="images/portfolio_img2.jpg" width="100%" height="auto" alt="" /></a>
-                        </div>
-                    </div>
-                    </div>
 
-                    <div class="wrapper parent third">
-                        <div class="gallery clearfix child">
-                            <a href="images/portfolio_img3.jpg" rel="prettyPhoto[gallery1]" title=""><img src="images/portfolio_img3.jpg" width="100%" height="auto" alt="" /></a>
-                        </div>
-                    </div>
-                    </div>
-                    <div class="wrapper parent">
-                        <div class="gallery clearfix child">
-                            <a href="images/portfolio_img4.jpg" rel="prettyPhoto[gallery1]" title=""><img src="images/portfolio_img4.jpg" width="100%" height="auto" alt="" /></a>
-                        </div>
-                    </div>
-                    </div>
-                    <div class="wrapper parent">
-                        <div class="gallery clearfix child">
-                            <a href="images/portfolio_img5.jpg" rel="prettyPhoto[gallery1]" title=""><img src="images/portfolio_img5.jpg" width="100%" height="auto" alt="" /></a>
-                        </div>
-                    </div>
-                    </div>
-                    <div class="wrapper parent third">
-                        <div class="gallery clearfix child">
-                            <a href="images/portfolio_img10.jpg" rel="prettyPhoto[gallery1]" title=""><img src="images/portfolio_img10.jpg" width="100%" height="auto" alt="" /></a>
-                        </div>
-                    </div>
-                    </div>
-                    <div class="wrapper parent">
-                        <div class="gallery clearfix child">
-                            <a href="images/portfolio_img11.jpg" rel="prettyPhoto[gallery1]" title=""><img src="images/portfolio_img11.jpg" width="100%" height="auto" alt="" /></a>
-                        </div>
-                    </div>
-                    </div>
-                    <div class="wrapper parent">
-                        <div class="gallery clearfix child">
-                            <a href="images/portfolio_img12.jpg" rel="prettyPhoto[gallery1]" title=""><img src="images/portfolio_img12.jpg" width="100%" height="auto" alt="" /></a>
-                        </div>
-                    </div>
-                    </div>
-                    <div class="wrapper parent third">
-                        <div class="gallery clearfix child">
-                            <a href="images/portfolio_img13.jpg" rel="prettyPhoto[gallery1]" title=""><img src="images/portfolio_img13.jpg" width="100%" height="auto" alt="" /></a>
-                        </div>
-                    </div>
-                    </div>
-                    <div class="wrapper parent">
-                        <div class="gallery clearfix child">
-                            <a href="images/portfolio_img14.jpg" rel="prettyPhoto[gallery1]" title=""><img src="images/portfolio_img14.jpg" width="100%" height="auto" alt="" /></a>
-                        </div>
-                    </div>
-                    </div>
-                    <div class="wrapper parent">
-                        <div class="gallery clearfix child">
-                            <a href="images/portfolio_img15.jpg" rel="prettyPhoto[gallery1]" title=""><img src="images/portfolio_img15.jpg" width="100%" height="auto" alt="" /></a>
-                        </div>
-                    </div>
-                    </div>
-                    <div class="wrapper parent">
-                        <div class="gallery clearfix child">
-                            <a href="images/portfolio_img16.jpg" rel="prettyPhoto[gallery1]" title=""><img src="images/portfolio_img16.jpg" width="100%" height="auto" alt="" /></a>
-                        </div>
-                    </div>
-                    </div>
-                
 
-                   
+            <h2>Gallery</h2>
+            <div class="wrapper parent">
+                <div class="gallery clearfix child">
+                    <a href="images/portfolio_img1.jpg" rel="prettyPhoto[gallery1]" title=""><img src="images/portfolio_img1.jpg"
+                            width="100%" height="auto" alt="" /></a>
                 </div>
-    
-                
-                
-                
-                
-        
-        
-                
-        </div>
-
+            </div>
         
 
-        <div class="carousel">
-            <div class="container_carousel">
-               <div class="sub">
-                  <img src="images/carousel1.png"  alt="">
-                  <img src="images/carousel2.png" alt="">
-                  <img src="images/carousel3.png"  alt="">
-                  <img src="images/carousel4.png"  alt="">
-                  <img src="images/carousel5.png" alt="">
-                  <img src="images/carousel6.png" alt="">
-                  <img src="images/carousel7.png" alt="">
-                  <img src="images/carousel8.png"  alt="">
-                  <img src="images/carousel9.png"  alt="">
-                  <img src="images/carousel10.png" alt="">
-                  <img src="images/carousel11.png" alt="">
-                  <img src="images/carousel12.png" alt="">
-                  <img src="images/carousel13.png" alt="">
-                  <img src="images/carousel14.png" alt="">
-                  <img src="images/carousel15.png"  alt="">
-                  <img src="images/carousel16.png" alt="">
-               </div>
+        <div class="wrapper parent">
+            <div class="gallery clearfix child">
+                <a href="images/portfolio_img2.jpg" rel="prettyPhoto[gallery1]" title=""><img src="images/portfolio_img2.jpg"
+                        width="100%" height="auto" alt="" /></a>
             </div>
         </div>
+    
+
+    <div class="wrapper parent third">
+        <div class="gallery clearfix child">
+            <a href="images/portfolio_img3.jpg" rel="prettyPhoto[gallery1]" title=""><img src="images/portfolio_img3.jpg"
+                    width="100%" height="auto" alt="" /></a>
+        </div>
+    </div>
+    
+    <div class="wrapper parent">
+        <div class="gallery clearfix child">
+            <a href="images/portfolio_img4.jpg" rel="prettyPhoto[gallery1]" title=""><img src="images/portfolio_img4.jpg"
+                    width="100%" height="auto" alt="" /></a>
+        </div>
+    </div>
+    
+    <div class="wrapper parent">
+        <div class="gallery clearfix child">
+            <a href="images/portfolio_img5.jpg" rel="prettyPhoto[gallery1]" title=""><img src="images/portfolio_img5.jpg"
+                    width="100%" height="auto" alt="" /></a>
+        </div>
+    </div>
+    
+    <div class="wrapper parent third">
+        <div class="gallery clearfix child">
+            <a href="images/portfolio_img10.jpg" rel="prettyPhoto[gallery1]" title=""><img src="images/portfolio_img10.jpg"
+                    width="100%" height="auto" alt="" /></a>
+        </div>
+    </div>
+    
+    <div class="wrapper parent">
+        <div class="gallery clearfix child">
+            <a href="images/portfolio_img11.jpg" rel="prettyPhoto[gallery1]" title=""><img src="images/portfolio_img11.jpg"
+                    width="100%" height="auto" alt="" /></a>
+        </div>
+    </div>
+    
+    <div class="wrapper parent">
+        <div class="gallery clearfix child">
+            <a href="images/portfolio_img12.jpg" rel="prettyPhoto[gallery1]" title=""><img src="images/portfolio_img12.jpg"
+                    width="100%" height="auto" alt="" /></a>
+        </div>
+    </div>
+    
+    <div class="wrapper parent third">
+        <div class="gallery clearfix child">
+            <a href="images/portfolio_img13.jpg" rel="prettyPhoto[gallery1]" title=""><img src="images/portfolio_img13.jpg"
+                    width="100%" height="auto" alt="" /></a>
+        </div>
+    </div>
+    
+    <div class="wrapper parent">
+        <div class="gallery clearfix child">
+            <a href="images/portfolio_img14.jpg" rel="prettyPhoto[gallery1]" title=""><img src="images/portfolio_img14.jpg"
+                    width="100%" height="auto" alt="" /></a>
+        </div>
+    </div>
+    
+    <div class="wrapper parent">
+        <div class="gallery clearfix child">
+            <a href="images/portfolio_img15.jpg" rel="prettyPhoto[gallery1]" title=""><img src="images/portfolio_img15.jpg"
+                    width="100%" height="auto" alt="" /></a>
+        </div>
+    </div>
+    
+    <div class="wrapper parent">
+        <div class="gallery clearfix child">
+            <a href="images/portfolio_img16.jpg" rel="prettyPhoto[gallery1]" title=""><img src="images/portfolio_img16.jpg"
+                    width="100%" height="auto" alt="" /></a>
+        </div>
+    </div>
+    
+<button><a href="">1</a></button>
+<button><a href="">2</a></button>
+<button><a href="">3</a></button>
+
+
+    </div>
+
+
+
+
+
+
+
+    
+
+
+
+    <div class="carousel">
+        <div class="container_carousel">
+            <div class="sub">
+                <img src="images/carousel1.png" alt="">
+                <img src="images/carousel2.png" alt="">
+                <img src="images/carousel3.png" alt="">
+                <img src="images/carousel4.png" alt="">
+                <img src="images/carousel5.png" alt="">
+                <img src="images/carousel6.png" alt="">
+                <img src="images/carousel7.png" alt="">
+                <img src="images/carousel8.png" alt="">
+                <img src="images/carousel9.png" alt="">
+                <img src="images/carousel10.png" alt="">
+                <img src="images/carousel11.png" alt="">
+                <img src="images/carousel12.png" alt="">
+                <img src="images/carousel13.png" alt="">
+                <img src="images/carousel14.png" alt="">
+                <img src="images/carousel15.png" alt="">
+                <img src="images/carousel16.png" alt="">
+            </div>
+        </div>
+    </div>
 
     <div class="Company">
-            <h4>Company</h4>
-            <ul>
-                <li><a href="">about us</a></li>
-                <li><a href="">contact us</a></li>
-                <li><a href="">blog</a></li>
-                <li><a href="">testimonials</a></li>
-                <li><a href="">affiliate program</a></li>
-            </ul>
-        </div>
-        <div class="Help & Support">
-            <h4>Help & Support</h4>
-                <ul>
-                    <li><a href="">help centre</a></li>
-                    <li><a href="">Free simple template</a></li>
-                    <li><a href="">Refund policy</a></li>
-                    <li><a href="">Report span</a></li>
-                    
-                </ul>
-            </div>
-            <div class="Courses">
-                <h4>Courses</h4>
-                    <ul>
-                        <li><a href="">Into to Web Pages</a></li>
-                        <li><a href="">Beginner javaScript</a></li>
-                        <li><a href="">Code storm</a></li>
-                        <li><a href="">Fullstack javaScript</a></li>
-        
-                    </ul>
-                </div>
+        <h4>Company</h4>
+        <ul>
+            <li><a href="">about us</a></li>
+            <li><a href="">contact us</a></li>
+            <li><a href="">blog</a></li>
+            <li><a href="">testimonials</a></li>
+            <li><a href="">affiliate program</a></li>
+        </ul>
+    </div>
+    <div class="Help & Support">
+        <h4>Help & Support</h4>
+        <ul>
+            <li><a href="">help centre</a></li>
+            <li><a href="">Free simple template</a></li>
+            <li><a href="">Refund policy</a></li>
+            <li><a href="">Report span</a></li>
+
+        </ul>
+    </div>
+    <div class="Courses">
+        <h4>Courses</h4>
+        <ul>
+            <li><a href="">Into to Web Pages</a></li>
+            <li><a href="">Beginner javaScript</a></li>
+            <li><a href="">Code storm</a></li>
+            <li><a href="">Fullstack javaScript</a></li>
+
+        </ul>
+    </div>
 
     </div>
     <div class="footer">
         <div class="copyright">
-             copyright &copy2017 PRIVACY POLICY
+            copyright &copy2017 PRIVACY POLICY
         </div>
         <div class="follow_us">
-            follow us:  <a href=""><i class="fab fa-facebook"></i></a>
+            follow us: <a href=""><i class="fab fa-facebook"></i></a>
             <a href=""><i class="fab fa-twitter"></i></a>
             <a href=""><i class="fab fa-pinterest"></i></a>
             <a href=""><i class="fas fa-envelope"></i></a>
             <a href=""><i class="fab fa-linkedin"></i></a>
             <a href=""><i class="fab fa-skype"></i></a>
-            </div>
         </div>
+    </div>
 
     </div>
-</div>
+    </div>
 
-<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-angle-up"></i></button>
-<!-- <script src="js/main.js"></script> -->
-<script type="text/javascript" charset="utf-8" src="js/prettyPhoto.js"></script>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-angle-up"></i></button>
+    <!-- <script src="js/main.js"></script> -->
+    <script type="text/javascript" charset="utf-8" src="js/prettyPhoto.js"></script>
 
 
 </body>
+
 </html>

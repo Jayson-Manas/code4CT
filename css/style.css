@@ -26,6 +26,8 @@ html, body {
 
 .container1 p {
   opacity: 0.9; }
+.container1 h1 {
+  margin: 0; }
 
 .container3 h2 {
   font-family: Poppins-semiBold;
@@ -158,12 +160,16 @@ html, body {
 .container1 {
   text-align: center;
   top: 10%;
-  color: #e8e8e8; }
+  color: #e8e8e8;
+  padding-top: 10em;
+  padding-left: 20em;
+  padding-right: 20em; }
 
 .container2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding-top: 1em; }
+  padding-top: 1em;
+  padding-left: 6em; }
   .container2 .red_line_fade {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -358,34 +364,17 @@ html, body {
   width: 200px; }
 .container .logo_flex {
   display: flex;
-  align-items: center; }
+  align-items: center;
+  margin: 0.7em; }
 .container .nav_align {
-  text-align: right; }
+  text-align: right;
+  margin-top: 2em; }
+  .container .nav_align :hover {
+    color: #FFFFFF;
+    background-color: #E38F84; }
 .container .vertical_align {
   text-align: -webkit-center;
-  margin-top: 18px; }
-
-.dropbtn {
-  background-color: #FFFFFF;
-  color: #545454;
-  padding: 16px;
-  font-size: 16px;
-  font-family: -webkit-body;
-  border: none; }
-
-.dropdown-content a {
-  color: #151515;
-  padding: 12px 16px;
-  display: block; }
-
-.dropdown-content a:hover {
-  background-color: #FFFFFF; }
-
-.dropdown:hover .dropdown-content {
-  display: block; }
-
-.dropdown:hover .dropbtn {
-  background-color: #FFFFFF; }
+  margin-top: 2em; }
 
 .team_img {
   width: 100%; }
@@ -487,8 +476,7 @@ html, body {
   opacity: 1; }
 
 .container2 .para_text .bold_text {
-  font-weight: bold;
-  width: 18em; }
+  font-weight: bold; }
 .container2 .white_btn {
   background-color: transparent;
   color: #151515;
@@ -534,12 +522,12 @@ html, body {
   opacity: 1; }
 
 .container4 .image_quad {
-  width: 245px;
-  height: 192px;
+  width: 280px;
+  height: 200px;
   padding: 2.5px; }
 .container4 .image_enlarge {
-  width: 548px;
-  height: 388px;
+  width: 590px;
+  height: 410px;
   padding-left: 5px;
   padding-top: 3px; }
 

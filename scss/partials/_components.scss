@@ -19,6 +19,7 @@
     .logo_flex{
         display: flex;
         align-items: center;
+        margin: 0.7em;
     }
      
     
@@ -26,40 +27,47 @@
    
     .nav_align{
         text-align: right;
+        margin-top: 2em;
+
+        
+            :hover{
+                color:$white;
+                background-color: $pink;
+            }       
        
     }
     .vertical_align{
         text-align: -webkit-center;
-        margin-top: 18px;
+        margin-top: 2em;
    
 }
 }
 
 // ================dropdown button and hover========================
-.dropbtn {
-    background-color: $white;
-    color: $grey;
-    padding: 16px;
-    font-size: 16px;
-    font-family: -webkit-body;
-    border: none;
-}
+// .dropbtn {
+//     background-color: $white;
+//     color: $grey;
+//     padding: 16px;
+//     font-size: 16px;
+//     font-family: -webkit-body;
+//     border: none;
+// }
 
-.dropdown-content{
-    a {
-        color: $black;
-        padding: 12px 16px;
-        // text-decoration: none;
-        display: block;
-    }
-} 
+// .dropdown-content{
+//     a {
+//         color: $black;
+//         padding: 12px 16px;
+//         // text-decoration: none;
+//         display: block;
+//     }
+// } 
 
 
-.dropdown-content a:hover {background-color: $white;}
+// .dropdown-content a:hover {background-color: $white;}
 
-.dropdown:hover .dropdown-content {display: block;}
+// .dropdown:hover .dropdown-content {display: block;}
 
-.dropdown:hover .dropbtn {background-color: $white;}
+// .dropdown:hover .dropbtn {background-color: $white;}
 
 // ================dropdown button and hover========================
 
@@ -150,7 +158,7 @@
         .para_text{
             .bold_text{
                 font-weight:bold ;
-                width: 18em;
+                // width: 18em;
             }
         }
 
@@ -189,13 +197,13 @@
    
    .container4{
     .image_quad{
-        width: 245px;
-        height: 192px;
+        width: 280px;
+        height: 200px;
         padding: 2.5px;
        }
     .image_enlarge{
-        width: 548px;
-        height: 388px;
+        width: 590px;
+        height: 410px;
         padding-left: 5px;
         padding-top: 3px;
     }

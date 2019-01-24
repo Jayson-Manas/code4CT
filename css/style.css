@@ -253,7 +253,8 @@ html, body {
   .container5 .member {
     text-align: right; }
     .container5 .member :hover {
-      opacity: 0.8; }
+      opacity: 0.8;
+      height: 2%; }
   .container5 .team_member {
     width: 16em;
     height: 14em; }

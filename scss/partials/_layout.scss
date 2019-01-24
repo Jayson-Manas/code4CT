@@ -57,9 +57,9 @@
 
 
         .block_display{
-            width: 207px;
-            height: 200px;
-            padding: 10px;
+            width: 270px;
+            height: 213px;
+            padding: 1em;
         }
     }
 }
@@ -132,9 +132,13 @@
             height: auto;
         }
     }
+    .member{
+        text-align: right;
+
+    }
     .team_member{
-        width: 190px;
-        height: 258px;
+        width: 16em;
+        height: 14em;
     }
     .team_layout{
         display: grid;

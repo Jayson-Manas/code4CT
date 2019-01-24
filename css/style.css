@@ -189,9 +189,9 @@ html, body {
     width: fit-content;
     align-content: center; }
     .container2 .img_container .block_display {
-      width: 207px;
-      height: 200px;
-      padding: 10px; }
+      width: 270px;
+      height: 213px;
+      padding: 1em; }
 
 .container3 {
   display: grid;
@@ -250,9 +250,11 @@ html, body {
       text-align: left;
       color: #888888;
       height: auto; }
+  .container5 .member {
+    text-align: right; }
   .container5 .team_member {
-    width: 190px;
-    height: 258px; }
+    width: 16em;
+    height: 14em; }
   .container5 .team_layout {
     display: grid;
     grid-template-columns: 1fr 1fr; }

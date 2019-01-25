@@ -377,6 +377,7 @@ html, body {
   grid-template-rows: 1fr 1fr 1fr; }
   #courseContent section {
     border: 0.3mm solid black;
+    margin: 1em;
     padding: 1em;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr; }

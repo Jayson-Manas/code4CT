@@ -374,10 +374,24 @@ html, body {
 
 #courseContent {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr; }
+  grid-template-rows: 1fr 1fr 1fr; }
   #courseContent section {
     border: 0.3mm solid black;
-    padding: 1em; }
+    padding: 1em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; }
+    #courseContent section .centerSection {
+      text-align: center;
+      padding-top: 3em; }
+    #courseContent section h2 {
+      grid-column: 1/4; }
+    #courseContent section h3 {
+      grid-column: 1/4; }
+    #courseContent section h4 {
+      grid-column: 1/4; }
+    #courseContent section div {
+      border-top: 0.3mm solid black;
+      padding: 1em; }
 
 .container a :hover {
   color: #E38F84;
@@ -430,6 +444,7 @@ html, body {
   -webkit-transition: all .2s;
   transition: all .2s; }
 .container1 .slide_right span:after {
+  content: ' \203A';
   right: -100px;
   position: absolute;
   margin-left: -1em;
@@ -477,6 +492,7 @@ html, body {
   position: relative;
   transition: 0.5s; }
 .container1 .black_btn span:after {
+  content: ' \203A';
   right: -100px;
   position: absolute;
   margin-left: -1em;
@@ -522,6 +538,7 @@ html, body {
   position: relative;
   transition: 0.5s; }
 .container2 .white_btn span:after {
+  content: ' \203A';
   right: -100px;
   position: absolute;
   margin-left: -1em;
@@ -648,6 +665,7 @@ html, body {
   position: relative;
   transition: 0.5s; }
 #courseContent .course_btn span:after {
+  content: ' \203A';
   right: -100px;
   position: absolute;
   margin-left: -1em;

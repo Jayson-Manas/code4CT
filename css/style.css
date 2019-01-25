@@ -372,6 +372,13 @@ html, body {
   .footer .copyright {
     padding-left: 55px; }
 
+#courseContent {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; }
+  #courseContent section {
+    border: 0.3mm solid black;
+    padding: 1em; }
+
 .container a :hover {
   color: #E38F84;
   background-color: #E38F84; }
@@ -423,7 +430,6 @@ html, body {
   -webkit-transition: all .2s;
   transition: all .2s; }
 .container1 .slide_right span:after {
-  content: ' \203A';
   right: -100px;
   position: absolute;
   margin-left: -1em;
@@ -471,7 +477,6 @@ html, body {
   position: relative;
   transition: 0.5s; }
 .container1 .black_btn span:after {
-  content: ' \203A';
   right: -100px;
   position: absolute;
   margin-left: -1em;
@@ -517,7 +522,6 @@ html, body {
   position: relative;
   transition: 0.5s; }
 .container2 .white_btn span:after {
-  content: ' \203A';
   right: -100px;
   position: absolute;
   margin-left: -1em;
@@ -619,6 +623,49 @@ html, body {
     width: 138.5px;
     background-color: #545454;
     opacity: 0.3; }
+
+#courseContent .course_btn {
+  background-color: #E38F84;
+  color: #FFFFFF;
+  position: relative;
+  margin: 2px;
+  padding: .3em 1em;
+  border: 2px solid;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.7em !important;
+  -webkit-transition: all .2s;
+  transition: all .2s; }
+#courseContent .course_btn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s; }
+#courseContent .course_btn span:after {
+  right: -100px;
+  position: absolute;
+  margin-left: -1em;
+  opacity: 0;
+  text-shadow: none;
+  font-size: 32px;
+  font-weight: 400;
+  font-style: normal;
+  font-variant: none;
+  line-height: 1em;
+  text-transform: none;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+  left: 30px; }
+#courseContent .course_btn:hover span {
+  padding-right: 15px; }
+#courseContent .course_btn:hover span:after {
+  opacity: 1; }
 
 @media screen and (max-width: 600px) {
   html, body {

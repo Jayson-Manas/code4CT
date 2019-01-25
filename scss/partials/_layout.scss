@@ -283,3 +283,14 @@
         padding-left: 55px;
     }
 }
+/////////////////////courses page start//////////////////////
+
+#courseContent{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+
+section{
+    border: 0.3mm solid black;
+    padding: 1em;
+}
+}

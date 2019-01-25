@@ -289,3 +289,36 @@
  
 }
 /////////////////////////////////////////////CONTACT PAGE END////////////////////////////////////////////////////////////
+
+////////////////////////////courses page start//////////////////////////
+#courseContent{
+    .course_btn {
+        background-color: $pink;
+        color: $white;
+        @include button;
+        
+    }
+    
+    
+    
+    .course_btn span {
+        @include button_right_slide_span;
+    
+    }
+    
+    .course_btn span:after {
+        @include slide_right_span_after;
+        
+    }
+    
+    .course_btn:hover span {
+        @include slide_right_hover_span;
+                
+    }
+    
+    .course_btn:hover span:after {
+        @include slide_right_hover_span_after;
+        
+    }
+}
+

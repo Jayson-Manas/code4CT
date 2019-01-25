@@ -394,6 +394,10 @@ html, body {
       border-top: 0.3mm solid black;
       padding: 1em; }
 
+.welcomeContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr; }
+
 .container a :hover {
   color: #E38F84;
   background-color: #E38F84; }

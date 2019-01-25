@@ -312,9 +312,13 @@ section{
     }
     div{
         border-top: 0.3mm solid black;
-        // border-bottom: 0.3mm solid black;
         padding: 1em
 
     }
 }
+}
+////////////////////about page start//////////////////////
+.welcomeContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }

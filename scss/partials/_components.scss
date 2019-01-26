@@ -322,3 +322,57 @@
     }
 }
 
+/////////////////////////about page start////////////////////
+// @include red_line_fade;
+
+.who_we_are{
+    @include red_line_fade;
+padding-left: 1em;
+}
+
+.welcomeContainer{
+    .ourBtn {
+        background-color: $pink;
+        color: $pink;
+        @include button;
+        :visited{
+            color: $white;
+        }
+    }
+    
+    
+    
+    .ourBtn span {
+        @include button_right_slide_span;
+    
+    }
+    
+    .ourBtn span:after {
+        @include slide_right_span_after;
+        
+    }
+    
+    .ourBtn:hover span {
+        @include slide_right_hover_span;
+                
+    }
+    
+    .ourBtn:hover span:after {
+        @include slide_right_hover_span_after;
+        
+    } 
+
+   
+}
+
+.values{
+    h4{
+        color: $pink;
+    }
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.valueText{
+    padding: 2em;
+
+}

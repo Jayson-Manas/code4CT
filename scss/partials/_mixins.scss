@@ -27,7 +27,7 @@
 }
 @mixin slide_right_span_after {
 
-    content: ' \203A';
+    // content: ' \203A';
     right: -100px;
     position: absolute;
     margin-left: -1em;
@@ -61,14 +61,14 @@
         grid-template-columns: 1fr 1fr;
         width: min-content;
         .red_line{
-        height:1.5px;
+        height:2.5px;
         width: 30px;
         background-color: $pink;
 
 
         }
         .fade{
-            height:1.5px;
+            height:2.5px;
             width: 138.5px;
             background-color: $grey;
             opacity: 0.3;

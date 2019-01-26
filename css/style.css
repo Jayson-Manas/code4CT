@@ -184,11 +184,11 @@ html, body {
     grid-template-columns: 1fr 1fr;
     width: min-content; }
     .container2 .red_line_fade .red_line {
-      height: 1.5px;
+      height: 2.5px;
       width: 30px;
       background-color: #E38F84; }
     .container2 .red_line_fade .fade {
-      height: 1.5px;
+      height: 2.5px;
       width: 138.5px;
       background-color: #545454;
       opacity: 0.3; }
@@ -224,11 +224,11 @@ html, body {
     grid-template-columns: 1fr 1fr;
     width: min-content; }
     .container4 .red_line_fade .red_line {
-      height: 1.5px;
+      height: 2.5px;
       width: 30px;
       background-color: #E38F84; }
     .container4 .red_line_fade .fade {
-      height: 1.5px;
+      height: 2.5px;
       width: 138.5px;
       background-color: #545454;
       opacity: 0.3; }
@@ -288,11 +288,11 @@ html, body {
     grid-template-columns: 1fr 1fr;
     width: min-content; }
     .container6 .red_line_fade .red_line {
-      height: 1.5px;
+      height: 2.5px;
       width: 30px;
       background-color: #E38F84; }
     .container6 .red_line_fade .fade {
-      height: 1.5px;
+      height: 2.5px;
       width: 138.5px;
       background-color: #545454;
       opacity: 0.3; }
@@ -397,6 +397,16 @@ html, body {
 .welcomeContainer {
   display: grid;
   grid-template-columns: 1fr 1fr; }
+  .welcomeContainer .welcome {
+    padding: 2em;
+    margin-left: 5em; }
+
+.welcomeGreet {
+  margin: 1em; }
+
+.values {
+  display: grid;
+  grid-template-columns: 1fr 1fr; }
 
 .container a :hover {
   color: #E38F84;
@@ -449,7 +459,6 @@ html, body {
   -webkit-transition: all .2s;
   transition: all .2s; }
 .container1 .slide_right span:after {
-  content: ' \203A';
   right: -100px;
   position: absolute;
   margin-left: -1em;
@@ -497,7 +506,6 @@ html, body {
   position: relative;
   transition: 0.5s; }
 .container1 .black_btn span:after {
-  content: ' \203A';
   right: -100px;
   position: absolute;
   margin-left: -1em;
@@ -543,7 +551,6 @@ html, body {
   position: relative;
   transition: 0.5s; }
 .container2 .white_btn span:after {
-  content: ' \203A';
   right: -100px;
   position: absolute;
   margin-left: -1em;
@@ -578,11 +585,11 @@ html, body {
   grid-template-columns: 1fr 1fr;
   width: min-content; }
   .container5 .red_line_fade .red_line {
-    height: 1.5px;
+    height: 2.5px;
     width: 30px;
     background-color: #E38F84; }
   .container5 .red_line_fade .fade {
-    height: 1.5px;
+    height: 2.5px;
     width: 138.5px;
     background-color: #545454;
     opacity: 0.3; }
@@ -637,11 +644,11 @@ html, body {
   grid-template-columns: 1fr 1fr;
   width: min-content; }
   .contact_container .contact_input .user_input .red_line_fade .red_line {
-    height: 1.5px;
+    height: 2.5px;
     width: 30px;
     background-color: #E38F84; }
   .contact_container .contact_input .user_input .red_line_fade .fade {
-    height: 1.5px;
+    height: 2.5px;
     width: 138.5px;
     background-color: #545454;
     opacity: 0.3; }
@@ -670,7 +677,6 @@ html, body {
   position: relative;
   transition: 0.5s; }
 #courseContent .course_btn span:after {
-  content: ' \203A';
   right: -100px;
   position: absolute;
   margin-left: -1em;
@@ -689,6 +695,76 @@ html, body {
   padding-right: 15px; }
 #courseContent .course_btn:hover span:after {
   opacity: 1; }
+
+.who_we_are {
+  padding-left: 1em; }
+  .who_we_are .red_line_fade {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: min-content; }
+    .who_we_are .red_line_fade .red_line {
+      height: 2.5px;
+      width: 30px;
+      background-color: #E38F84; }
+    .who_we_are .red_line_fade .fade {
+      height: 2.5px;
+      width: 138.5px;
+      background-color: #545454;
+      opacity: 0.3; }
+
+.welcomeContainer .ourBtn {
+  background-color: #E38F84;
+  color: #E38F84;
+  position: relative;
+  margin: 2px;
+  padding: .3em 1em;
+  border: 2px solid;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.7em !important;
+  -webkit-transition: all .2s;
+  transition: all .2s; }
+  .welcomeContainer .ourBtn :visited {
+    color: #FFFFFF; }
+.welcomeContainer .ourBtn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s; }
+.welcomeContainer .ourBtn span:after {
+  right: -100px;
+  position: absolute;
+  margin-left: -1em;
+  opacity: 0;
+  text-shadow: none;
+  font-size: 32px;
+  font-weight: 400;
+  font-style: normal;
+  font-variant: none;
+  line-height: 1em;
+  text-transform: none;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+  left: 30px; }
+.welcomeContainer .ourBtn:hover span {
+  padding-right: 15px; }
+.welcomeContainer .ourBtn:hover span:after {
+  opacity: 1; }
+
+.values {
+  margin-top: 2em;
+  margin-bottom: 2em; }
+  .values h4 {
+    color: #E38F84; }
+
+.valueText {
+  padding: 2em; }
 
 @media screen and (max-width: 600px) {
   html, body {

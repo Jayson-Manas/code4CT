@@ -321,4 +321,19 @@ section{
 .welcomeContainer{
     display: grid;
     grid-template-columns: 1fr 1fr;
+
+    
+
+    .welcome{
+        padding: 2em;
+        margin-left: 5em;
+    }
+}
+
+.welcomeGreet{
+    margin: 1em;
+}
+.values{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }

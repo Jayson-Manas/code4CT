@@ -30,6 +30,7 @@
             transform: translate(-50%, -50%);
             padding: 0;
             top: 50%;
+            font-size: small;
         }
 
         .vertical_align{
@@ -38,6 +39,10 @@
         .logo{
             // display: none;
         }
+       p{
+        //    margin: 0;
+       }
+        
 
 
     }
@@ -117,8 +122,8 @@
         display: grid;
         grid-template-columns: 1fr;
         padding: 0;
-        p{
-            // width: 20em;
+        .member{
+            text-align: unset;
         }
         .team_member{
             width: 90%;
@@ -129,7 +134,7 @@
             display: grid;
             grid-template-columns: 1fr;
             p{
-                // width: 17em;
+                width: unset;
                 // height: auto;
             }
             .member_space {
@@ -253,10 +258,10 @@ span{
   
   
       }
-    .background_image{
-        width: 15.75em;
-        height: 45.625em;
-    }
+    // .background_image{
+    //     width: 15.75em;
+    //     height: 45.625em;
+    // }
 
     .main_container{
         .container{

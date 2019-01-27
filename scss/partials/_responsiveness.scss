@@ -16,6 +16,7 @@
         .container{
             display: grid;
             grid-template-columns: 1fr;
+           
         }
         
         .container1 {
@@ -32,10 +33,10 @@
             top: 50%;
             font-size: small;
         }
-
         .vertical_align{
             display: none;
         }
+        
         .logo{
             // display: none;
         }
@@ -245,6 +246,23 @@ span{
         display: inline;
     }
 }
+
+///////////////////courses page////////////////
+
+.container{
+    .vertical_align{
+display: none;
+    }
+}
+#courseContent{
+
+    .section{
+       display: block;
+       border: none;
+       margin: 0;
+    }
+    
+}
 ///////////////mobile menu///////////////////
 }
 
@@ -257,6 +275,16 @@ span{
         
   
   
+      }
+
+      .container{
+          grid-template-columns: 0.5fr 1fr;
+          .vertical_align{
+              display: none;
+          }
+          .nav_align{
+              text-align: left;
+          }
       }
     // .background_image{
     //     width: 15.75em;
@@ -295,6 +323,7 @@ span{
 
 
     }
+    
     // ==============who we are==================
     .container2{
         display: grid;

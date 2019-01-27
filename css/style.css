@@ -23,6 +23,18 @@ html, body {
   text-decoration: none;
   color: #545454;
   padding: 5px; }
+.container .sidenav i {
+  width: 22px;
+  height: 19px;
+  font-family: FontAwesome;
+  font-size: 25px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.65;
+  letter-spacing: normal;
+  text-align: center;
+  color: #E38F84; }
 
 .container1 p {
   opacity: 0.9; }
@@ -926,7 +938,6 @@ html, body {
     margin: 1em; }
 
   .background_image {
-    height: auto;
     padding: 1em; }
 
   .main_container .container {
@@ -934,12 +945,20 @@ html, body {
     grid-template-columns: 1fr; }
   .main_container .container1 {
     text-align: center;
-    transform: inherit;
-    color: #e8e8e8; }
+    position: absolute;
+    color: #e8e8e8;
+    left: 50%;
+    height: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0;
+    top: 50%; }
+  .main_container .vertical_align {
+    display: none; }
 
   .container2 {
     display: grid;
-    grid-template-columns: 1fr; }
+    grid-template-columns: 1fr;
+    padding-left: 0; }
     .container2 .para_text {
       padding: 0; }
       .container2 .para_text .bold_text {

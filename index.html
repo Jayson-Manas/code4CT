@@ -15,15 +15,54 @@
         .carousel-inner > .item > img,
         .carousel-inner > .item > a > img {
             width: 70%;
-            margin: auto
+            margin: auto}
 /* ////////////////////////////////////pretty photo styling///////////////////////// */
 
 /* ////////////////////////////////////pretty photo styling///////////////////////// */
+.active {
+  /* background-color: #4CAF50; */
+  color: white;
+}
 
+.sidenav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .sidenav a:not(:first-child) {display: none;}
+  .sidenav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .sidenav.responsive {position: relative;}
+  .sidenav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .sidenav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+}       
             
-            
-        }
+        
         </style>
+        <script>
+                function myFunction99() {
+                  var x = document.getElementById("mySidenav");
+                  if (x.className === "sidenav") {
+                    x.className += " responsive";
+                  } else {
+                    x.className = "sidenav";
+                  }
+                }
+                </script>
 </head>
 
 <body>
@@ -34,16 +73,15 @@
             <div class="logo_flex"><img class="logo" src="images/code4ct-logo-1.jpg" alt=""> </div>
 
             <div class="nav_align sidenav" id="mySidenav">
-                <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> -->
-
-                <a href="">HOME</a>
-                <a href="courses.html">COURSES</a>
-                <a href="about.html">ABOUT</a>
-                <a href="contact.html">CONTACT</a>
-                <a href="portfolio.html">PORTFOLIO</a>
-                <!-- <span style="font-size:30px;cursor:pointer;display: none;" onclick="openNav()">&#9776; menu</span> -->
-
-            </div>
+                    <a href="#" class="active">HOME</a>
+                                 <a href="courses.html">COURSES</a>
+                                 <a href="about.html">ABOUT</a>
+                                 <a href="contact.html">CONTACT</a>
+                                 <a href="portfolio.html">PORTFOLIO</a>
+                   <a href="javascript:void(0);" class="icon" onclick="myFunction99()">
+                     <i class="fa fa-bars"></i>
+                   </a>
+                 </div>
 
             <div class="vertical_align"><input type="text" placeholder="search...."><button class="search_btn"><i class="fa fa-search"></i></button></div>
 

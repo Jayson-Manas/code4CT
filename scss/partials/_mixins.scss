@@ -76,3 +76,25 @@
 }
     
 }
+
+@mixin red_line_fade2 {
+    .red_line_fade{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: min-content;
+        .red_line{
+        height:2.5px;
+        width: 60px;
+        background-color: $pink;
+
+
+        }
+        .fade{
+            height:2.5px;
+            width: 100px;
+            background-color: $grey;
+            opacity: 0.3;
+        }
+}
+    
+}

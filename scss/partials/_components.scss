@@ -376,3 +376,91 @@ padding-left: 1em;
     padding: 2em;
 
 }
+////////////////////contact page start////////////////////////
+.contact_input{
+    .emailBtn {
+        background-color: $pink;
+        color: $white;
+        @include button;
+       
+    }
+    
+    
+    
+    .emailBtn span {
+        @include button_right_slide_span;
+    
+    }
+    
+    .emailBtn span:after {
+        @include slide_right_span_after;
+        
+    }
+    
+    .emailBtn:hover span {
+        @include slide_right_hover_span;
+                
+    }
+    
+    .emailBtn:hover span:after {
+        @include slide_right_hover_span_after;
+        
+    } 
+
+    .user_input{
+        @include red_line_fade;
+        margin-left: 10em;
+
+        .spaceInput{
+            margin: 1em;
+        }
+
+    }
+
+    .contact_information{
+        @include red_line_fade;
+        margin-right: 10em;
+    }
+
+}
+
+////////////portfolio page start//////////////////////
+
+.portHeading{
+    @include red_line_fade2;
+
+}
+
+.gridButtons{
+    .gridImage {
+        background-color: $pink;
+        color: $white;
+        @include button;
+       
+    }
+    
+    
+    
+    .gridImage span {
+        @include button_right_slide_span;
+    
+    }
+    
+    .gridImage span:after {
+        @include slide_right_span_after;
+        
+    }
+    
+    .gridImage:hover span {
+        @include slide_right_hover_span;
+                
+    }
+    
+    .gridImage:hover span:after {
+        @include slide_right_hover_span_after;
+        
+    } 
+
+    margin-bottom: 4em;
+
+}

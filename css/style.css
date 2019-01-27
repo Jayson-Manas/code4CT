@@ -143,6 +143,18 @@ html, body {
   .contact_container .onPage {
     color: #E38F84;
     display: inline; }
+  .contact_container .contact_information p i {
+    width: 22px;
+    height: 19px;
+    font-family: FontAwesome;
+    font-size: 25px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.65;
+    letter-spacing: normal;
+    text-align: center;
+    color: #E38F84; }
 
 .container {
   display: grid;
@@ -407,6 +419,15 @@ html, body {
 .values {
   display: grid;
   grid-template-columns: 1fr 1fr; }
+
+.contact_input {
+  display: grid;
+  grid-template-columns: 1fr 1fr; }
+
+.portHeading {
+  text-align: center; }
+  .portHeading .red_line_fade {
+    margin-left: 35em; }
 
 .container a :hover {
   color: #E38F84;
@@ -765,6 +786,140 @@ html, body {
 
 .valueText {
   padding: 2em; }
+
+.contact_input .emailBtn {
+  background-color: #E38F84;
+  color: #FFFFFF;
+  position: relative;
+  margin: 2px;
+  padding: .3em 1em;
+  border: 2px solid;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.7em !important;
+  -webkit-transition: all .2s;
+  transition: all .2s; }
+.contact_input .emailBtn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s; }
+.contact_input .emailBtn span:after {
+  right: -100px;
+  position: absolute;
+  margin-left: -1em;
+  opacity: 0;
+  text-shadow: none;
+  font-size: 32px;
+  font-weight: 400;
+  font-style: normal;
+  font-variant: none;
+  line-height: 1em;
+  text-transform: none;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+  left: 30px; }
+.contact_input .emailBtn:hover span {
+  padding-right: 15px; }
+.contact_input .emailBtn:hover span:after {
+  opacity: 1; }
+.contact_input .user_input {
+  margin-left: 10em; }
+  .contact_input .user_input .red_line_fade {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: min-content; }
+    .contact_input .user_input .red_line_fade .red_line {
+      height: 2.5px;
+      width: 30px;
+      background-color: #E38F84; }
+    .contact_input .user_input .red_line_fade .fade {
+      height: 2.5px;
+      width: 138.5px;
+      background-color: #545454;
+      opacity: 0.3; }
+  .contact_input .user_input .spaceInput {
+    margin: 1em; }
+.contact_input .contact_information {
+  margin-right: 10em; }
+  .contact_input .contact_information .red_line_fade {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: min-content; }
+    .contact_input .contact_information .red_line_fade .red_line {
+      height: 2.5px;
+      width: 30px;
+      background-color: #E38F84; }
+    .contact_input .contact_information .red_line_fade .fade {
+      height: 2.5px;
+      width: 138.5px;
+      background-color: #545454;
+      opacity: 0.3; }
+
+.portHeading .red_line_fade {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: min-content; }
+  .portHeading .red_line_fade .red_line {
+    height: 2.5px;
+    width: 60px;
+    background-color: #E38F84; }
+  .portHeading .red_line_fade .fade {
+    height: 2.5px;
+    width: 100px;
+    background-color: #545454;
+    opacity: 0.3; }
+
+.gridButtons {
+  margin-bottom: 4em; }
+  .gridButtons .gridImage {
+    background-color: #E38F84;
+    color: #FFFFFF;
+    position: relative;
+    margin: 2px;
+    padding: .3em 1em;
+    border: 2px solid;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.7em !important;
+    -webkit-transition: all .2s;
+    transition: all .2s; }
+  .gridButtons .gridImage span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s; }
+  .gridButtons .gridImage span:after {
+    right: -100px;
+    position: absolute;
+    margin-left: -1em;
+    opacity: 0;
+    text-shadow: none;
+    font-size: 32px;
+    font-weight: 400;
+    font-style: normal;
+    font-variant: none;
+    line-height: 1em;
+    text-transform: none;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    left: 30px; }
+  .gridButtons .gridImage:hover span {
+    padding-right: 15px; }
+  .gridButtons .gridImage:hover span:after {
+    opacity: 1; }
 
 @media screen and (max-width: 600px) {
   html, body {

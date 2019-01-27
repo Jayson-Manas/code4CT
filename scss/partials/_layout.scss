@@ -337,3 +337,20 @@ section{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+
+/////////////////////contact page start/////////////////
+
+.contact_input{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+//////////////////////////portfolio page start///////////////////
+
+.portHeading{
+    text-align: center;
+
+    .red_line_fade{
+        margin-left: 35em;
+    }
+}

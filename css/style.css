@@ -250,7 +250,7 @@ html, body {
     grid-template-columns: 1fr 1fr; }
     .container4 .img_wrapper .course_img {
       display: grid;
-      grid-template-columns: 1fr 1fr; }
+      grid-template-columns: 1fr 1f; }
 
 .container5 {
   padding-left: 92.5px;
@@ -1025,8 +1025,6 @@ html, body {
     padding-left: 25%;
     height: auto; }
     .container6 .project_stats {
-      /* text-align: center; */
-      /* padding: 10em; */
       padding-top: 0;
       padding-bottom: 0;
       width: 90%; }
@@ -1243,7 +1241,7 @@ html, body {
     padding-left: 0px;
     height: auto; }
     .container6 .red_line_fade {
-      padding-left: 4em; }
+      padding-left: 16em; }
     .container6 .project_stats {
       text-align: center; }
 

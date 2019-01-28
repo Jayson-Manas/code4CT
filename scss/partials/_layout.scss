@@ -81,12 +81,10 @@
     .img_wrapper{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        // width: min-content;
         
         .course_img{
             display: grid;
-            grid-template-columns: 1fr 1fr;
-            // width: min-content;
+            grid-template-columns: 1fr 1f
         }
 
     }
@@ -99,7 +97,6 @@
     .team_info{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        
 
         hr{
             width: 200px;
@@ -124,7 +121,6 @@
 
         :hover{
             opacity: 0.8;
-            // width: 60%;
             height: 2%;
         }
 
@@ -138,8 +134,7 @@
     .team_layout{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        // height:min-content;
-        // width: min-content;
+
         a{
             :hover{
                 color: $pink;
@@ -236,7 +231,6 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     padding-left: 92px;
     .contact_number{
-        // padding-top: 3em;
 
         i{
             width: 22px;
@@ -324,6 +318,7 @@ grid-template-rows: 1fr 1fr 1fr;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+////////////////////about page end//////////////////////
 
 /////////////////////contact page start/////////////////
 
@@ -331,6 +326,7 @@ grid-template-rows: 1fr 1fr 1fr;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+/////////////////////contact page end/////////////////
 
 //////////////////////////portfolio page start///////////////////
 
@@ -341,3 +337,4 @@ grid-template-rows: 1fr 1fr 1fr;
         margin-left: 35em;
     }
 }
+//////////////////////////portfolio page end///////////////////

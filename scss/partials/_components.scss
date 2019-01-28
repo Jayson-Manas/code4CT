@@ -71,7 +71,7 @@
 .container1{
     
 
-    ///////////////////////////////////red button////////////////////////
+    ///////////////////////////////////red button start////////////////////////
         .red_btn{
             background-color:$pink;
             color: $white;
@@ -94,9 +94,9 @@
            @include button_right_slide_span;
            
           }
-        ///////////////////////////////////red button//////////////////////
+        ///////////////////////////////////red  button end//////////////////////
     
-        ///////////////////////////////// black button////////////////////
+        ///////////////////////////////// black button start////////////////////
         
         .black_btn {
             background-color: transparent;
@@ -127,14 +127,13 @@
             
           }
     }
-    ///////////////////////////////// black button////////////////////////
+    ///////////////////////////////// black button end////////////////////////
 
     /////////////////who we are section///////////////
     .container2{
         .para_text{
             .bold_text{
                 font-weight:bold ;
-                // width: 18em;
             }
         }
 
@@ -296,13 +295,13 @@
         
     }
 }
-
+////////////////////////////courses page end////////////////////
 /////////////////////////about page start////////////////////
-// @include red_line_fade;
+
 
 .who_we_are{
     @include red_line_fade;
-padding-left: 1em;
+    padding-left: 1em;
 }
 
 .welcomeContainer{
@@ -310,7 +309,7 @@ padding-left: 1em;
         background-color: $pink;
         color: $pink;
         @include button;
-        :visited{
+         :visited{
             color: $white;
         }
     }
@@ -344,13 +343,15 @@ padding-left: 1em;
     h4{
         color: $pink;
     }
-    margin-top: 2em;
-    margin-bottom: 2em;
+        margin-top: 2em;
+        margin-bottom: 2em;
 }
 .valueText{
     padding: 2em;
 
 }
+/////////////////////////about page end////////////////////
+
 ////////////////////contact page start////////////////////////
 .contact_input{
     .emailBtn {
@@ -398,6 +399,7 @@ padding-left: 1em;
     }
 
 }
+////////////////////contact page end////////////////////////
 
 ////////////portfolio page start//////////////////////
 
@@ -439,3 +441,4 @@ padding-left: 1em;
     margin-bottom: 4em;
 
 }
+////////////portfolio page end//////////////////////

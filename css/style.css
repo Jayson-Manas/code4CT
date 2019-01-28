@@ -1100,7 +1100,28 @@ html, body {
   #courseContent .section {
     display: block;
     border: none;
-    margin: 0; } }
+    margin: 0; }
+
+  .welcomeContainer {
+    display: grid;
+    grid-template-columns: 1fr; }
+    .welcomeContainer .welcome {
+      margin-left: 0;
+      padding-left: 0; }
+    .welcomeContainer img {
+      width: 100%;
+      height: auto; }
+
+  .values {
+    display: grid;
+    grid-template-columns: 1fr; }
+    .values img {
+      width: 100%;
+      height: auto; }
+
+  .row {
+    display: grid;
+    grid-template-columns: 1fr; } }
 @media screen and (min-width: 601px) and (max-width: 993px) {
   html, body {
     margin: 1em; }

@@ -263,6 +263,38 @@ display: none;
     }
     
 }
+
+/////////////////about page start/////////////
+.welcomeContainer{
+    display: grid;
+    grid-template-columns: 1fr;
+
+    .welcome{
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    img{
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+    .values{
+        display: grid;
+        grid-template-columns: 1fr;
+        img{
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    .row{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
 ///////////////mobile menu///////////////////
 }
 

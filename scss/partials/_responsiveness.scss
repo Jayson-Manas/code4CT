@@ -295,6 +295,13 @@ display: none;
         grid-template-columns: 1fr;
     }
 
+    //////////////////portfolio page start/////////////
+    .portHeading{
+
+     .red_line_fade {
+         margin-left: 0; 
+    }
+    }
 ///////////////mobile menu///////////////////
 }
 
@@ -524,7 +531,31 @@ display: none;
             }
         }
     }
+///////////////////////about page start///////////
+.welcomeContainer {
+    display: grid;
+    grid-template-columns: 1fr;
 
+    .welcome{
+        margin-left: 0;
+    }
+
+    img{
+        width: 100%;
+        height: auto; 
+    }
+}
+
+.values{
+    display: grid;
+    grid-template-columns: 1fr;
+
+    img{
+        width: 100%;
+        height: auto;
+    }
+}
 
 }
+
 /////////////////////////tablet end///////////////////////////

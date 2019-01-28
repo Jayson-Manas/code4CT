@@ -353,6 +353,9 @@ grid-template-columns: 1fr;
           .topnav{
               text-align: left;
           }
+          .logo_flex{
+              display: none;
+          }
       }
   
     .main_container{
@@ -441,12 +444,11 @@ grid-template-columns: 1fr;
         p{
             width: 90%;
         }
-        // .course_img{
+        
             .image_quad{
                 width: 90%;
-                // height: auto;
                 margin: 1em;
-            // }
+            
         }
         .image_enlarge {
             width: 95%;
@@ -462,7 +464,6 @@ grid-template-columns: 1fr;
             display: grid;
             grid-template-columns: 1fr;
             .image_enlarge {
-                // width: 90%;
                 height: auto;
                 
             }

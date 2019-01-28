@@ -1143,6 +1143,8 @@ html, body {
       display: none; }
     .container .topnav {
       text-align: left; }
+    .container .logo_flex {
+      display: none; }
 
   .main_container .container {
     display: grid;

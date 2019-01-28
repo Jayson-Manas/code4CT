@@ -1124,7 +1124,12 @@ html, body {
     grid-template-columns: 1fr; }
 
   .portHeading .red_line_fade {
-    margin-left: 0; } }
+    margin-left: 0; }
+
+  #gridContainer .parent {
+    position: absolute;
+    width: 80%;
+    height: 165px; } }
 @media screen and (min-width: 601px) and (max-width: 993px) {
   html, body {
     margin: 1em; }

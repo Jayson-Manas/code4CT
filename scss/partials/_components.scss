@@ -25,9 +25,12 @@
     
     
    
-    .nav_align{
-        text-align: right;
-        margin-top: 2em;
+    .topnav{
+        text-align: center;
+        margin-top: 1.5em;
+        font-size: 14px;
+    
+        
 
         
             :hover{
@@ -42,34 +45,6 @@
    
 }
 }
-
-// ================dropdown button and hover========================
-// .dropbtn {
-//     background-color: $white;
-//     color: $grey;
-//     padding: 16px;
-//     font-size: 16px;
-//     font-family: -webkit-body;
-//     border: none;
-// }
-
-// .dropdown-content{
-//     a {
-//         color: $black;
-//         padding: 12px 16px;
-//         // text-decoration: none;
-//         display: block;
-//     }
-// } 
-
-
-// .dropdown-content a:hover {background-color: $white;}
-
-// .dropdown:hover .dropdown-content {display: block;}
-
-// .dropdown:hover .dropbtn {background-color: $white;}
-
-// ================dropdown button and hover========================
 
 //////////////////nav styling end //////////////////
 

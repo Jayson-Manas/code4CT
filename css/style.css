@@ -177,19 +177,6 @@ html, body {
   height: 15%;
   z-index: 1; }
 
-.dropdown {
-  position: relative;
-  display: inline-block; }
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  text-align: left;
-  min-width: 30%;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1; }
-
 .container1 {
   text-align: center;
   position: absolute;
@@ -453,10 +440,11 @@ html, body {
   display: flex;
   align-items: center;
   margin: 0.7em; }
-.container .nav_align {
-  text-align: right;
-  margin-top: 2em; }
-  .container .nav_align :hover {
+.container .topnav {
+  text-align: center;
+  margin-top: 1.5em;
+  font-size: 14px; }
+  .container .topnav :hover {
     color: #FFFFFF;
     background-color: #E38F84; }
 .container .vertical_align {
@@ -945,6 +933,9 @@ html, body {
   .main_container .container {
     display: grid;
     grid-template-columns: 1fr; }
+  .main_container .top_nav {
+    text-align: left;
+    margin: 2em; }
   .main_container .container1 {
     text-align: center;
     position: absolute;
@@ -958,7 +949,8 @@ html, body {
   .main_container .vertical_align {
     display: none; }
   .main_container h1 {
-    font-size: x-large; }
+    font-size: x-large;
+    margin-top: 2em; }
 
   .container2 {
     display: grid;
@@ -1129,7 +1121,18 @@ html, body {
   #gridContainer .parent {
     position: absolute;
     width: 80%;
-    height: 165px; } }
+    height: 165px; }
+
+  .contact_input {
+    display: grid;
+    grid-template-columns: 1fr; }
+    .contact_input .user_input {
+      display: grid;
+      grid-template-columns: 1fr;
+      margin-left: 0;
+      width: min-content; }
+      .contact_input .user_input .spaceInput {
+        width: 17em; } }
 @media screen and (min-width: 601px) and (max-width: 993px) {
   html, body {
     margin: 1em; }
@@ -1138,13 +1141,13 @@ html, body {
     grid-template-columns: 0.5fr 1fr; }
     .container .vertical_align {
       display: none; }
-    .container .nav_align {
+    .container .topnav {
       text-align: left; }
 
   .main_container .container {
     display: grid;
     grid-template-columns: 1fr; }
-    .main_container .container .nav_align {
+    .main_container .container .topnav {
       text-align: center;
       margin: 1em; }
   .main_container .container1 {
@@ -1273,6 +1276,15 @@ html, body {
     grid-template-columns: 1fr; }
     .values img {
       width: 100%;
-      height: auto; } }
+      height: auto; }
+
+  .contact_input {
+    display: grid;
+    grid-template-columns: 1fr; }
+    .contact_input .user_input {
+      margin-left: 0; }
+
+  .portHeading .red_line_fade {
+    margin-left: 20%; } }
 
 /*# sourceMappingURL=style.css.map */

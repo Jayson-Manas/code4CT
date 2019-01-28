@@ -7,6 +7,8 @@
 
 
     }
+
+    
     .background_image{
         // height: auto;
         padding: 1em;
@@ -17,6 +19,10 @@
             display: grid;
             grid-template-columns: 1fr;
            
+        }
+        .top_nav{
+            text-align: left;
+            margin: 2em;
         }
         
         .container1 {
@@ -36,12 +42,10 @@
         .vertical_align{
             display: none;
         }
-        
-        .logo{
-            // display: none;
-        }
+                
        h1{
            font-size: x-large;
+           margin-top: 2em;
        }
         
 
@@ -309,6 +313,23 @@ display: none;
         height: 165px;
     }
 }
+
+////////////////contact page start//////////
+.contact_input{
+display: grid;
+grid-template-columns: 1fr;
+
+.user_input{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 0;
+    width: min-content;
+
+    .spaceInput{
+        width: 17em;
+    }
+}
+}
     
 ///////////////mobile menu///////////////////
 }
@@ -329,21 +350,17 @@ display: none;
           .vertical_align{
               display: none;
           }
-          .nav_align{
+          .topnav{
               text-align: left;
           }
       }
-    // .background_image{
-    //     width: 15.75em;
-    //     height: 45.625em;
-    // }
-
+  
     .main_container{
         .container{
             display: grid;
             grid-template-columns: 1fr;
 
-            .nav_align{
+            .topnav{
                 text-align: center;
                 margin: 1em;
             }
@@ -563,6 +580,22 @@ display: none;
         height: auto;
     }
 }
+//////////////contact page start////////////
+.contact_input{
+    display: grid;
+    grid-template-columns: 1fr;
+
+    .user_input{
+        margin-left: 0;
+    }
+}
+/////////////////portfolio page start///////////////
+.portHeading{
+    .red_line_fade{
+        margin-left: 20%;
+    }
+}
+
 
 }
 

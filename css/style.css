@@ -250,7 +250,7 @@ html, body {
     grid-template-columns: 1fr 1fr; }
     .container4 .img_wrapper .course_img {
       display: grid;
-      grid-template-columns: 1fr 1f; }
+      grid-template-columns: 1fr 1fr; }
 
 .container5 {
   padding-left: 92.5px;
